@@ -1,0 +1,30 @@
+.xivita-section {
+  background-size: cover !important;
+  background-attachment: fixed !important;
+  font-size: .9rem !important;
+  .section-container {
+	flex-wrap: unset !important;
+  }
+  .section-column {
+	width: 100% !important;
+	padding-top: .5em !important;
+	padding-bottom: .5em !important;
+  }
+  h1 {
+	font-family: Grover,Iowan Old Style,Apple Garamond,Baskerville,Times New Roman,"Droid Serif",Times,"Source Serif Pro",serif;
+	text-align: center !important;
+	text-transform: uppercase !important;
+	font-weight: 500 !important;
+	letter-spacing: 0 !important;
+	&:after {
+	  content: " " !important;
+	  display: block !important;
+	  margin-top: 1rem !important;
+	  width: 4em !important;
+	  height: .15em !important;
+	  background-color: $xivita__home-red;
+	  margin-left: auto !important;
+	  margin-right: auto !important;
+	}
+  }
+}

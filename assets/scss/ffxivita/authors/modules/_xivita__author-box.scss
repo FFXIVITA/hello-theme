@@ -1,0 +1,59 @@
+@import "assets/scss/ffxivita/globals/variables/xivita-colors";
+.icon-authorsocial {
+  display: inline-flex !important;
+  justify-content: center !important;
+  align-items: center !important;
+  margin: .01em !important;
+  padding: .3em !important;
+  background-color: $xivita__yellow !important;
+  border-radius: .5em !important;
+  height: 32px !important;
+  svg {
+	fill: $xivita__black !important;
+	height: 1em !important;
+	width: auto !important;
+	margin-top: 9px !important;
+  }
+  a {
+	display: inline-flex !important;
+	justify-content: center !important;
+	align-items: center !important;
+  }
+}
+
+.icon-streamersocial {
+  display: inline-flex !important;
+  justify-content: center !important;
+  align-items: center !important;
+  margin: .01em !important;
+  padding: .3em !important;
+  background-color: $xivita__yellow !important;
+  border-radius: .5em !important;
+  height: 32px !important;
+  svg {
+	fill: $xivita__black !important;
+	height: 1em !important;
+	width: auto !important;
+	margin-top: 0 !important;
+  }
+}
+.pp-multiple-authors-wrapper, multiple-authors-target-shortcode, pp-multiple-authors-layout-boxed{
+  .avatar {
+	position: static !important;
+	float: left !important;
+	margin-right: 1em !important;
+	width: 80px !important;
+	height: 80px !important;
+	min-height: 80px !important;
+	border-radius: .5em !important;
+  }
+  .photo {
+	position: static !important;
+	float: left !important;
+	margin-right: 1em !important;
+	width: 80px !important;
+	height: 80px !important;
+	min-height: 80px !important;
+	border-radius: .5em !important;
+  }
+}

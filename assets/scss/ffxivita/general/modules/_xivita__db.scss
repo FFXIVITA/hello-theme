@@ -1,0 +1,4953 @@
+@import "../../../reset/variables";
+@media(max-width: $screen-xs - $screen-diff) and (orientation: portrait) {
+  .db-item__link .ic_recipe_expert {
+	position: absolute;
+	top: 28px;
+	right: 7px;
+	display: block;
+  }
+
+  .db-table {
+	width: 100%;
+	border-top: 1px solid #3c3c3c;
+	border-left: 1px solid #3c3c3c;
+	box-sizing: border-box;
+  }
+
+  .db-table__wrapper {
+	border: 1px solid #1c1c1c;
+  }
+
+  .db-table__head--light {
+	background: #1f1f1f;
+	text-align: center;
+	border-right: 1px solid #3c3c3c;
+	border-bottom: 1px solid #3c3c3c;
+	padding: 4px;
+	box-sizing: border-box;
+	font-weight: normal;
+	font-size: 12px;
+  }
+
+  .db-table__head--30 {
+	width: 30%;
+  }
+
+  .db-table__body--light {
+	background: #2e2e2e;
+	border-right: 1px solid #3c3c3c;
+	border-bottom: 1px solid #3c3c3c;
+	padding: 4px;
+	box-sizing: border-box;
+	font-weight: normal;
+  }
+
+  .db-table__body--value {
+	font-size: 12px;
+	text-align: center;
+  }
+
+  .db-table__item {
+	display: flex;
+	align-items: center;
+
+	.item-icon {
+	  margin-right: 4px;
+	}
+
+	h4 {
+	  font-size: 12px;
+	}
+  }
+
+  .db-table__item__box {
+	flex: 1 1;
+  }
+
+  .db-table__msg {
+	padding: 8px;
+  }
+
+  .db-icon-currency {
+	background: url(https://img.finalfantasyxiv.comhttps://img.finalfantasyxiv.comhttps://img.finalfantasyxiv.comhttps://img.finalfantasyxiv.comhttps://img.finalfantasyxiv.com/lds/h/C/FcxfBOzYh6KrNn1hp3lxugASCw.png) no-repeat 0 0;
+	-moz-background-size: auto 32px;
+	-o-background-size: auto 32px;
+	-webkit-background-size: auto 32px;
+	background-size: auto 32px;
+	width: 32px;
+	height: 32px;
+	display: block;
+	vertical-align: middle;
+	margin: 0 auto;
+
+	&.ic_mip {
+	  background-position: 0 0;
+	}
+
+	&.ic_honor {
+	  background-position: -32px 0;
+	}
+
+	&.ic_seals_01 {
+	  background-position: -64px 0;
+	  height: 22px;
+	}
+
+	&.ic_seals_02 {
+	  background-position: -96px 0;
+	  height: 22px;
+	}
+
+	&.ic_seals_03 {
+	  background-position: -128px 0;
+	  height: 22px;
+	}
+
+	&.ic_allied_marks {
+	  background-position: -160px 0;
+	}
+
+	&.ic_allied_marks_02 {
+	  background-position: -192px 0;
+	  vertical-align: top;
+	}
+
+	&.ic_crafter_token_a {
+	  background-position: -224px 0;
+	  vertical-align: top;
+	}
+
+	&.ic_crafter_token_b {
+	  background-position: -256px 0;
+	  vertical-align: top;
+	}
+
+	&.ic_gatherer_token_a {
+	  background-position: -288px 0;
+	  vertical-align: top;
+	}
+
+	&.ic_gatherer_token_b {
+	  background-position: -320px 0;
+	  vertical-align: top;
+	}
+
+	&.ic_allagan_01 {
+	  background-position: 0 -32px;
+	}
+
+	&.ic_allagan_02 {
+	  background-position: -32px -32px;
+	}
+
+	&.ic_allagan_03 {
+	  background-position: -64px -32px;
+	}
+  }
+
+  .db-icon-gcrank, .db-icon-tomestone {
+	margin: 0 auto;
+	display: block;
+  }
+
+  .db-shop__result_0 {
+	background: #1b1b1b;
+	border-bottom: 1px solid #3d3d3d;
+	padding: 10px 16px;
+	margin-bottom: 16px;
+  }
+
+  .db-shop__for__title:nth-of-type(1) {
+	padding-top: 16px;
+  }
+
+  .db-shop__item__npc {
+	padding-right: 8px;
+	text-align: right;
+
+	a {
+	  position: relative;
+	  padding-left: 18px;
+	  color: #5990ff;
+
+	  &:after {
+		content: '';
+		position: absolute;
+		top: 0;
+		left: 0;
+		width: 18px;
+		height: 18px;
+		background-position: -755px 0;
+		-moz-background-size: 1041px auto;
+		-o-background-size: 1041px auto;
+		-webkit-background-size: 1041px auto;
+		background-size: 1041px auto;
+		display: block;
+		background-image: url(https://img.finalfantasyxiv.comhttps://img.finalfantasyxiv.comhttps://img.finalfantasyxiv.comhttps://img.finalfantasyxiv.comhttps://img.finalfantasyxiv.com/lds/h/G/VkEB8nQ5gCFDrbfMLWoJUsGlUs.png);
+		background-repeat: no-repeat;
+	  }
+	}
+  }
+
+  .db-shop__item__xy {
+	padding-right: 8px;
+	text-align: right;
+	font-size: 12px;
+
+	&:last-of-type {
+	  padding-bottom: 8px;
+	}
+  }
+
+  .db-shop__item__relate {
+	margin: -1px 0 16px;
+  }
+
+  .db-shop__place li {
+	position: relative;
+	font-size: 12px;
+	padding: 0 0 0 20px;
+	margin-bottom: 4px;
+
+	&:after {
+	  content: " ";
+	  position: absolute;
+	  left: 0;
+	  top: 0;
+	  width: 18px;
+	  height: 18px;
+	  background-position: -941px 0;
+	  -moz-background-size: 1041px auto;
+	  -o-background-size: 1041px auto;
+	  -webkit-background-size: 1041px auto;
+	  background-size: 1041px auto;
+	  display: block;
+	  background-image: url(https://img.finalfantasyxiv.comhttps://img.finalfantasyxiv.comhttps://img.finalfantasyxiv.comhttps://img.finalfantasyxiv.comhttps://img.finalfantasyxiv.com/lds/h/G/VkEB8nQ5gCFDrbfMLWoJUsGlUs.png);
+	  background-repeat: no-repeat;
+	}
+
+	&:nth-last-child(1) {
+	  margin-bottom: 0;
+	}
+  }
+
+  .db-shop__cs {
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-flex-direction: row;
+	flex-direction: row;
+	-webkit-align-items: center;
+	align-items: center;
+	-webkit-box-align: center;
+	-moz-box-align: center;
+	-ms-box-align: center;
+	-o-box-align: center;
+	box-align: center;
+	align-items: center;
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+	width: 100%;
+	padding: 10px 8px;
+	min-height: 32px;
+  }
+
+  .db-shop__cs__wrapper {
+	margin-bottom: 8px;
+  }
+
+  .db-shop__list {
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-flex-direction: row;
+	flex-direction: row;
+	-webkit-align-items: flex-start;
+	align-items: flex-start;
+	-webkit-box-align: start;
+	-moz-box-align: start;
+	-ms-box-align: start;
+	-o-box-align: start;
+	box-align: start;
+	align-items: start;
+	width: 100%;
+	padding: 8px 0 4px 8px;
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+  }
+
+  .db-shop__list__help {
+	font-size: 12px;
+	font-weight: normal;
+	color: gray;
+  }
+
+  .db-shop__list__msg {
+	padding: 8px 8px 16px;
+  }
+
+  .db-shop__cs_shop__icon {
+	float: left;
+  }
+
+  .db-shop__cs_shop {
+	.db-view__header__detail__name, .db-shop__place {
+	  margin-left: 36px;
+	}
+  }
+
+  .db-shop__cs_shop__rank {
+	padding: 0 4px;
+  }
+
+  .db-shop__cs_shop__rank__btn {
+	width: 33.33%;
+	margin-top: 8px;
+	text-align: center;
+	float: left;
+
+	a {
+	  display: block;
+	  padding: 16px 0;
+	  margin: 0 4px;
+	  -moz-border-radius: 4px;
+	  -webkit-border-radius: 4px;
+	  border-radius: 4px;
+	  background-image: url('data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4gPHN2ZyB2ZXJzaW9uPSIxLjEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PGRlZnM+PGxpbmVhckdyYWRpZW50IGlkPSJncmFkIiBncmFkaWVudFVuaXRzPSJvYmplY3RCb3VuZGluZ0JveCIgeDE9IjAuNSIgeTE9IjAuMCIgeDI9IjAuNSIgeTI9IjEuMCI+PHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iIzRkNGQ0ZCIvPjxzdG9wIG9mZnNldD0iMTAwJSIgc3RvcC1jb2xvcj0iIzMzMzMzMyIvPjwvbGluZWFyR3JhZGllbnQ+PC9kZWZzPjxyZWN0IHg9IjAiIHk9IjAiIHdpZHRoPSIxMDAlIiBoZWlnaHQ9IjEwMCUiIGZpbGw9InVybCgjZ3JhZCkiIC8+PC9zdmc+IA==');
+	  background-size: 100%;
+	  background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #4d4d4d), color-stop(100%, #333333));
+	  background-image: -moz-linear-gradient(#4d4d4d 0%, #333333 100%);
+	  background-image: -webkit-linear-gradient(#4d4d4d 0%, #333333 100%);
+	  background-image: linear-gradient(#4d4d4d 0%, #333333 100%);
+	  -moz-box-shadow: 0px 1px 0px #666 inset, 0px -1px 0px #262626 inset;
+	  -webkit-box-shadow: 0px 1px 0px #666 inset, 0px -1px 0px #262626 inset;
+	  box-shadow: 0px 1px 0px #666 inset, 0px -1px 0px #262626 inset;
+	  text-shadow: 0px -1px 0px rgba(0, 0, 0, 0.5);
+
+	  .press {
+		text-decoration: none;
+		background-image: url('data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4gPHN2ZyB2ZXJzaW9uPSIxLjEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PGRlZnM+PGxpbmVhckdyYWRpZW50IGlkPSJncmFkIiBncmFkaWVudFVuaXRzPSJvYmplY3RCb3VuZGluZ0JveCIgeDE9IjAuNSIgeTE9IjAuMCIgeDI9IjAuNSIgeTI9IjEuMCI+PHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iIzcwNzA3MCIvPjxzdG9wIG9mZnNldD0iMTAwJSIgc3RvcC1jb2xvcj0iIzRkNGQ0ZCIvPjwvbGluZWFyR3JhZGllbnQ+PC9kZWZzPjxyZWN0IHg9IjAiIHk9IjAiIHdpZHRoPSIxMDAlIiBoZWlnaHQ9IjEwMCUiIGZpbGw9InVybCgjZ3JhZCkiIC8+PC9zdmc+IA==');
+		background-size: 100%;
+		background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #707070), color-stop(100%, #4d4d4d));
+		background-image: -moz-linear-gradient(top, #707070 0%, #4d4d4d 100%);
+		background-image: -webkit-linear-gradient(top, #707070 0%, #4d4d4d 100%);
+		background-image: linear-gradient(to bottom, #707070 0%, #4d4d4d 100%);
+		-moz-box-shadow: 0px 1px 0px #999 inset, 0px -1px 0px #333 inset;
+		-webkit-box-shadow: 0px 1px 0px #999 inset, 0px -1px 0px #333 inset;
+		box-shadow: 0px 1px 0px #999 inset, 0px -1px 0px #333 inset;
+		color: #ccc;
+	  }
+	}
+
+	&.active a {
+	  background: #2e2209;
+	  -moz-box-shadow: 0px 1px 0px #1a1203 inset, 0px -1px 0px #403113 inset;
+	  -webkit-box-shadow: 0px 1px 0px #1a1203 inset, 0px -1px 0px #403113 inset;
+	  box-shadow: 0px 1px 0px #1a1203 inset, 0px -1px 0px #403113 inset;
+
+	  span {
+		color: #ffd966;
+	  }
+	}
+  }
+
+  .db-shop__cs_shop__category {
+	padding: 0 4px;
+  }
+
+  .db-shop__cs_shop__category__btn {
+	float: left;
+	width: 50%;
+	margin-top: 8px;
+	text-align: center;
+
+	a {
+	  display: block;
+	  padding: 8px 0;
+	  margin: 0 4px;
+	  text-align: center;
+	  -moz-border-radius: 4px;
+	  -webkit-border-radius: 4px;
+	  border-radius: 4px;
+	  background-image: url('data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4gPHN2ZyB2ZXJzaW9uPSIxLjEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PGRlZnM+PGxpbmVhckdyYWRpZW50IGlkPSJncmFkIiBncmFkaWVudFVuaXRzPSJvYmplY3RCb3VuZGluZ0JveCIgeDE9IjAuNSIgeTE9IjAuMCIgeDI9IjAuNSIgeTI9IjEuMCI+PHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iIzRkNGQ0ZCIvPjxzdG9wIG9mZnNldD0iMTAwJSIgc3RvcC1jb2xvcj0iIzMzMzMzMyIvPjwvbGluZWFyR3JhZGllbnQ+PC9kZWZzPjxyZWN0IHg9IjAiIHk9IjAiIHdpZHRoPSIxMDAlIiBoZWlnaHQ9IjEwMCUiIGZpbGw9InVybCgjZ3JhZCkiIC8+PC9zdmc+IA==');
+	  background-size: 100%;
+	  background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #4d4d4d), color-stop(100%, #333333));
+	  background-image: -moz-linear-gradient(#4d4d4d 0%, #333333 100%);
+	  background-image: -webkit-linear-gradient(#4d4d4d 0%, #333333 100%);
+	  background-image: linear-gradient(#4d4d4d 0%, #333333 100%);
+	  -moz-box-shadow: 0px 1px 0px #666 inset, 0px -1px 0px #262626 inset;
+	  -webkit-box-shadow: 0px 1px 0px #666 inset, 0px -1px 0px #262626 inset;
+	  box-shadow: 0px 1px 0px #666 inset, 0px -1px 0px #262626 inset;
+	  text-shadow: 0px -1px 0px rgba(0, 0, 0, 0.5);
+	  color: #ccc;
+
+	  span {
+		color: #cccccc;
+	  }
+
+	  &:hover {
+		text-decoration: none;
+		background-image: url('data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4gPHN2ZyB2ZXJzaW9uPSIxLjEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PGRlZnM+PGxpbmVhckdyYWRpZW50IGlkPSJncmFkIiBncmFkaWVudFVuaXRzPSJvYmplY3RCb3VuZGluZ0JveCIgeDE9IjAuNSIgeTE9IjAuMCIgeDI9IjAuNSIgeTI9IjEuMCI+PHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iIzcwNzA3MCIvPjxzdG9wIG9mZnNldD0iMTAwJSIgc3RvcC1jb2xvcj0iIzRkNGQ0ZCIvPjwvbGluZWFyR3JhZGllbnQ+PC9kZWZzPjxyZWN0IHg9IjAiIHk9IjAiIHdpZHRoPSIxMDAlIiBoZWlnaHQ9IjEwMCUiIGZpbGw9InVybCgjZ3JhZCkiIC8+PC9zdmc+IA==');
+		background-size: 100%;
+		background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #707070), color-stop(100%, #4d4d4d));
+		background-image: -moz-linear-gradient(top, #707070 0%, #4d4d4d 100%);
+		background-image: -webkit-linear-gradient(top, #707070 0%, #4d4d4d 100%);
+		background-image: linear-gradient(to bottom, #707070 0%, #4d4d4d 100%);
+		-moz-box-shadow: 0px 1px 0px #999 inset, 0px -1px 0px #333 inset;
+		-webkit-box-shadow: 0px 1px 0px #999 inset, 0px -1px 0px #333 inset;
+		box-shadow: 0px 1px 0px #999 inset, 0px -1px 0px #333 inset;
+		color: #ccc;
+	  }
+	}
+
+	&.active a {
+	  background: #2e2209;
+	  -moz-box-shadow: 0px 1px 0px #1a1203 inset, 0px -1px 0px #403113 inset;
+	  -webkit-box-shadow: 0px 1px 0px #1a1203 inset, 0px -1px 0px #403113 inset;
+	  box-shadow: 0px 1px 0px #1a1203 inset, 0px -1px 0px #403113 inset;
+
+	  span {
+		color: #ffd966;
+	  }
+	}
+  }
+
+  .db-shop__fcc {
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-align-items: center;
+	align-items: center;
+	-webkit-box-align: center;
+	-moz-box-align: center;
+	-ms-box-align: center;
+	-o-box-align: center;
+	box-align: center;
+	align-items: center;
+	-webkit-flex-wrap: wrap;
+	flex-wrap: wrap;
+	padding: 0 4px 8px;
+	border-bottom: solid 1px #3d3d3d;
+  }
+
+  .db-shop__fcc__box {
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-flex-wrap: wrap;
+	flex-wrap: wrap;
+  }
+
+  .db-shop__fcc__list {
+	padding: 16px 0;
+	width: 50%;
+  }
+
+  .db-shop__fcc__name {
+	color: #bbac94;
+	padding-right: 4px;
+  }
+
+  .db-shop__fcc__value {
+	font-weight: bold;
+	color: #e5e5e5;
+  }
+
+  .db-shop__gil {
+	width: 100%;
+	padding: 8px 8px 0 8px;
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+
+	li {
+	  float: left;
+	  width: 49%;
+	  height: 40px;
+	  margin-right: 2%;
+	  margin-bottom: 8px;
+
+	  &:nth-child(even) {
+		margin-right: 0;
+	  }
+
+	  &.active {
+		background: #2e2209;
+		-moz-box-shadow: 0px 1px 0px #1a1203 inset, 0px -1px 0px #403113 inset;
+		-webkit-box-shadow: 0px 1px 0px #1a1203 inset, 0px -1px 0px #403113 inset;
+		box-shadow: 0px 1px 0px #1a1203 inset, 0px -1px 0px #403113 inset;
+
+		a {
+		  color: #ffd966;
+		}
+	  }
+	}
+
+	a {
+	  width: 100%;
+	  height: 40px;
+	  padding: 0 4px;
+	  line-height: 1.2;
+	  display: -webkit-box;
+	  display: -ms-flexbox;
+	  display: -webkit-flex;
+	  display: flex;
+	  -webkit-align-items: center;
+	  align-items: center;
+	  -webkit-box-align: center;
+	  -moz-box-align: center;
+	  -ms-box-align: center;
+	  -o-box-align: center;
+	  box-align: center;
+	  align-items: center;
+	  -webkit-justify-content: center;
+	  justify-content: center;
+	  box-pack: center;
+	  -webkit-box-pack: center;
+	  text-align: center;
+	  -moz-box-sizing: border-box;
+	  -webkit-box-sizing: border-box;
+	  box-sizing: border-box;
+	  color: #fff;
+	}
+  }
+
+  .db-shop__tab {
+	display: flex;
+	justify-content: space-between;
+	flex-wrap: wrap;
+	width: 100%;
+	padding: 0 4px;
+	box-sizing: border-box;
+  }
+
+  .db-shop__tab--has_client_quest {
+	padding-top: 16px;
+  }
+
+  .db-shop__tab li {
+	width: 50%;
+	padding: 0 4px 8px;
+	box-sizing: border-box;
+	text-align: center;
+  }
+
+  .db-shop__tab__btn {
+	display: block;
+	padding: 8px 0;
+	-moz-border-radius: 4px;
+	-webkit-border-radius: 4px;
+	border-radius: 4px;
+	background-image: url('data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4gPHN2ZyB2ZXJzaW9uPSIxLjEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PGRlZnM+PGxpbmVhckdyYWRpZW50IGlkPSJncmFkIiBncmFkaWVudFVuaXRzPSJvYmplY3RCb3VuZGluZ0JveCIgeDE9IjAuNSIgeTE9IjAuMCIgeDI9IjAuNSIgeTI9IjEuMCI+PHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iIzRkNGQ0ZCIvPjxzdG9wIG9mZnNldD0iMTAwJSIgc3RvcC1jb2xvcj0iIzMzMzMzMyIvPjwvbGluZWFyR3JhZGllbnQ+PC9kZWZzPjxyZWN0IHg9IjAiIHk9IjAiIHdpZHRoPSIxMDAlIiBoZWlnaHQ9IjEwMCUiIGZpbGw9InVybCgjZ3JhZCkiIC8+PC9zdmc+IA==');
+	background-size: 100%;
+	background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #4d4d4d), color-stop(100%, #333333));
+	background-image: -moz-linear-gradient(#4d4d4d 0%, #333333 100%);
+	background-image: -webkit-linear-gradient(#4d4d4d 0%, #333333 100%);
+	background-image: linear-gradient(#4d4d4d 0%, #333333 100%);
+	-moz-box-shadow: 0px 1px 0px #666 inset, 0px -1px 0px #262626 inset;
+	-webkit-box-shadow: 0px 1px 0px #666 inset, 0px -1px 0px #262626 inset;
+	box-shadow: 0px 1px 0px #666 inset, 0px -1px 0px #262626 inset;
+	text-shadow: 0px -1px 0px rgba(0, 0, 0, 0.5);
+	color: #ccc;
+
+	.press {
+	  text-decoration: none;
+	  background-image: url('data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4gPHN2ZyB2ZXJzaW9uPSIxLjEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PGRlZnM+PGxpbmVhckdyYWRpZW50IGlkPSJncmFkIiBncmFkaWVudFVuaXRzPSJvYmplY3RCb3VuZGluZ0JveCIgeDE9IjAuNSIgeTE9IjAuMCIgeDI9IjAuNSIgeTI9IjEuMCI+PHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iIzcwNzA3MCIvPjxzdG9wIG9mZnNldD0iMTAwJSIgc3RvcC1jb2xvcj0iIzRkNGQ0ZCIvPjwvbGluZWFyR3JhZGllbnQ+PC9kZWZzPjxyZWN0IHg9IjAiIHk9IjAiIHdpZHRoPSIxMDAlIiBoZWlnaHQ9IjEwMCUiIGZpbGw9InVybCgjZ3JhZCkiIC8+PC9zdmc+IA==');
+	  background-size: 100%;
+	  background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #707070), color-stop(100%, #4d4d4d));
+	  background-image: -moz-linear-gradient(top, #707070 0%, #4d4d4d 100%);
+	  background-image: -webkit-linear-gradient(top, #707070 0%, #4d4d4d 100%);
+	  background-image: linear-gradient(to bottom, #707070 0%, #4d4d4d 100%);
+	  -moz-box-shadow: 0px 1px 0px #999 inset, 0px -1px 0px #333 inset;
+	  -webkit-box-shadow: 0px 1px 0px #999 inset, 0px -1px 0px #333 inset;
+	  box-shadow: 0px 1px 0px #999 inset, 0px -1px 0px #333 inset;
+	  color: #ccc;
+	}
+  }
+
+  .db-shop__tab li.active .db-shop__tab__btn {
+	background: #2e2209;
+	-moz-box-shadow: 0px 1px 0px #1a1203 inset, 0px -1px 0px #403113 inset;
+	-webkit-box-shadow: 0px 1px 0px #1a1203 inset, 0px -1px 0px #403113 inset;
+	box-shadow: 0px 1px 0px #1a1203 inset, 0px -1px 0px #403113 inset;
+	color: #ffd966;
+  }
+
+  .db-shop__filter {
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-flex-direction: row;
+	flex-direction: row;
+	-webkit-align-items: center;
+	align-items: center;
+	-webkit-box-align: center;
+	-moz-box-align: center;
+	-ms-box-align: center;
+	-o-box-align: center;
+	box-align: center;
+	align-items: center;
+	justify-content: center;
+	-webkit-justify-content: center;
+	box-pack: center;
+	-webkit-box-pack: center;
+  }
+
+  .db-shop__filter__wrapper {
+	padding: 8px;
+  }
+
+  .db-shop__filter__btn {
+	display: block;
+	padding: 6px 8px;
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+	background: #000000;
+	-moz-border-radius: 4px;
+	-webkit-border-radius: 4px;
+	border-radius: 4px;
+	color: #cccccc;
+	font-size: 12px;
+	font-weight: bold;
+	white-space: nowrap;
+	-webkit-box-flex: 1;
+	-moz-box-flex: 1;
+	box-flex: 1;
+	-webkit-flex-grow: 1;
+	flex-grow: 1;
+	position: relative;
+
+	&.press {
+	  background: #1a1a1a;
+	  -moz-box-shadow: 0px 1px 0px #383838 inset;
+	  -webkit-box-shadow: 0px 1px 0px #383838 inset;
+	  box-shadow: 0px 1px 0px #383838 inset;
+	  text-decoration: none;
+	}
+
+	&:after {
+	  content: '';
+	  position: absolute;
+	  right: 10px;
+	  top: 50%;
+	  margin-top: -6px;
+	  width: 12px;
+	  height: 12px;
+	  background: url(https://img.finalfantasyxiv.comhttps://img.finalfantasyxiv.comhttps://img.finalfantasyxiv.comhttps://img.finalfantasyxiv.comhttps://img.finalfantasyxiv.com/lds/h/D/3xWy-rtpzFbr2n2OXdzownZVf8.png) no-repeat 0 0;
+	  -moz-background-size: 12px 12px;
+	  -o-background-size: 12px 12px;
+	  -webkit-background-size: 12px 12px;
+	  background-size: 12px 12px;
+	}
+
+	&.active {
+	  border-bottom-left-radius: 0;
+	  border-bottom-right-radius: 0;
+
+	  &:after {
+		background: url(https://img.finalfantasyxiv.comhttps://img.finalfantasyxiv.comhttps://img.finalfantasyxiv.comhttps://img.finalfantasyxiv.comhttps://img.finalfantasyxiv.com/lds/h/x/TnGE7GNSzh8uJA1xRoYxXUiC_M.png) no-repeat 0 0;
+		-moz-background-size: 12px 12px;
+		-o-background-size: 12px 12px;
+		-webkit-background-size: 12px 12px;
+		background-size: 12px 12px;
+	  }
+	}
+  }
+
+  .db-shop__filter__btn--on {
+	display: block;
+	padding: 1px 8px;
+	margin-left: 8px;
+	color: #eaff00;
+	font-size: 12px;
+	font-weight: bold;
+	-moz-border-radius: 4px;
+	-webkit-border-radius: 4px;
+	border-radius: 4px;
+	text-align: center;
+	background-image: url('data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4gPHN2ZyB2ZXJzaW9uPSIxLjEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PGRlZnM+PGxpbmVhckdyYWRpZW50IGlkPSJncmFkIiBncmFkaWVudFVuaXRzPSJvYmplY3RCb3VuZGluZ0JveCIgeDE9IjAuNSIgeTE9IjAuMCIgeDI9IjAuNSIgeTI9IjEuMCI+PHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iIzY2YzAzOSIvPjxzdG9wIG9mZnNldD0iMTAwJSIgc3RvcC1jb2xvcj0iIzI2NzMwMCIvPjwvbGluZWFyR3JhZGllbnQ+PC9kZWZzPjxyZWN0IHg9IjAiIHk9IjAiIHdpZHRoPSIxMDAlIiBoZWlnaHQ9IjEwMCUiIGZpbGw9InVybCgjZ3JhZCkiIC8+PC9zdmc+IA==');
+	background-size: 100%;
+	background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #66c039), color-stop(100%, #267300));
+	background-image: -moz-linear-gradient(top, #66c039 0%, #267300 100%);
+	background-image: -webkit-linear-gradient(top, #66c039 0%, #267300 100%);
+	background-image: linear-gradient(to bottom, #66c039 0%, #267300 100%);
+	-moz-box-shadow: 0px 1px 0px #91f261 inset, 0px -1px 0px #1f3314 inset;
+	-webkit-box-shadow: 0px 1px 0px #91f261 inset, 0px -1px 0px #1f3314 inset;
+	box-shadow: 0px 1px 0px #91f261 inset, 0px -1px 0px #1f3314 inset;
+	white-space: nowrap;
+
+	&.press {
+	  background-image: url('data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4gPHN2ZyB2ZXJzaW9uPSIxLjEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PGRlZnM+PGxpbmVhckdyYWRpZW50IGlkPSJncmFkIiBncmFkaWVudFVuaXRzPSJvYmplY3RCb3VuZGluZ0JveCIgeDE9IjAuNSIgeTE9IjAuMCIgeDI9IjAuNSIgeTI9IjEuMCI+PHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iIzc0ZDk0MSIvPjxzdG9wIG9mZnNldD0iMTAwJSIgc3RvcC1jb2xvcj0iIzJmOGMwMCIvPjwvbGluZWFyR3JhZGllbnQ+PC9kZWZzPjxyZWN0IHg9IjAiIHk9IjAiIHdpZHRoPSIxMDAlIiBoZWlnaHQ9IjEwMCUiIGZpbGw9InVybCgjZ3JhZCkiIC8+PC9zdmc+IA==');
+	  background-size: 100%;
+	  background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #74d941), color-stop(100%, #2f8c00));
+	  background-image: -moz-linear-gradient(top, #74d941 0%, #2f8c00 100%);
+	  background-image: -webkit-linear-gradient(top, #74d941 0%, #2f8c00 100%);
+	  background-image: linear-gradient(to bottom, #74d941 0%, #2f8c00 100%);
+	  -moz-box-shadow: 0px 1px 0px #9f6 inset, 0px -1px 0px #2e4c1f inset;
+	  -webkit-box-shadow: 0px 1px 0px #9f6 inset, 0px -1px 0px #2e4c1f inset;
+	  box-shadow: 0px 1px 0px #9f6 inset, 0px -1px 0px #2e4c1f inset;
+	  text-decoration: none;
+	  color: #eaff00;
+	}
+  }
+
+  .db-shop__filter__btn--off {
+	display: block;
+	padding: 1px 8px;
+	margin-left: 8px;
+	color: #cccccc;
+	font-size: 12px;
+	font-weight: bold;
+	-moz-border-radius: 4px;
+	-webkit-border-radius: 4px;
+	border-radius: 4px;
+	text-align: center;
+	background-image: url('data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4gPHN2ZyB2ZXJzaW9uPSIxLjEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PGRlZnM+PGxpbmVhckdyYWRpZW50IGlkPSJncmFkIiBncmFkaWVudFVuaXRzPSJvYmplY3RCb3VuZGluZ0JveCIgeDE9IjAuNSIgeTE9IjAuMCIgeDI9IjAuNSIgeTI9IjEuMCI+PHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iIzhjMWMxYyIvPjxzdG9wIG9mZnNldD0iMTAwJSIgc3RvcC1jb2xvcj0iIzU5MWIxYiIvPjwvbGluZWFyR3JhZGllbnQ+PC9kZWZzPjxyZWN0IHg9IjAiIHk9IjAiIHdpZHRoPSIxMDAlIiBoZWlnaHQ9IjEwMCUiIGZpbGw9InVybCgjZ3JhZCkiIC8+PC9zdmc+IA==');
+	background-size: 100%;
+	background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #8c1c1c), color-stop(100%, #591b1b));
+	background-image: -moz-linear-gradient(top, #8c1c1c 0%, #591b1b 100%);
+	background-image: -webkit-linear-gradient(top, #8c1c1c 0%, #591b1b 100%);
+	background-image: linear-gradient(to bottom, #8c1c1c 0%, #591b1b 100%);
+	-moz-box-shadow: 0px 1px 0px #a63a3a inset, 0px -1px 0px #401313 inset;
+	-webkit-box-shadow: 0px 1px 0px #a63a3a inset, 0px -1px 0px #401313 inset;
+	box-shadow: 0px 1px 0px #a63a3a inset, 0px -1px 0px #401313 inset;
+	white-space: nowrap;
+
+	&.press {
+	  background-image: url('data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4gPHN2ZyB2ZXJzaW9uPSIxLjEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PGRlZnM+PGxpbmVhckdyYWRpZW50IGlkPSJncmFkIiBncmFkaWVudFVuaXRzPSJvYmplY3RCb3VuZGluZ0JveCIgeDE9IjAuNSIgeTE9IjAuMCIgeDI9IjAuNSIgeTI9IjEuMCI+PHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iI2E2MjkyOSIvPjxzdG9wIG9mZnNldD0iMTAwJSIgc3RvcC1jb2xvcj0iIzczMjIyMiIvPjwvbGluZWFyR3JhZGllbnQ+PC9kZWZzPjxyZWN0IHg9IjAiIHk9IjAiIHdpZHRoPSIxMDAlIiBoZWlnaHQ9IjEwMCUiIGZpbGw9InVybCgjZ3JhZCkiIC8+PC9zdmc+IA==');
+	  background-size: 100%;
+	  background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #a62929), color-stop(100%, #732222));
+	  background-image: -moz-linear-gradient(top, #a62929 0%, #732222 100%);
+	  background-image: -webkit-linear-gradient(top, #a62929 0%, #732222 100%);
+	  background-image: linear-gradient(to bottom, #a62929 0%, #732222 100%);
+	  -moz-box-shadow: 0px 1px 0px #cc5252 inset, 0px -1px 0px #4c1717 inset;
+	  -webkit-box-shadow: 0px 1px 0px #cc5252 inset, 0px -1px 0px #4c1717 inset;
+	  box-shadow: 0px 1px 0px #cc5252 inset, 0px -1px 0px #4c1717 inset;
+	  text-decoration: none;
+	  color: #cccccc;
+	}
+  }
+
+  .db-shop__filter__btn--clear, .db-shop__filter__btn--submit {
+	display: inline-block;
+	width: 144px;
+	height: 32px;
+	margin: 0 4px;
+	padding: 0;
+	font-size: 12px;
+	color: #262626;
+	text-shadow: 0px 1px 0px rgba(255, 255, 255, 0.2);
+	border-radius: 16px;
+	line-height: 32px;
+	cursor: pointer;
+	text-align: center;
+	outline: none;
+	font-weight: bold;
+	background-image: url('data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4gPHN2ZyB2ZXJzaW9uPSIxLjEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PGRlZnM+PGxpbmVhckdyYWRpZW50IGlkPSJncmFkIiBncmFkaWVudFVuaXRzPSJvYmplY3RCb3VuZGluZ0JveCIgeDE9IjAuNSIgeTE9IjAuMCIgeDI9IjAuNSIgeTI9IjEuMCI+PHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iIzk5OTk5OSIvPjxzdG9wIG9mZnNldD0iMTAwJSIgc3RvcC1jb2xvcj0iIzY2NjY2NiIvPjwvbGluZWFyR3JhZGllbnQ+PC9kZWZzPjxyZWN0IHg9IjAiIHk9IjAiIHdpZHRoPSIxMDAlIiBoZWlnaHQ9IjEwMCUiIGZpbGw9InVybCgjZ3JhZCkiIC8+PC9zdmc+IA==');
+	background-size: 100%;
+	background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #999999), color-stop(100%, #666666));
+	background-image: -moz-linear-gradient(top, #999999 0%, #666666 100%);
+	background-image: -webkit-linear-gradient(top, #999999 0%, #666666 100%);
+	background-image: linear-gradient(to bottom, #999999 0%, #666666 100%);
+	-moz-box-shadow: 0px 1px 0px #e6e6e6 inset, 0px -1px 0px #404040 inset;
+	-webkit-box-shadow: 0px 1px 0px #e6e6e6 inset, 0px -1px 0px #404040 inset;
+	box-shadow: 0px 1px 0px #e6e6e6 inset, 0px -1px 0px #404040 inset;
+  }
+
+  .db-shop__filter__btn--clear.press, .db-shop__filter__btn--submit.press {
+	background-image: url('data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4gPHN2ZyB2ZXJzaW9uPSIxLjEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PGRlZnM+PGxpbmVhckdyYWRpZW50IGlkPSJncmFkIiBncmFkaWVudFVuaXRzPSJvYmplY3RCb3VuZGluZ0JveCIgeDE9IjAuNSIgeTE9IjAuMCIgeDI9IjAuNSIgeTI9IjEuMCI+PHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iI2JmYmZiZiIvPjxzdG9wIG9mZnNldD0iMTAwJSIgc3RvcC1jb2xvcj0iIzgwODA4MCIvPjwvbGluZWFyR3JhZGllbnQ+PC9kZWZzPjxyZWN0IHg9IjAiIHk9IjAiIHdpZHRoPSIxMDAlIiBoZWlnaHQ9IjEwMCUiIGZpbGw9InVybCgjZ3JhZCkiIC8+PC9zdmc+IA==');
+	background-size: 100%;
+	background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #bfbfbf), color-stop(100%, #808080));
+	background-image: -moz-linear-gradient(top, #bfbfbf 0%, #808080 100%);
+	background-image: -webkit-linear-gradient(top, #bfbfbf 0%, #808080 100%);
+	background-image: linear-gradient(to bottom, #bfbfbf 0%, #808080 100%);
+	-moz-box-shadow: 0px 1px 0px #e6e6e6 inset, 0px -1px 0px #404040 inset;
+	-webkit-box-shadow: 0px 1px 0px #e6e6e6 inset, 0px -1px 0px #404040 inset;
+	box-shadow: 0px 1px 0px #e6e6e6 inset, 0px -1px 0px #404040 inset;
+  }
+
+  .db-shop__filter__select li {
+	float: left;
+	width: 32px;
+	height: 32px;
+	margin: 0 4px 4px 0;
+
+	input {
+	  display: none;
+
+	  &:checked + .cover {
+		display: block;
+		position: absolute;
+		background: url(https://img.finalfantasyxiv.comhttps://img.finalfantasyxiv.comhttps://img.finalfantasyxiv.comhttps://img.finalfantasyxiv.comhttps://img.finalfantasyxiv.com/lds/h/K/IVWubUM67V2R73InARFd9g78yw.png) no-repeat;
+		-moz-background-size: 32px 32px;
+		-o-background-size: 32px 32px;
+		-webkit-background-size: 32px 32px;
+		background-size: 32px 32px;
+		width: 32px;
+		height: 32px;
+		right: 0;
+		bottom: 0;
+	  }
+	}
+  }
+
+  .db-shop__filter__select__wrapper {
+	background: #000000;
+	padding: 16px 0;
+	margin: 0 auto;
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+  }
+
+  .db-shop__filter__select__wrapper--job, .db-shop__filter__select__wrapper--class {
+	margin: 0 6px 10px 10px;
+  }
+
+  .db-shop__filter__select__wrapper--job__title, .db-shop__filter__select__wrapper--class__title {
+	font-size: 12px;
+	margin-bottom: 5px;
+	line-height: 1;
+  }
+
+  .db-shop__filter__select__wrapper--class, .db-shop__filter__select__wrapper--base {
+	margin-bottom: 12px;
+  }
+
+  .db-shop__filter__select__btn_form {
+	margin: 0 auto;
+	text-align: center;
+  }
+
+  .db-shop__class {
+	padding: 16px 16px 12px;
+  }
+
+  .db-shop__select .select-pulldown__open {
+	font-size: 12px;
+  }
+
+  .db-shop__search__inclusion {
+	padding: 8px 8px;
+
+	p {
+	  padding-bottom: 4px;
+	}
+
+	.select-pulldown {
+	  margin: 0 0 8px;
+	}
+
+	.select-pulldown__open {
+	  font-size: 12px;
+	  padding: 6px 24px 6px 8px;
+	}
+  }
+
+  .db-shop__toggle.open {
+	border-top: 1px solid #3d3d3d;
+  }
+
+  .db-shop__intro {
+	position: relative;
+	display: flex;
+	align-items: center;
+	padding: 8px 30px 4px 0;
+  }
+
+  .db-shop__intro__icon {
+	position: absolute;
+	right: 8px;
+	top: 50%;
+	width: 24px;
+	height: 24px;
+	margin-top: -12px;
+	background: url(https://img.finalfantasyxiv.comhttps://img.finalfantasyxiv.comhttps://img.finalfantasyxiv.comhttps://img.finalfantasyxiv.comhttps://img.finalfantasyxiv.com/lds/h/z/nmd6Nk5vLGi4LCu9Iuw5JXdRnY.png) no-repeat center center;
+	background-size: 16px;
+
+	&.open {
+	  transform: rotateX(180deg);
+	}
+  }
+
+  .db-shop__intro__name {
+	font-weight: bold;
+  }
+
+  .db-shop__sidebar {
+	display: none;
+	padding: 8px 8px 16px;
+  }
+
+  .db-shop__link {
+	position: relative;
+	display: flex;
+	align-items: center;
+	width: 100%;
+	padding: 8px 0 4px;
+	box-sizing: border-box;
+
+	p {
+	  color: #e5e5e5;
+	  font-size: 14px;
+	  line-height: 1.4;
+	}
+  }
+
+  .db-shop__value {
+	margin-bottom: 8px;
+  }
+
+  .db-shop__pattern {
+	position: relative;
+	width: 100%;
+	padding: 8px 8px 4px;
+	box-sizing: border-box;
+  }
+
+  .db-shop__reward {
+	width: 100%;
+	display: flex;
+	align-items: center;
+  }
+
+  .db-shop__reward__text {
+	padding-left: 8px;
+  }
+
+  .db-shop__reward__name {
+	font-size: 12px;
+	color: #bfa34c;
+  }
+
+  .db-shop__reward__number {
+	font-size: 14px;
+	font-weight: bold;
+	color: #e5e5e5;
+  }
+
+  .db-shop__exp {
+	width: 50%;
+	padding: 0 0 0 40px;
+	box-sizing: border-box;
+	background: url(https://img.finalfantasyxiv.comhttps://img.finalfantasyxiv.comhttps://img.finalfantasyxiv.comhttps://img.finalfantasyxiv.comhttps://img.finalfantasyxiv.com/lds/h/8/GShCUkaKnehhJU3Ox2t4wFSFc4.png) no-repeat 0 0;
+  }
+  .db-filter__row {
+	width: 100%;
+	vertical-align: middle;
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-flex-direction: row;
+	flex-direction: row;
+	-webkit-align-items: center;
+	align-items: center;
+	-webkit-box-align: center;
+	-moz-box-align: center;
+	-ms-box-align: center;
+	-o-box-align: center;
+	box-align: center;
+	align-items: center;
+	padding: 0 8px;
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+	position: relative;
+  }
+
+  .db-filter__icon {
+	display: block;
+	width: 32px;
+	height: 32px;
+	background-repeat: no-repeat;
+  }
+
+  .db-filter__icon--active {
+	background-position: 0 -32px;
+  }
+
+  .db-filter__item_btn {
+	background-image: url(https://img.finalfantasyxiv.comhttps://img.finalfantasyxiv.comhttps://img.finalfantasyxiv.comhttps://img.finalfantasyxiv.com/lds/h/K/n4cvkJbLr8ruqLES5tIqIKCz80.png);
+	background-repeat: no-repeat;
+	background-size: 32px auto;
+  }
+
+  .db-filter__item_arrow {
+	background-image: url(https://img.finalfantasyxiv.comhttps://img.finalfantasyxiv.comhttps://img.finalfantasyxiv.comhttps://img.finalfantasyxiv.com/lds/h/K/Q4lyU8vhgpMOSKLj2lXbRpyg5E.png);
+	background-repeat: no-repeat;
+	background-size: 32px auto;
+	margin-right: 10px;
+  }
+
+  .db-filter__icon_hq {
+	display: block;
+	width: 32px;
+	height: 32px;
+	background: url(https://img.finalfantasyxiv.comhttps://img.finalfantasyxiv.comhttps://img.finalfantasyxiv.comhttps://img.finalfantasyxiv.com/lds/h/0/12IWqZPZKJndgH8Cb3cP2gSKWw.png) no-repeat 0 0;
+	background-size: 32px;
+  }
+
+  .db-filter__icon_dresser {
+	display: block;
+	width: 32px;
+	height: 32px;
+	background: url(https://img.finalfantasyxiv.comhttps://img.finalfantasyxiv.comhttps://img.finalfantasyxiv.comhttps://img.finalfantasyxiv.com/lds/h/6/6BuWmwtkwbtQJtEtXToqZCAPCo.png) no-repeat 0 0;
+	background-size: 32px;
+  }
+
+  .db-filter__icon_cabinet {
+	display: block;
+	width: 32px;
+	height: 32px;
+	background: url(https://img.finalfantasyxiv.comhttps://img.finalfantasyxiv.comhttps://img.finalfantasyxiv.comhttps://img.finalfantasyxiv.com/lds/h/u/ehdT69wWpZG2AIMb9eFXNI-rYU.png) no-repeat 0 0;
+	background-size: 32px;
+  }
+
+  .db-filter__checkbox {
+	margin-bottom: 4px;
+
+	label {
+	  display: -webkit-box;
+	  display: -ms-flexbox;
+	  display: -webkit-flex;
+	  display: flex;
+	  -webkit-align-items: center;
+	  align-items: center;
+	  -webkit-box-align: center;
+	  -moz-box-align: center;
+	  -ms-box-align: center;
+	  -o-box-align: center;
+	  box-align: center;
+	  align-items: center;
+	}
+
+	.icon {
+	  margin-right: 4px;
+	}
+
+	input {
+	  display: none;
+
+	  &:checked + .cover {
+		display: block;
+		position: absolute;
+		background: url(https://img.finalfantasyxiv.comhttps://img.finalfantasyxiv.comhttps://img.finalfantasyxiv.comhttps://img.finalfantasyxiv.com/lds/h/K/IVWubUM67V2R73InARFd9g78yw.png) no-repeat;
+		background-size: 32px;
+		width: 32px;
+		height: 32px;
+		right: 0;
+		bottom: 0;
+	  }
+	}
+  }
+
+  .db-filter__content {
+	display: none;
+	background: #000000;
+	padding: 16px;
+  }
+
+  .db-filter__content--12 {
+	margin-bottom: 12px;
+  }
+
+  .db-command__header {
+	padding-bottom: 0px;
+  }
+
+  .db-command__title {
+	font-size: 24px;
+	font-weight: bold;
+	color: #5990ff;
+	margin-bottom: 8px;
+	line-height: 1;
+  }
+
+  .db-command__category {
+	font-size: 12px;
+	color: #808080;
+	line-height: 1;
+	margin-bottom: 16px;
+	font-weight: normal;
+  }
+
+  .db-command__platform__list {
+	height: 24px;
+	position: absolute;
+	top: 4px;
+	right: 8px;
+	-moz-transform: scale(0.5);
+	-ms-transform: scale(0.5);
+	-webkit-transform: scale(0.5);
+	transform: scale(0.5);
+	transform-origin: top right;
+	display: flex;
+	justify-content: start;
+
+	&.view {
+	  position: static;
+	  transform-origin: top left;
+	}
+
+	li {
+	  display: inline-block;
+	  width: 60px;
+	  height: 24px;
+	  margin-right: 4px;
+
+	  span {
+		display: block;
+		width: 100%;
+		height: 24px;
+		font-size: 16px;
+		color: #ffffff;
+		text-align: center;
+		line-height: 24px;
+		border-radius: 12px;
+	  }
+
+	  &.win {
+		width: 100px;
+
+		span {
+		  background: #1270b3;
+		}
+	  }
+
+	  &.ps4 span, &.ps5 span {
+		background: #1b4db3;
+	  }
+
+	  &.mac span {
+		background: #e6e6e6;
+		color: #262626;
+	  }
+	}
+  }
+
+  .db-command__tab {
+	margin-top: 16px;
+	display: flex;
+
+	li {
+	  width: 25%;
+	  flex-shrink: 0;
+
+	  a {
+		display: block;
+		line-height: 24px;
+		background-image: url('data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4gPHN2ZyB2ZXJzaW9uPSIxLjEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PGRlZnM+PGxpbmVhckdyYWRpZW50IGlkPSJncmFkIiBncmFkaWVudFVuaXRzPSJvYmplY3RCb3VuZGluZ0JveCIgeDE9IjAuMCIgeTE9IjAuNSIgeDI9IjEuMCIgeTI9IjAuNSI+PHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iIzNkM2QzZCIvPjxzdG9wIG9mZnNldD0iMTAwJSIgc3RvcC1jb2xvcj0iIzUyNTI1MiIvPjwvbGluZWFyR3JhZGllbnQ+PC9kZWZzPjxyZWN0IHg9IjAiIHk9IjAiIHdpZHRoPSIxMDAlIiBoZWlnaHQ9IjEwMCUiIGZpbGw9InVybCgjZ3JhZCkiIC8+PC9zdmc+IA==');
+		background-size: 100%;
+		background-image: -webkit-gradient(linear, 0% 50%, 100% 50%, color-stop(0%, #3d3d3d), color-stop(100%, #525252));
+		background-image: -moz-linear-gradient(left, #3d3d3d 0%, #525252 100%);
+		background-image: -webkit-linear-gradient(left, #3d3d3d 0%, #525252 100%);
+		background-image: linear-gradient(to right, #3d3d3d 0%, #525252 100%);
+		font-size: 12px;
+		color: #cccccc;
+		text-align: center;
+		border-top-left-radius: 4px;
+		border-top-right-radius: 4px;
+		-webkit-tap-highlight-color: transparent;
+
+		&.press {
+		  background-image: url('data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4gPHN2ZyB2ZXJzaW9uPSIxLjEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PGRlZnM+PGxpbmVhckdyYWRpZW50IGlkPSJncmFkIiBncmFkaWVudFVuaXRzPSJvYmplY3RCb3VuZGluZ0JveCIgeDE9IjAuMCIgeTE9IjAuNSIgeDI9IjEuMCIgeTI9IjAuNSI+PHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iIzVjNWM1YyIvPjxzdG9wIG9mZnNldD0iMTAwJSIgc3RvcC1jb2xvcj0iIzcwNzA3MCIvPjwvbGluZWFyR3JhZGllbnQ+PC9kZWZzPjxyZWN0IHg9IjAiIHk9IjAiIHdpZHRoPSIxMDAlIiBoZWlnaHQ9IjEwMCUiIGZpbGw9InVybCgjZ3JhZCkiIC8+PC9zdmc+IA==');
+		  background-size: 100%;
+		  background-image: -webkit-gradient(linear, 0% 50%, 100% 50%, color-stop(0%, #5c5c5c), color-stop(100%, #707070));
+		  background-image: -moz-linear-gradient(left, #5c5c5c 0%, #707070 100%);
+		  background-image: -webkit-linear-gradient(left, #5c5c5c 0%, #707070 100%);
+		  background-image: linear-gradient(to right, #5c5c5c 0%, #707070 100%);
+		  text-decoration: none;
+		  color: #cccccc;
+		}
+
+		&.selected {
+		  background: #262626;
+		  color: #bfa34c;
+		}
+	  }
+	}
+  }
+
+  .db-command__detail {
+	display: none;
+	padding: 16px 8px;
+
+	&.selected {
+	  display: block;
+	}
+  }
+
+  .db-command__placeholder {
+	margin: 10px 16px 32px;
+  }
+
+  .db-command__placeholder__title {
+	font-size: 12px;
+	color: #bfa34c;
+	font-weight: normal;
+	padding: 10px 8px;
+  }
+
+  .db-command__placeholder {
+	th {
+	  display: block;
+	  text-align: left;
+	  border: 1px solid #3c3c3c;
+	  background: #1f1f1f;
+	  padding: 6px 8px;
+	}
+
+	td {
+	  display: block;
+	  text-align: left;
+	  border: 1px solid #3c3c3c;
+	  background: #1f1f1f;
+	  padding: 6px 8px;
+	  border-top: 0;
+	  background: #2e2e2e;
+	  margin-bottom: 6px;
+	}
+  }
+
+  .db-tree.active {
+	border-bottom: 0;
+  }
+
+  .db-tree__need_count {
+	background-image: url('data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4gPHN2ZyB2ZXJzaW9uPSIxLjEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PGRlZnM+PGxpbmVhckdyYWRpZW50IGlkPSJncmFkIiBncmFkaWVudFVuaXRzPSJvYmplY3RCb3VuZGluZ0JveCIgeDE9IjAuNSIgeTE9IjAuMCIgeDI9IjAuNSIgeTI9IjEuMCI+PHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iIzFiMWIxYiIvPjxzdG9wIG9mZnNldD0iMTAwJSIgc3RvcC1jb2xvcj0iIzI2MjYyNiIvPjwvbGluZWFyR3JhZGllbnQ+PC9kZWZzPjxyZWN0IHg9IjAiIHk9IjAiIHdpZHRoPSIxMDAlIiBoZWlnaHQ9IjEwMCUiIGZpbGw9InVybCgjZ3JhZCkiIC8+PC9zdmc+IA==');
+	background-size: 100%;
+	background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #1b1b1b), color-stop(100%, #262626));
+	background-image: -moz-linear-gradient(top, #1b1b1b 0%, #262626 100%);
+	background-image: -webkit-linear-gradient(top, #1b1b1b 0%, #262626 100%);
+	background-image: linear-gradient(to bottom, #1b1b1b 0%, #262626 100%);
+	padding: 0 8px;
+	height: 32px;
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-box-align: center;
+	-moz-box-align: center;
+	-ms-box-align: center;
+	-o-box-align: center;
+	box-align: center;
+	align-items: center;
+	align-items: center;
+	border-top-left-radius: 4px;
+	border-bottom-left-radius: 4px;
+
+	p, input, a {
+	  display: inline-block;
+	}
+
+	p {
+	  font-size: 12px;
+	  color: #cccccc;
+	  white-space: nowrap;
+	}
+
+	input {
+	  background: #ffffff;
+	  font-size: 12px;
+	  color: #000000;
+	  padding: 0 8px;
+	  line-height: 24px;
+	  width: 36px;
+	  text-align: center;
+	  margin-left: 8px;
+	  border-radius: 2px;
+	  outline: none;
+	  overflow: hidden;
+	  border: 0;
+	  font-weight: bold;
+	  box-sizing: border-box;
+
+	  &[type=number] {
+		&::-webkit-inner-spin-button, &::-webkit-outer-spin-button {
+		  -webkit-appearance: none;
+		  margin: 0;
+		}
+	  }
+	}
+
+	a {
+	  width: 16px;
+	  height: 16px;
+	  overflow: hidden;
+	  margin-left: 12px;
+	  -webkit-tap-highlight-color: transparent;
+
+	  &:nth-last-child(1) {
+		margin-left: 8px;
+	  }
+
+	  &.press img {
+		margin-top: -16px;
+		display: block;
+	  }
+	}
+  }
+
+  .db-tree__need_count__wrapper {
+	padding-right: 0;
+  }
+
+  .db-tree__header {
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-box-align: end;
+	-moz-box-align: end;
+	-ms-box-align: end;
+	-o-box-align: end;
+	box-align: end;
+	align-items: end;
+	align-items: flex-end;
+	border-bottom: 1px solid #3d3d3d;
+	padding: 4px 0;
+
+	h4 {
+	  color: #666;
+	  text-shadow: 0px -1px 0 #000;
+	  font-weight: bold;
+	  font-size: 12px;
+	  padding-left: 8px;
+	  width: calc(100% - 48px);
+	}
+
+	.ic_material_list {
+	  display: block;
+	  width: 32px;
+	  height: 32px;
+	}
+  }
+
+  .db-tree {
+	.db-item__list__name {
+	  color: #cccccc;
+	  font-weight: normal;
+	}
+
+	.db-item__list__inner {
+	  padding: 8px 0 4px 8px;
+	  -webkit-flex: 1 1;
+	  flex: 1 1;
+	  -webkit-box-flex: 1;
+	  -moz-box-flex: 1;
+	  box-flex: 1;
+	}
+
+	.db-item__list__material span {
+	  display: inline-block;
+	  white-space: nowrap;
+	}
+
+	.db-item__list__icon--dungeons .db-item__list__name, .db-item__list__icon--guildhests .db-item__list__name, .db-item__list__icon--pvp .db-item__list__name, .db-item__list__icon--raids .db-item__list__name, .db-item__list__icon--zetsu-raids .db-item__list__name, .db-item__list__icon--trials .db-item__list__name {
+	  color: #5990ff;
+	  font-weight: normal;
+	}
+  }
+
+  .db-tree__submenu {
+	background: #f0f0ef;
+	width: calc(100% - 8px);
+	padding: 16px;
+	position: absolute;
+	top: 50%;
+	left: 0;
+	right: 0;
+	border-radius: 4px;
+	box-shadow: 0px 2px 3px rgba(0, 0, 0, 0.4);
+	overflow: hidden;
+	display: none;
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+	z-index: 2;
+	margin: 20px auto 0;
+  }
+
+  .db-tree__submenu-icon {
+	display: block;
+	width: 24px;
+	height: 24px;
+	padding: 4px;
+	box-sizing: border-box;
+
+	img {
+	  display: block;
+
+	  &.ic_tree_close, &.ic_submenu_close {
+		display: none;
+	  }
+	}
+
+	&.submenu_open img {
+	  display: none;
+
+	  &.ic_submenu_close {
+		display: block;
+	  }
+	}
+
+	&.tree_open {
+	  img {
+		display: none;
+
+		&.ic_tree_close {
+		  display: block;
+		}
+
+		&.ic_submenu_close {
+		  display: none;
+		}
+	  }
+
+	  &.submenu_open img.ic_submenu_close {
+		display: none;
+	  }
+	}
+  }
+
+  .db-tree__submenu {
+	li {
+	  margin-bottom: 16px;
+
+	  &:nth-last-child(1) {
+		margin-bottom: 0;
+	  }
+	}
+
+	a {
+	  color: #2556b8;
+	  font-weight: bold;
+	  display: block;
+	  -webkit-tap-highlight-color: transparent;
+	}
+  }
+
+  .db-tree__item.active {
+	background: #363d4d;
+  }
+
+  .db-tree__item__inner {
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-box-align: center;
+	-moz-box-align: center;
+	-ms-box-align: center;
+	-o-box-align: center;
+	box-align: center;
+	align-items: center;
+	-webkit-box-flex: 1;
+	-moz-box-flex: 1;
+	box-flex: 1;
+	-webkit-flex-grow: 1;
+	flex-grow: 1;
+	-webkit-flex-direction: row;
+	flex-direction: row;
+	padding: 8px 8px 4px 0;
+	position: relative;
+  }
+
+  .db-tree__item-icon {
+	width: 38px;
+	margin: 0 8px;
+  }
+
+  .db-tree__item-name {
+	color: #cccccc;
+	font-weight: normal;
+	display: block;
+	width: auto;
+	white-space: normal;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	line-height: 1.2;
+	flex-grow: 1;
+  }
+
+  .db-tree__item-header {
+	padding: 8px;
+	color: #cccccc;
+
+	a {
+	  font-size: 14px;
+	  font-weight: bold;
+	  color: #5990ff;
+	}
+  }
+
+  .db-tree__item-wrapper {
+	border-left: 4px solid #2e5299;
+
+	.db-tree__item {
+	  border-bottom: 1px solid #3d3d3d;
+
+	  &:nth-last-child(1) {
+		border-bottom: 0;
+	  }
+
+	  &.active {
+		background: #364d49;
+		border-bottom: 0;
+	  }
+	}
+
+	.db-tree__item-header {
+	  background: #363d4d;
+	}
+
+	.db-tree__item-wrapper {
+	  border-left: 4px solid #2e9987;
+
+	  .db-tree__item.active {
+		background: #364d36;
+	  }
+
+	  .db-tree__item-header {
+		background: #364d49;
+	  }
+
+	  .db-tree__item-wrapper {
+		border-left: 4px solid #2e992e;
+
+		.db-tree__item.active {
+		  background: #494d36;
+		}
+
+		.db-tree__item-header {
+		  background: #364d36;
+		}
+
+		.db-tree__item-wrapper {
+		  border-left: 4px solid #87992e;
+
+		  .db-tree__item-header {
+			background: #494d36;
+		  }
+		}
+	  }
+	}
+  }
+
+  .db-tree__item-shop, .db-tree__item-treasure {
+	border-bottom: 1px solid #3d3d3d;
+	background: #1b1b1b;
+  }
+
+  .db-tree__item-shop a, .db-tree__item-treasure a {
+	display: block;
+	padding: 8px 8px 4px;
+  }
+
+  .db-tree__item-shop__name, .db-tree__item-treasure__name {
+	font-weight: bold;
+	color: #5990ff;
+	margin-bottom: 2px;
+  }
+
+  .db-tree__item-shop__place, .db-tree__item-treasure__place {
+	font-size: 14px;
+	color: #cccccc;
+  }
+
+  .db-tree__materials {
+	padding: 16px 0 20px;
+	background: #262626;
+  }
+
+  .db-tree__materials__count {
+	background: #262626;
+	padding: 0 8px 8px 24px;
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: -webkit-flex;
+	display: flex;
+	flex-wrap: wrap;
+
+	p {
+	  margin-right: 16px;
+
+	  span {
+		color: #bfa34c;
+	  }
+	}
+  }
+
+  .db-tree__materials__class {
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: -webkit-flex;
+	display: flex;
+	width: 100%;
+	flex-wrap: wrap;
+
+	span {
+	  display: -webkit-box;
+	  display: -ms-flexbox;
+	  display: -webkit-flex;
+	  display: flex;
+	}
+
+	i {
+	  margin-right: 2px;
+	  width: 20px;
+	  height: 20px;
+
+	  img {
+		width: 20px;
+		height: 20px;
+	  }
+	}
+
+	p {
+	  margin-right: 8px;
+	  font-size: 14px;
+	  padding-top: 4px;
+	  color: #e5e5e5;
+	}
+  }
+
+  .db-item__source__text-s {
+	font-size: 12px;
+	display: block;
+	color: #666666;
+  }
+
+  .db-item__source__text-m {
+	font-size: 14px;
+	display: block;
+	color: #cccccc;
+  }
+
+  .db-item__source__npc {
+	h4 {
+	  font-size: 14px;
+	}
+
+	h5 {
+	  font-size: 14px;
+	  font-weight: normal;
+	}
+  }
+  .db-view__item_view {
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-box-align: center;
+	-moz-box-align: center;
+	-ms-box-align: center;
+	-o-box-align: center;
+	box-align: center;
+	align-items: center;
+	padding: 8px 0 6px 8px;
+	background: #1b1b1b;
+
+	.character__item_icon {
+	  margin-right: 4px;
+	  margin-bottom: 0;
+	}
+
+	p {
+	  color: #aaaaaa;
+	  font-size: 12px;
+	}
+  }
+
+  .db-view__gathering__01 {
+	display: inline-block;
+	vertical-align: top;
+	width: 16px;
+	height: 16px;
+	background: url(https://img.finalfantasyxiv.comhttps://img.finalfantasyxiv.comhttps://img.finalfantasyxiv.com/lds/h/g/UnYvmb7Ky71Ed56SuC4ZVZcNW8.png) no-repeat 0 0;
+	-moz-background-size: 16px auto;
+	-o-background-size: 16px auto;
+	-webkit-background-size: 16px auto;
+	background-size: 16px auto;
+  }
+
+  .db-view__gathering__02 {
+	display: inline-block;
+	vertical-align: top;
+	width: 16px;
+	height: 16px;
+	background: url(https://img.finalfantasyxiv.comhttps://img.finalfantasyxiv.comhttps://img.finalfantasyxiv.com/lds/h/u/58vI0uoeYkUw-HxO7xoXgiKO0s.png) no-repeat 0 0;
+	-moz-background-size: 16px auto;
+	-o-background-size: 16px auto;
+	-webkit-background-size: 16px auto;
+	background-size: 16px auto;
+  }
+
+  .db-view__gathering__03 {
+	display: inline-block;
+	vertical-align: top;
+	width: 16px;
+	height: 16px;
+	background: url(https://img.finalfantasyxiv.comhttps://img.finalfantasyxiv.comhttps://img.finalfantasyxiv.com/lds/h/b/87okEpSiQuPBlo9l9A4UO3AZuU.png) no-repeat 0 0;
+	-moz-background-size: 16px auto;
+	-o-background-size: 16px auto;
+	-webkit-background-size: 16px auto;
+	background-size: 16px auto;
+  }
+  .db-view__level_sync {
+	color: #f2e244 !important;
+	font-family: "FFXIV_Lodestone_SSF", "Hiragino Sans", "Hiragino Kaku Gothic Pro", "ヒラギノ角ゴ Pro W3", "ＭＳ Ｐゴシック", Arial, Verdana, sans-serif;
+	font-style: italic;
+
+	span {
+	  color: #f2e244 !important;
+	}
+  }
+  .db-item__list__name {
+	color: #5990ff;
+	display: block;
+	width: auto;
+	white-space: normal;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	margin: 2px 0;
+	line-height: 1.2;
+
+	&.no_link {
+	  color: #e5e5e5;
+	}
+
+	.icon {
+	  font-weight: normal;
+	}
+  }
+
+  .db-item__list__kind {
+	font-size: 12px;
+	font-weight: normal;
+	color: gray;
+  }
+
+  .db-item__list__place {
+	font-weight: normal;
+  }
+
+  .db-item__list__place__level {
+	padding-right: 20px;
+	color: #bbac94;
+
+	span {
+	  color: #e5e5e5;
+	}
+  }
+
+  .db-item__list__content {
+	color: #e5e5e5;
+	font-weight: normal;
+  }
+
+  .db-item__list__content__level_min {
+	color: #bbac94;
+
+	span {
+	  color: #e5e5e5;
+	}
+  }
+
+  .db-item__list__content__item_level {
+	padding-left: 20px;
+	color: #bbac94;
+
+	span {
+	  color: #e5e5e5;
+	}
+  }
+
+  .db-item__list__gathering__level {
+	font-weight: normal;
+	color: #bbac94;
+
+	span {
+	  color: #e5e5e5;
+	}
+  }
+
+  .db-item__list__gathering__difficulty {
+	width: 12px;
+	height: 11px;
+	background-position: -346px 0;
+	-moz-background-size: 1060px auto;
+	-o-background-size: 1060px auto;
+	-webkit-background-size: 1060px auto;
+	background-size: 1060px auto;
+	display: block;
+	background-image: url(https://img.finalfantasyxiv.comhttps://img.finalfantasyxiv.com/lds/h/2/aQUB-Sg_R8DTAY5QJ_c4VwaqJ0.png);
+	background-repeat: no-repeat;
+	display: inline-block;
+  }
+
+  .db-item__list__hidden {
+	padding-left: 20px;
+  }
+
+  .db-item__list__material {
+	font-weight: bold;
+	min-width: 24px;
+	margin-right: 8px;
+	text-align: center;
+  }
+
+  .db-item__list__icon {
+	padding: 8px 0 4px 54px;
+	position: relative;
+
+	&:before {
+	  content: " ";
+	  position: absolute;
+	  top: 9px;
+	  left: 11px;
+	}
+  }
+
+  .db-item__list__icon__patch {
+	padding: 8px 0 4px 36px;
+	position: relative;
+
+	&:before {
+	  content: " ";
+	  position: absolute;
+	  top: 9px;
+	  left: 0;
+	}
+  }
+
+  .db-item__list__icon--main:before {
+	width: 32px;
+	height: 32px;
+	background-position: -868px 0;
+	-moz-background-size: 1060px auto;
+	-o-background-size: 1060px auto;
+	-webkit-background-size: 1060px auto;
+	background-size: 1060px auto;
+	display: block;
+	background-image: url(https://img.finalfantasyxiv.comhttps://img.finalfantasyxiv.com/lds/h/2/aQUB-Sg_R8DTAY5QJ_c4VwaqJ0.png);
+	background-repeat: no-repeat;
+  }
+
+  .db-item__list__icon--common_normal:before {
+	width: 32px;
+	height: 32px;
+	background-position: -740px 0;
+	-moz-background-size: 1060px auto;
+	-o-background-size: 1060px auto;
+	-webkit-background-size: 1060px auto;
+	background-size: 1060px auto;
+	display: block;
+	background-image: url(https://img.finalfantasyxiv.comhttps://img.finalfantasyxiv.com/lds/h/2/aQUB-Sg_R8DTAY5QJ_c4VwaqJ0.png);
+	background-repeat: no-repeat;
+  }
+
+  .db-item__list__icon--common_repeat:before {
+	width: 32px;
+	height: 32px;
+	background-position: -772px 0;
+	-moz-background-size: 1060px auto;
+	-o-background-size: 1060px auto;
+	-webkit-background-size: 1060px auto;
+	background-size: 1060px auto;
+	display: block;
+	background-image: url(https://img.finalfantasyxiv.comhttps://img.finalfantasyxiv.com/lds/h/2/aQUB-Sg_R8DTAY5QJ_c4VwaqJ0.png);
+	background-repeat: no-repeat;
+  }
+
+  .db-item__list__icon--function_normal:before {
+	width: 32px;
+	height: 32px;
+	background-position: -804px 0;
+	-moz-background-size: 1060px auto;
+	-o-background-size: 1060px auto;
+	-webkit-background-size: 1060px auto;
+	background-size: 1060px auto;
+	display: block;
+	background-image: url(https://img.finalfantasyxiv.comhttps://img.finalfantasyxiv.com/lds/h/2/aQUB-Sg_R8DTAY5QJ_c4VwaqJ0.png);
+	background-repeat: no-repeat;
+  }
+
+  .db-item__list__icon--function_repeat:before {
+	width: 32px;
+	height: 32px;
+	background-position: -836px 0;
+	-moz-background-size: 1060px auto;
+	-o-background-size: 1060px auto;
+	-webkit-background-size: 1060px auto;
+	background-size: 1060px auto;
+	display: block;
+	background-image: url(https://img.finalfantasyxiv.comhttps://img.finalfantasyxiv.com/lds/h/2/aQUB-Sg_R8DTAY5QJ_c4VwaqJ0.png);
+	background-repeat: no-repeat;
+  }
+
+  .db-item__list__icon--dungeons:before {
+	width: 32px;
+	height: 32px;
+	background-position: -90px 0;
+	-moz-background-size: 1060px auto;
+	-o-background-size: 1060px auto;
+	-webkit-background-size: 1060px auto;
+	background-size: 1060px auto;
+	display: block;
+	background-image: url(https://img.finalfantasyxiv.comhttps://img.finalfantasyxiv.com/lds/h/2/aQUB-Sg_R8DTAY5QJ_c4VwaqJ0.png);
+	background-repeat: no-repeat;
+  }
+
+  .db-item__list__icon--guildhests:before {
+	width: 32px;
+	height: 32px;
+	background-position: -122px 0;
+	-moz-background-size: 1060px auto;
+	-o-background-size: 1060px auto;
+	-webkit-background-size: 1060px auto;
+	background-size: 1060px auto;
+	display: block;
+	background-image: url(https://img.finalfantasyxiv.comhttps://img.finalfantasyxiv.com/lds/h/2/aQUB-Sg_R8DTAY5QJ_c4VwaqJ0.png);
+	background-repeat: no-repeat;
+  }
+
+  .db-item__list__icon--pvp:before {
+	width: 32px;
+	height: 32px;
+	background-position: -154px 0;
+	-moz-background-size: 1060px auto;
+	-o-background-size: 1060px auto;
+	-webkit-background-size: 1060px auto;
+	background-size: 1060px auto;
+	display: block;
+	background-image: url(https://img.finalfantasyxiv.comhttps://img.finalfantasyxiv.com/lds/h/2/aQUB-Sg_R8DTAY5QJ_c4VwaqJ0.png);
+	background-repeat: no-repeat;
+  }
+
+  .db-item__list__icon--raids:before {
+	width: 32px;
+	height: 32px;
+	background-position: -186px 0;
+	-moz-background-size: 1060px auto;
+	-o-background-size: 1060px auto;
+	-webkit-background-size: 1060px auto;
+	background-size: 1060px auto;
+	display: block;
+	background-image: url(https://img.finalfantasyxiv.comhttps://img.finalfantasyxiv.com/lds/h/2/aQUB-Sg_R8DTAY5QJ_c4VwaqJ0.png);
+	background-repeat: no-repeat;
+  }
+
+  .db-item__list__icon--zetsu-raids:before {
+	width: 32px;
+	height: 32px;
+	background-position: -250px 0;
+	-moz-background-size: 1060px auto;
+	-o-background-size: 1060px auto;
+	-webkit-background-size: 1060px auto;
+	background-size: 1060px auto;
+	display: block;
+	background-image: url(https://img.finalfantasyxiv.comhttps://img.finalfantasyxiv.com/lds/h/2/aQUB-Sg_R8DTAY5QJ_c4VwaqJ0.png);
+	background-repeat: no-repeat;
+  }
+
+  .db-item__list__icon--trials:before {
+	width: 32px;
+	height: 32px;
+	background-position: -218px 0;
+	-moz-background-size: 1060px auto;
+	-o-background-size: 1060px auto;
+	-webkit-background-size: 1060px auto;
+	background-size: 1060px auto;
+	display: block;
+	background-image: url(https://img.finalfantasyxiv.comhttps://img.finalfantasyxiv.com/lds/h/2/aQUB-Sg_R8DTAY5QJ_c4VwaqJ0.png);
+	background-repeat: no-repeat;
+  }
+
+  .db-item__list__shop {
+	padding-bottom: 16px;
+  }
+
+  .db-item__list__set {
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+	padding: 8px 4px 8px 8px;
+  }
+
+  .db-item__list__currency {
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+	padding: 0 4px 8px 14px;
+  }
+
+  .db-item__list__btn {
+	display: block;
+	width: 152px;
+	height: 30px;
+	margin: 0;
+	font-size: 14px;
+	font-weight: bold;
+	color: #262626;
+	text-align: center;
+	line-height: 30px;
+	position: absolute;
+	top: 1px;
+	right: 8px;
+	background-image: url('data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4gPHN2ZyB2ZXJzaW9uPSIxLjEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PGRlZnM+PGxpbmVhckdyYWRpZW50IGlkPSJncmFkIiBncmFkaWVudFVuaXRzPSJvYmplY3RCb3VuZGluZ0JveCIgeDE9IjAuNSIgeTE9IjAuMCIgeDI9IjAuNSIgeTI9IjEuMCI+PHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iIzhjOGM4YyIvPjxzdG9wIG9mZnNldD0iMTAwJSIgc3RvcC1jb2xvcj0iIzczNzM3MyIvPjwvbGluZWFyR3JhZGllbnQ+PC9kZWZzPjxyZWN0IHg9IjAiIHk9IjAiIHdpZHRoPSIxMDAlIiBoZWlnaHQ9IjEwMCUiIGZpbGw9InVybCgjZ3JhZCkiIC8+PC9zdmc+IA==');
+	background-size: 100%;
+	background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #8c8c8c), color-stop(100%, #737373));
+	background-image: -moz-linear-gradient(top, #8c8c8c 0%, #737373 100%);
+	background-image: -webkit-linear-gradient(top, #8c8c8c 0%, #737373 100%);
+	background-image: linear-gradient(to bottom, #8c8c8c 0%, #737373 100%);
+	-moz-box-shadow: 0px 1px 0px 0px rgba(255, 255, 255, 0.1) inset, 0px -1px 0px 0px rgba(0, 0, 0, 0.1) inset;
+	-webkit-box-shadow: 0px 1px 0px 0px rgba(255, 255, 255, 0.1) inset, 0px -1px 0px 0px rgba(0, 0, 0, 0.1) inset;
+	box-shadow: 0px 1px 0px 0px rgba(255, 255, 255, 0.1) inset, 0px -1px 0px 0px rgba(0, 0, 0, 0.1) inset;
+	text-decoration: none;
+	border-radius: 20px;
+
+	&.press {
+	  background-image: url('data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4gPHN2ZyB2ZXJzaW9uPSIxLjEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PGRlZnM+PGxpbmVhckdyYWRpZW50IGlkPSJncmFkIiBncmFkaWVudFVuaXRzPSJvYmplY3RCb3VuZGluZ0JveCIgeDE9IjAuNSIgeTE9IjAuMCIgeDI9IjAuNSIgeTI9IjEuMCI+PHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iI2NjY2NjYyIvPjxzdG9wIG9mZnNldD0iMTAwJSIgc3RvcC1jb2xvcj0iI2IyYjJiMiIvPjwvbGluZWFyR3JhZGllbnQ+PC9kZWZzPjxyZWN0IHg9IjAiIHk9IjAiIHdpZHRoPSIxMDAlIiBoZWlnaHQ9IjEwMCUiIGZpbGw9InVybCgjZ3JhZCkiIC8+PC9zdmc+IA==');
+	  background-size: 100%;
+	  background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #cccccc), color-stop(100%, #b2b2b2));
+	  background-image: -moz-linear-gradient(top, #cccccc 0%, #b2b2b2 100%);
+	  background-image: -webkit-linear-gradient(top, #cccccc 0%, #b2b2b2 100%);
+	  background-image: linear-gradient(to bottom, #cccccc 0%, #b2b2b2 100%);
+	  -moz-box-shadow: 0px 1px 0px 0px rgba(255, 255, 255, 0.1) inset, 0px -1px 0px 0px rgba(0, 0, 0, 0.1) inset;
+	  -webkit-box-shadow: 0px 1px 0px 0px rgba(255, 255, 255, 0.1) inset, 0px -1px 0px 0px rgba(0, 0, 0, 0.1) inset;
+	  box-shadow: 0px 1px 0px 0px rgba(255, 255, 255, 0.1) inset, 0px -1px 0px 0px rgba(0, 0, 0, 0.1) inset;
+	  color: #262626;
+	  text-decoration: none;
+	}
+  }
+
+  .db-item__achievement {
+	margin: 9px 8px 0px 20px;
+  }
+
+  .db-item__achievement__item__title {
+	width: 36px;
+	height: 18px;
+	background-position: -18px 0;
+	-moz-background-size: 1060px auto;
+	-o-background-size: 1060px auto;
+	-webkit-background-size: 1060px auto;
+	background-size: 1060px auto;
+	display: block;
+	background-image: url(https://img.finalfantasyxiv.comhttps://img.finalfantasyxiv.com/lds/h/2/aQUB-Sg_R8DTAY5QJ_c4VwaqJ0.png);
+	background-repeat: no-repeat;
+  }
+
+  .db-item__achievement__item {
+	width: 18px;
+	height: 18px;
+	background-position: 0 0;
+	-moz-background-size: 1060px auto;
+	-o-background-size: 1060px auto;
+	-webkit-background-size: 1060px auto;
+	background-size: 1060px auto;
+	display: block;
+	background-image: url(https://img.finalfantasyxiv.comhttps://img.finalfantasyxiv.com/lds/h/2/aQUB-Sg_R8DTAY5QJ_c4VwaqJ0.png);
+	background-repeat: no-repeat;
+  }
+
+  .db-item__achievement__title {
+	width: 18px;
+	height: 18px;
+	background-position: -72px 0;
+	-moz-background-size: 1060px auto;
+	-o-background-size: 1060px auto;
+	-webkit-background-size: 1060px auto;
+	background-size: 1060px auto;
+	display: block;
+	background-image: url(https://img.finalfantasyxiv.comhttps://img.finalfantasyxiv.com/lds/h/2/aQUB-Sg_R8DTAY5QJ_c4VwaqJ0.png);
+	background-repeat: no-repeat;
+  }
+
+  .db-item__achievement__legacy {
+	width: 18px;
+	height: 18px;
+	background-position: -54px 0;
+	-moz-background-size: 1060px auto;
+	-o-background-size: 1060px auto;
+	-webkit-background-size: 1060px auto;
+	background-size: 1060px auto;
+	display: block;
+	background-image: url(https://img.finalfantasyxiv.comhttps://img.finalfantasyxiv.com/lds/h/2/aQUB-Sg_R8DTAY5QJ_c4VwaqJ0.png);
+	background-repeat: no-repeat;
+  }
+
+  .db-item__achievement__image {
+	width: 18px;
+	height: 18px;
+	display: block;
+	margin-right: 16px;
+  }
+
+  .db-item__shop_list {
+	background: #1b1b1b;
+	border-bottom: 1px solid #3d3d3d;
+  }
+
+  .db-item__shop_list__wrapper {
+	padding-bottom: 16px;
+  }
+
+  .db-view__comment {
+	background: #262626;
+	margin-bottom: 8px;
+	color: #bfa34c;
+	font-size: 12px;
+	text-align: right;
+
+	li {
+	  line-height: 1;
+	  display: inline;
+	  position: relative;
+	  padding-left: 20px;
+	  margin-left: 8px;
+
+	  &:before {
+		content: " ";
+		position: absolute;
+		top: 0;
+		left: 0;
+	  }
+	}
+
+	.ic--comment:before {
+	  width: 16px;
+	  height: 16px;
+	  background-position: -142px 0;
+	  -moz-background-size: 1041px auto;
+	  -o-background-size: 1041px auto;
+	  -webkit-background-size: 1041px auto;
+	  background-size: 1041px auto;
+	  display: block;
+	  background-image: url(https://img.finalfantasyxiv.comhttps://img.finalfantasyxiv.com/lds/h/G/VkEB8nQ5gCFDrbfMLWoJUsGlUs.png);
+	  background-repeat: no-repeat;
+	}
+
+	.ic--postimage:before {
+	  width: 18px;
+	  height: 16px;
+	  background-position: -959px 0;
+	  -moz-background-size: 1041px auto;
+	  -o-background-size: 1041px auto;
+	  -webkit-background-size: 1041px auto;
+	  background-size: 1041px auto;
+	  display: block;
+	  background-image: url(https://img.finalfantasyxiv.comhttps://img.finalfantasyxiv.com/lds/h/G/VkEB8nQ5gCFDrbfMLWoJUsGlUs.png);
+	  background-repeat: no-repeat;
+	}
+  }
+
+  .db-view__icon {
+	padding: 0 0 4px 40px;
+	position: relative;
+
+	&:before {
+	  content: " ";
+	  position: absolute;
+	  top: 0;
+	  left: 0;
+	}
+  }
+
+  .db-view__icon--main:before {
+	width: 32px;
+	height: 32px;
+	background-position: -868px 0;
+	-moz-background-size: 1060px auto;
+	-o-background-size: 1060px auto;
+	-webkit-background-size: 1060px auto;
+	background-size: 1060px auto;
+	display: block;
+	background-image: url(https://img.finalfantasyxiv.comhttps://img.finalfantasyxiv.com/lds/h/2/aQUB-Sg_R8DTAY5QJ_c4VwaqJ0.png);
+	background-repeat: no-repeat;
+  }
+
+  .db-view__icon--common_normal:before {
+	width: 32px;
+	height: 32px;
+	background-position: -740px 0;
+	-moz-background-size: 1060px auto;
+	-o-background-size: 1060px auto;
+	-webkit-background-size: 1060px auto;
+	background-size: 1060px auto;
+	display: block;
+	background-image: url(https://img.finalfantasyxiv.comhttps://img.finalfantasyxiv.com/lds/h/2/aQUB-Sg_R8DTAY5QJ_c4VwaqJ0.png);
+	background-repeat: no-repeat;
+  }
+
+  .db-view__icon--common_repeat:before {
+	width: 32px;
+	height: 32px;
+	background-position: -772px 0;
+	-moz-background-size: 1060px auto;
+	-o-background-size: 1060px auto;
+	-webkit-background-size: 1060px auto;
+	background-size: 1060px auto;
+	display: block;
+	background-image: url(https://img.finalfantasyxiv.comhttps://img.finalfantasyxiv.com/lds/h/2/aQUB-Sg_R8DTAY5QJ_c4VwaqJ0.png);
+	background-repeat: no-repeat;
+  }
+
+  .db-view__icon--function_normal:before {
+	width: 32px;
+	height: 32px;
+	background-position: -804px 0;
+	-moz-background-size: 1060px auto;
+	-o-background-size: 1060px auto;
+	-webkit-background-size: 1060px auto;
+	background-size: 1060px auto;
+	display: block;
+	background-image: url(https://img.finalfantasyxiv.comhttps://img.finalfantasyxiv.com/lds/h/2/aQUB-Sg_R8DTAY5QJ_c4VwaqJ0.png);
+	background-repeat: no-repeat;
+  }
+
+  .db-view__icon--function_repeat:before {
+	width: 32px;
+	height: 32px;
+	background-position: -836px 0;
+	-moz-background-size: 1060px auto;
+	-o-background-size: 1060px auto;
+	-webkit-background-size: 1060px auto;
+	background-size: 1060px auto;
+	display: block;
+	background-image: url(https://img.finalfantasyxiv.comhttps://img.finalfantasyxiv.com/lds/h/2/aQUB-Sg_R8DTAY5QJ_c4VwaqJ0.png);
+	background-repeat: no-repeat;
+  }
+
+  .db-view__icon--dungeons:before {
+	width: 32px;
+	height: 32px;
+	background-position: -90px 0;
+	-moz-background-size: 1060px auto;
+	-o-background-size: 1060px auto;
+	-webkit-background-size: 1060px auto;
+	background-size: 1060px auto;
+	display: block;
+	background-image: url(https://img.finalfantasyxiv.comhttps://img.finalfantasyxiv.com/lds/h/2/aQUB-Sg_R8DTAY5QJ_c4VwaqJ0.png);
+	background-repeat: no-repeat;
+  }
+
+  .db-view__icon--guildhests:before {
+	width: 32px;
+	height: 32px;
+	background-position: -122px 0;
+	-moz-background-size: 1060px auto;
+	-o-background-size: 1060px auto;
+	-webkit-background-size: 1060px auto;
+	background-size: 1060px auto;
+	display: block;
+	background-image: url(https://img.finalfantasyxiv.comhttps://img.finalfantasyxiv.com/lds/h/2/aQUB-Sg_R8DTAY5QJ_c4VwaqJ0.png);
+	background-repeat: no-repeat;
+  }
+
+  .db-view__icon--pvp:before {
+	width: 32px;
+	height: 32px;
+	background-position: -154px 0;
+	-moz-background-size: 1060px auto;
+	-o-background-size: 1060px auto;
+	-webkit-background-size: 1060px auto;
+	background-size: 1060px auto;
+	display: block;
+	background-image: url(https://img.finalfantasyxiv.comhttps://img.finalfantasyxiv.com/lds/h/2/aQUB-Sg_R8DTAY5QJ_c4VwaqJ0.png);
+	background-repeat: no-repeat;
+  }
+
+  .db-view__icon--raids:before {
+	width: 32px;
+	height: 32px;
+	background-position: -186px 0;
+	-moz-background-size: 1060px auto;
+	-o-background-size: 1060px auto;
+	-webkit-background-size: 1060px auto;
+	background-size: 1060px auto;
+	display: block;
+	background-image: url(https://img.finalfantasyxiv.comhttps://img.finalfantasyxiv.com/lds/h/2/aQUB-Sg_R8DTAY5QJ_c4VwaqJ0.png);
+	background-repeat: no-repeat;
+  }
+
+  .db-view__icon--zetsu-raids:before {
+	width: 32px;
+	height: 32px;
+	background-position: -250px 0;
+	-moz-background-size: 1060px auto;
+	-o-background-size: 1060px auto;
+	-webkit-background-size: 1060px auto;
+	background-size: 1060px auto;
+	display: block;
+	background-image: url(https://img.finalfantasyxiv.comhttps://img.finalfantasyxiv.com/lds/h/2/aQUB-Sg_R8DTAY5QJ_c4VwaqJ0.png);
+	background-repeat: no-repeat;
+  }
+
+  .db-view__icon--trials:before {
+	width: 32px;
+	height: 32px;
+	background-position: -218px 0;
+	-moz-background-size: 1060px auto;
+	-o-background-size: 1060px auto;
+	-webkit-background-size: 1060px auto;
+	background-size: 1060px auto;
+	display: block;
+	background-image: url(https://img.finalfantasyxiv.comhttps://img.finalfantasyxiv.com/lds/h/2/aQUB-Sg_R8DTAY5QJ_c4VwaqJ0.png);
+	background-repeat: no-repeat;
+  }
+
+  .db-view__header {
+	position: relative;
+	background: #262626;
+	padding: 8px 8px 16px 24px;
+	height: 1%;
+  }
+
+  .db-view__header--item {
+	padding-bottom: 0;
+  }
+
+  .db-view__header--dangeon {
+	padding-bottom: 4px;
+  }
+
+  .db-view__header__data {
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-align-items: flex-start;
+	align-items: flex-start;
+	-webkit-box-align: start;
+	-moz-box-align: start;
+	-ms-box-align: start;
+	-o-box-align: start;
+	box-align: start;
+	align-items: start;
+	-webkit-flex-direction: row;
+	flex-direction: row;
+  }
+
+  .db-view__header__data--recipe, .db-view__header__data--gathering {
+	padding-bottom: 10px;
+  }
+
+  .db-view__header .ic_masterpiece {
+	position: absolute;
+	right: 4px;
+	bottom: 4px;
+	display: block;
+	color: #ffffff;
+	text-shadow: 0px 0px 2px #000;
+	background: none;
+  }
+
+  .db-view__header__item-image {
+	background: url(https://img.finalfantasyxiv.comhttps://img.finalfantasyxiv.com/lds/h/y/mh-Q9DC4CeD3dITnpD0a9nB8Tw.png) no-repeat 6px 3px;
+	-moz-background-size: 64px auto;
+	-o-background-size: 64px auto;
+	-webkit-background-size: 64px auto;
+	background-size: 64px auto;
+	display: block;
+	width: 76px;
+	height: 76px;
+	position: relative;
+	margin: 0 4px 0 -6px;
+  }
+
+  .db-view__header__item-image--icon {
+	position: absolute;
+	top: 3px;
+	left: 6px;
+  }
+
+  .db-view__header__item-image--cover {
+	position: absolute;
+	top: 0;
+	left: 0;
+  }
+
+  .db-view__header__item-image {
+	.staining {
+	  width: 12px;
+	  height: 12px;
+	  -moz-border-radius: 6px;
+	  -webkit-border-radius: 6px;
+	  border-radius: 6px;
+	  position: absolute;
+	  top: 3px;
+	  right: 6px;
+	}
+
+	.ic_masterpiece {
+	  position: absolute;
+	  right: 4px;
+	  bottom: 6px;
+	  display: block;
+	  color: #ffffff;
+	  text-shadow: 0px 0px 2px #000;
+	  background: none;
+	}
+  }
+
+  .db-view__header__detail {
+	-webkit-flex: 1 1;
+	flex: 1 1;
+	-webkit-box-flex: 1;
+	-moz-box-flex: 1;
+	box-flex: 1;
+	padding: 2px 16px 0 0;
+	height: 1%;
+  }
+
+  .db-view__header__detail__item-element {
+	font-size: 12px;
+	color: gray;
+	line-height: 1;
+  }
+
+  .db-view__header__detail__item-element--rare {
+	display: inline-block;
+	margin: 0 12px 6px 0;
+  }
+
+  .db-view__header__detail__item-element--ex_bind {
+	display: inline-block;
+	margin: 0 0 6px;
+  }
+
+  .db-view__header__detail__item-name {
+	font-size: 16px;
+	font-weight: bold;
+	margin-bottom: 3px;
+
+	.icon {
+	  font-weight: normal;
+	}
+  }
+
+  .db-view__header__detail__name {
+	font-size: 16px;
+	font-weight: bold;
+	color: #5990ff;
+	margin-bottom: 3px;
+  }
+
+  .db-view__header__detail__category-name {
+	font-size: 14px;
+	color: #e5e5e5;
+	font-weight: normal;
+  }
+
+  .db-view__header__detail__storage {
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: -webkit-flex;
+	display: flex;
+	margin-bottom: 8px;
+  }
+
+  .db-view__header__detail__place {
+	color: #bbac94;
+  }
+
+  .db-view__header__detail__level {
+	color: #bbac94;
+	font-size: 14px;
+	font-weight: normal;
+  }
+
+  .db-view__header__detail__level--duty {
+	margin-right: 20px;
+  }
+
+  .db-view__header__detail__level span {
+	color: #e5e5e5;
+  }
+
+  .db-view__header__detail__level--type {
+	color: #e5e5e5;
+	padding-left: 20px;
+	font-weight: normal;
+  }
+
+  .db-view__header__detail__kind {
+	font-size: 12px;
+	color: gray !important;
+	font-weight: normal;
+  }
+
+  .db-view__header__gathering {
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-align-items: flex-start;
+	align-items: flex-start;
+	-webkit-box-align: start;
+	-moz-box-align: start;
+	-ms-box-align: start;
+	-o-box-align: start;
+	box-align: start;
+	align-items: start;
+	-webkit-flex-direction: row;
+	flex-direction: row;
+  }
+
+  .db-view__header__gathering--title {
+	-webkit-flex: 1 1;
+	flex: 1 1;
+	-webkit-box-flex: 1;
+	-moz-box-flex: 1;
+	box-flex: 1;
+  }
+
+  .db-view__header__gathering--category {
+	padding-bottom: 10px;
+  }
+
+  .db-view__header__hidden {
+	font-size: 12px;
+	font-weight: bold;
+  }
+
+  .db-view__header .latest_patch__major__icon {
+	position: absolute;
+	top: 8px;
+	left: 8px;
+	width: 16px;
+	height: 16px;
+	background-position: -646px 0;
+	-moz-background-size: 1060px auto;
+	-o-background-size: 1060px auto;
+	-webkit-background-size: 1060px auto;
+	background-size: 1060px auto;
+	display: block;
+	background-image: url(https://img.finalfantasyxiv.comhttps://img.finalfantasyxiv.com/lds/h/2/aQUB-Sg_R8DTAY5QJ_c4VwaqJ0.png);
+	background-repeat: no-repeat;
+  }
+
+  .db-view__header__recipe_expert {
+	padding-bottom: 10px;
+  }
+
+  .db-view__hq {
+	display: block;
+	width: 32px;
+	height: 32px;
+	background-position: -582px 0;
+	-moz-background-size: 1060px auto;
+	-o-background-size: 1060px auto;
+	-webkit-background-size: 1060px auto;
+	background-size: 1060px auto;
+	display: block;
+	background-image: url(https://img.finalfantasyxiv.comhttps://img.finalfantasyxiv.com/lds/h/2/aQUB-Sg_R8DTAY5QJ_c4VwaqJ0.png);
+	background-repeat: no-repeat;
+
+	&.active {
+	  width: 32px;
+	  height: 32px;
+	  background-position: -614px 0;
+	  -moz-background-size: 1060px auto;
+	  -o-background-size: 1060px auto;
+	  -webkit-background-size: 1060px auto;
+	  background-size: 1060px auto;
+	  display: block;
+	  background-image: url(https://img.finalfantasyxiv.comhttps://img.finalfantasyxiv.com/lds/h/2/aQUB-Sg_R8DTAY5QJ_c4VwaqJ0.png);
+	  background-repeat: no-repeat;
+	}
+  }
+
+  .db-view__item-equip-text {
+	background: #262626;
+	padding: 0 24px 16px;
+	color: #e5e5e5;
+  }
+
+  .db-view__item-equip-text--help {
+	padding-top: 10px;
+	color: #aaa;
+	font-size: 12px;
+  }
+
+  .db-view__item-level {
+	background-image: url('data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4gPHN2ZyB2ZXJzaW9uPSIxLjEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PGRlZnM+PGxpbmVhckdyYWRpZW50IGlkPSJncmFkIiBncmFkaWVudFVuaXRzPSJvYmplY3RCb3VuZGluZ0JveCIgeDE9IjAuNSIgeTE9IjEuMCIgeDI9IjAuNSIgeTI9IjAuMCI+PHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iIzAwMDAwMCIvPjxzdG9wIG9mZnNldD0iMTAwJSIgc3RvcC1jb2xvcj0iIzI2MjYyNiIvPjwvbGluZWFyR3JhZGllbnQ+PC9kZWZzPjxyZWN0IHg9IjAiIHk9IjAiIHdpZHRoPSIxMDAlIiBoZWlnaHQ9IjEwMCUiIGZpbGw9InVybCgjZ3JhZCkiIC8+PC9zdmc+IA==');
+	background-size: 100%;
+	background-image: -webkit-gradient(linear, 50% 100%, 50% 0%, color-stop(0%, #000000), color-stop(100%, #262626));
+	background-image: -moz-linear-gradient(bottom, #000000, #262626);
+	background-image: -webkit-linear-gradient(bottom, #000000, #262626);
+	background-image: linear-gradient(to top, #000000, #262626);
+	border-top: 1px solid #3d3d3d;
+	border-bottom: 1px solid #262626;
+	margin-bottom: 16px;
+	padding: 11px 8px;
+	font-size: 16px;
+	color: #e5e5e5;
+	font-weight: bold;
+	line-height: 1;
+  }
+
+  .db-view__wrapper {
+	background: #262626;
+	height: 1%;
+
+	.sys_hq_element {
+	  vertical-align: top;
+	}
+  }
+
+  .db-view__item-help {
+	padding: 0 16px 16px;
+	color: #e5e5e5;
+  }
+
+  .db-view__data__notes {
+	padding: 0 16px;
+	color: #cc2944;
+  }
+
+  .db-view__item-info {
+	padding: 0 8px 16px;
+	color: #e5e5e5;
+  }
+
+  .db-view__item-info--quest, .db-view__item-info--gathering {
+	padding: 16px 8px 0;
+  }
+
+  .db-view__item-info--duty {
+	padding: 16px 8px 20px;
+  }
+
+  .db-view__item-info--recipe {
+	padding: 0 0 10px;
+  }
+
+  .db-view__item-info--recipe__list {
+	padding-bottom: 10px;
+  }
+
+  .db-view__item-info--npc {
+	padding: 16px 8px;
+  }
+
+  .db-view__item-info__title {
+	margin-bottom: 10px;
+	color: #666;
+	text-shadow: 0px -1px 0 #000;
+	font-weight: bold;
+	font-size: 12px;
+	border-bottom: 1px solid #3d3d3d;
+  }
+
+  .db-view__item-info__title--reward {
+	margin-bottom: 0;
+	padding: 0 8px;
+  }
+
+  .db-view__item-info__title__total {
+	margin-left: 8px;
+	color: #e5e5e5;
+
+	span {
+	  color: #bfa34c;
+	}
+  }
+
+  .db-view__item-info__title-space {
+	margin: 0 8px 10px;
+	color: #666;
+	text-shadow: 0px -1px 0 #000;
+	font-weight: bold;
+	font-size: 12px;
+	border-bottom: 1px solid #3d3d3d;
+  }
+
+  .db-view__item-info__text {
+	padding: 0 24px 20px;
+  }
+
+  .db-view__item-info__list {
+	margin: 0 16px;
+  }
+
+  .db-view__item-info__list--main-status {
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-align-items: flex-start;
+	align-items: flex-start;
+	-webkit-box-align: start;
+	-moz-box-align: start;
+	-ms-box-align: start;
+	-o-box-align: start;
+	box-align: start;
+	align-items: start;
+	-webkit-flex-direction: row;
+	flex-direction: row;
+	margin-bottom: 2px;
+  }
+
+  .db-view__item-info__list--main-status--name {
+	display: block;
+	-webkit-flex: 1 1;
+	flex: 1 1;
+	-webkit-box-flex: 1;
+	-moz-box-flex: 1;
+	box-flex: 1;
+	color: #bbac94;
+  }
+
+  .db-view__item-info__list--main-status--value {
+	display: inline-block;
+  }
+
+  .db-view__item-info__list--bonuses li {
+	display: block;
+	float: left;
+	width: 50%;
+	margin-bottom: 4px;
+
+	&:nth-child(even) {
+	  text-align: right;
+	}
+
+	.name {
+	  color: #bbac94;
+	}
+  }
+
+  .db-view__item-info__list--requirements li {
+	color: #bbac94;
+	margin-bottom: 4px;
+
+	span {
+	  color: #e5e5e5;
+	}
+  }
+
+  .db-view__item-info__list--recipe {
+	margin-bottom: 32px;
+
+	dt {
+	  color: #bbac94;
+	}
+
+	dd {
+	  color: #e5e5e5;
+	}
+  }
+
+  .db-view__item-info__craft_repair {
+	border-top: 1px solid #3d3d3d;
+	margin: 8px 0 0;
+	padding: 16px 16px 0;
+
+	li {
+	  width: 50%;
+	  float: left;
+	  color: #bbac94;
+	  margin-bottom: 4px;
+
+	  span {
+		color: #e5e5e5;
+	  }
+	}
+  }
+
+  .db-view__item-info__craft_repair--salls {
+	padding: 0 16px;
+	clear: both;
+
+	p {
+	  color: #bbac94;
+	  margin-bottom: 4px;
+
+	  span {
+		color: #e5e5e5;
+	  }
+	}
+  }
+
+  .db-view__item-info__table--craft_repair {
+	padding: 0 16px 16px;
+
+	table {
+	  width: 100%;
+	}
+
+	th {
+	  color: #bbac94;
+	  font-weight: normal;
+	  text-align: left;
+	  width: 50%;
+	  padding-bottom: 4px;
+	}
+
+	td {
+	  padding-bottom: 4px;
+	}
+  }
+
+  .db-view__item-info__series-bonus {
+	margin: 8px 16px 0;
+  }
+
+  .db-view__item-info__series-bonus__name {
+	color: #a6d982;
+  }
+
+  .db-view__item-info__materia-socket--normal {
+	width: 24px;
+	height: 24px;
+	background-position: -731px 0;
+	-moz-background-size: 1041px auto;
+	-o-background-size: 1041px auto;
+	-webkit-background-size: 1041px auto;
+	background-size: 1041px auto;
+	display: block;
+	background-image: url(https://img.finalfantasyxiv.comhttps://img.finalfantasyxiv.com/lds/h/G/VkEB8nQ5gCFDrbfMLWoJUsGlUs.png);
+	background-repeat: no-repeat;
+
+	&:before {
+	  content: "";
+	  width: 24px;
+	  height: 24px;
+	}
+
+	&.materia_01:before {
+	  width: 24px;
+	  height: 24px;
+	  background-position: -299px 0;
+	  -moz-background-size: 1041px auto;
+	  -o-background-size: 1041px auto;
+	  -webkit-background-size: 1041px auto;
+	  background-size: 1041px auto;
+	  display: block;
+	  background-image: url(https://img.finalfantasyxiv.comhttps://img.finalfantasyxiv.com/lds/h/G/VkEB8nQ5gCFDrbfMLWoJUsGlUs.png);
+	  background-repeat: no-repeat;
+	}
+
+	&.materia_02:before {
+	  width: 24px;
+	  height: 24px;
+	  background-position: -323px 0;
+	  -moz-background-size: 1041px auto;
+	  -o-background-size: 1041px auto;
+	  -webkit-background-size: 1041px auto;
+	  background-size: 1041px auto;
+	  display: block;
+	  background-image: url(https://img.finalfantasyxiv.comhttps://img.finalfantasyxiv.com/lds/h/G/VkEB8nQ5gCFDrbfMLWoJUsGlUs.png);
+	  background-repeat: no-repeat;
+	}
+
+	&.materia_03:before {
+	  width: 24px;
+	  height: 24px;
+	  background-position: -347px 0;
+	  -moz-background-size: 1041px auto;
+	  -o-background-size: 1041px auto;
+	  -webkit-background-size: 1041px auto;
+	  background-size: 1041px auto;
+	  display: block;
+	  background-image: url(https://img.finalfantasyxiv.comhttps://img.finalfantasyxiv.com/lds/h/G/VkEB8nQ5gCFDrbfMLWoJUsGlUs.png);
+	  background-repeat: no-repeat;
+	}
+
+	&.materia_04:before {
+	  width: 24px;
+	  height: 24px;
+	  background-position: -371px 0;
+	  -moz-background-size: 1041px auto;
+	  -o-background-size: 1041px auto;
+	  -webkit-background-size: 1041px auto;
+	  background-size: 1041px auto;
+	  display: block;
+	  background-image: url(https://img.finalfantasyxiv.comhttps://img.finalfantasyxiv.com/lds/h/G/VkEB8nQ5gCFDrbfMLWoJUsGlUs.png);
+	  background-repeat: no-repeat;
+	}
+
+	&.materia_05:before {
+	  width: 24px;
+	  height: 24px;
+	  background-position: -395px 0;
+	  -moz-background-size: 1041px auto;
+	  -o-background-size: 1041px auto;
+	  -webkit-background-size: 1041px auto;
+	  background-size: 1041px auto;
+	  display: block;
+	  background-image: url(https://img.finalfantasyxiv.comhttps://img.finalfantasyxiv.com/lds/h/G/VkEB8nQ5gCFDrbfMLWoJUsGlUs.png);
+	  background-repeat: no-repeat;
+	}
+
+	&.materia_06:before {
+	  width: 24px;
+	  height: 24px;
+	  background-position: -419px 0;
+	  -moz-background-size: 1041px auto;
+	  -o-background-size: 1041px auto;
+	  -webkit-background-size: 1041px auto;
+	  background-size: 1041px auto;
+	  display: block;
+	  background-image: url(https://img.finalfantasyxiv.comhttps://img.finalfantasyxiv.com/lds/h/G/VkEB8nQ5gCFDrbfMLWoJUsGlUs.png);
+	  background-repeat: no-repeat;
+	}
+
+	&.materia_07:before {
+	  width: 24px;
+	  height: 24px;
+	  background-position: -443px 0;
+	  -moz-background-size: 1041px auto;
+	  -o-background-size: 1041px auto;
+	  -webkit-background-size: 1041px auto;
+	  background-size: 1041px auto;
+	  display: block;
+	  background-image: url(https://img.finalfantasyxiv.comhttps://img.finalfantasyxiv.com/lds/h/G/VkEB8nQ5gCFDrbfMLWoJUsGlUs.png);
+	  background-repeat: no-repeat;
+	}
+
+	&.materia_08:before {
+	  width: 24px;
+	  height: 24px;
+	  background-position: -467px 0;
+	  -moz-background-size: 1041px auto;
+	  -o-background-size: 1041px auto;
+	  -webkit-background-size: 1041px auto;
+	  background-size: 1041px auto;
+	  display: block;
+	  background-image: url(https://img.finalfantasyxiv.comhttps://img.finalfantasyxiv.com/lds/h/G/VkEB8nQ5gCFDrbfMLWoJUsGlUs.png);
+	  background-repeat: no-repeat;
+	}
+  }
+
+  .db-view__item-info__materia-socket--forbidden {
+	width: 24px;
+	height: 24px;
+	background-position: -707px 0;
+	-moz-background-size: 1041px auto;
+	-o-background-size: 1041px auto;
+	-webkit-background-size: 1041px auto;
+	background-size: 1041px auto;
+	display: block;
+	background-image: url(https://img.finalfantasyxiv.comhttps://img.finalfantasyxiv.com/lds/h/G/VkEB8nQ5gCFDrbfMLWoJUsGlUs.png);
+	background-repeat: no-repeat;
+
+	&:before {
+	  content: "";
+	  width: 24px;
+	  height: 24px;
+	}
+
+	&.materia_01:before {
+	  width: 24px;
+	  height: 24px;
+	  background-position: -491px 0;
+	  -moz-background-size: 1041px auto;
+	  -o-background-size: 1041px auto;
+	  -webkit-background-size: 1041px auto;
+	  background-size: 1041px auto;
+	  display: block;
+	  background-image: url(https://img.finalfantasyxiv.comhttps://img.finalfantasyxiv.com/lds/h/G/VkEB8nQ5gCFDrbfMLWoJUsGlUs.png);
+	  background-repeat: no-repeat;
+	}
+
+	&.materia_02:before {
+	  width: 24px;
+	  height: 24px;
+	  background-position: -515px 0;
+	  -moz-background-size: 1041px auto;
+	  -o-background-size: 1041px auto;
+	  -webkit-background-size: 1041px auto;
+	  background-size: 1041px auto;
+	  display: block;
+	  background-image: url(https://img.finalfantasyxiv.comhttps://img.finalfantasyxiv.com/lds/h/G/VkEB8nQ5gCFDrbfMLWoJUsGlUs.png);
+	  background-repeat: no-repeat;
+	}
+
+	&.materia_03:before {
+	  width: 24px;
+	  height: 24px;
+	  background-position: -539px 0;
+	  -moz-background-size: 1041px auto;
+	  -o-background-size: 1041px auto;
+	  -webkit-background-size: 1041px auto;
+	  background-size: 1041px auto;
+	  display: block;
+	  background-image: url(https://img.finalfantasyxiv.comhttps://img.finalfantasyxiv.com/lds/h/G/VkEB8nQ5gCFDrbfMLWoJUsGlUs.png);
+	  background-repeat: no-repeat;
+	}
+
+	&.materia_04:before {
+	  width: 24px;
+	  height: 24px;
+	  background-position: -563px 0;
+	  -moz-background-size: 1041px auto;
+	  -o-background-size: 1041px auto;
+	  -webkit-background-size: 1041px auto;
+	  background-size: 1041px auto;
+	  display: block;
+	  background-image: url(https://img.finalfantasyxiv.comhttps://img.finalfantasyxiv.com/lds/h/G/VkEB8nQ5gCFDrbfMLWoJUsGlUs.png);
+	  background-repeat: no-repeat;
+	}
+
+	&.materia_05:before {
+	  width: 24px;
+	  height: 24px;
+	  background-position: -587px 0;
+	  -moz-background-size: 1041px auto;
+	  -o-background-size: 1041px auto;
+	  -webkit-background-size: 1041px auto;
+	  background-size: 1041px auto;
+	  display: block;
+	  background-image: url(https://img.finalfantasyxiv.comhttps://img.finalfantasyxiv.com/lds/h/G/VkEB8nQ5gCFDrbfMLWoJUsGlUs.png);
+	  background-repeat: no-repeat;
+	}
+
+	&.materia_06:before {
+	  width: 24px;
+	  height: 24px;
+	  background-position: -611px 0;
+	  -moz-background-size: 1041px auto;
+	  -o-background-size: 1041px auto;
+	  -webkit-background-size: 1041px auto;
+	  background-size: 1041px auto;
+	  display: block;
+	  background-image: url(https://img.finalfantasyxiv.comhttps://img.finalfantasyxiv.com/lds/h/G/VkEB8nQ5gCFDrbfMLWoJUsGlUs.png);
+	  background-repeat: no-repeat;
+	}
+
+	&.materia_07:before {
+	  width: 24px;
+	  height: 24px;
+	  background-position: -635px 0;
+	  -moz-background-size: 1041px auto;
+	  -o-background-size: 1041px auto;
+	  -webkit-background-size: 1041px auto;
+	  background-size: 1041px auto;
+	  display: block;
+	  background-image: url(https://img.finalfantasyxiv.comhttps://img.finalfantasyxiv.com/lds/h/G/VkEB8nQ5gCFDrbfMLWoJUsGlUs.png);
+	  background-repeat: no-repeat;
+	}
+
+	&.materia_08:before {
+	  width: 24px;
+	  height: 24px;
+	  background-position: -659px 0;
+	  -moz-background-size: 1041px auto;
+	  -o-background-size: 1041px auto;
+	  -webkit-background-size: 1041px auto;
+	  background-size: 1041px auto;
+	  display: block;
+	  background-image: url(https://img.finalfantasyxiv.comhttps://img.finalfantasyxiv.com/lds/h/G/VkEB8nQ5gCFDrbfMLWoJUsGlUs.png);
+	  background-repeat: no-repeat;
+	}
+  }
+
+  .db-view__item-info__help-text {
+	color: #aaa;
+	font-size: 12px;
+	padding: 0 16px;
+  }
+
+  .db-view__item-info__help-text--effect li {
+	color: #e5e5e5;
+
+	span {
+	  color: #bbac94;
+	}
+  }
+
+  .db-view__item-info__sell {
+	border-top: 1px solid #3d3d3d;
+	margin: 0 8px;
+	padding: 10px 16px 20px;
+	color: #bbac94;
+
+	span {
+	  color: #e5e5e5;
+	}
+  }
+
+  .db-view__item-info__unsellable {
+	color: #d98298;
+	margin-bottom: 2px;
+  }
+
+  .db-view__item-info__market-notsell {
+	color: #d98298;
+  }
+
+  .db-view__item-info__materia-impossibleadd {
+	color: #d98298;
+	margin-bottom: 2px;
+  }
+
+  .db-view__item-info__purify {
+	color: #bbac94;
+	padding: 0 24px 20px;
+
+	span {
+	  color: #e5e5e5;
+	}
+  }
+
+  .db-view__item-info__reward {
+	margin: 0 16px 10px;
+	padding-bottom: 0;
+  }
+
+  .db-view__item-info__reward__notes {
+	margin-bottom: 20px;
+  }
+
+  .db-view__item-info__reward li {
+	width: 50%;
+	float: left;
+	position: relative;
+	padding-left: 36px;
+	margin-bottom: 10px;
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+	font-size: 12px;
+	color: #bfa34c;
+
+	span {
+	  font-size: 14px;
+	  font-weight: bold;
+	  color: #e5e5e5;
+	}
+
+	&:before {
+	  content: " ";
+	  position: absolute;
+	  top: 0;
+	  left: 0;
+	}
+  }
+
+  .db-view__item-info__reward--exp:before {
+	width: 32px;
+	height: 32px;
+	background-position: -314px 0;
+	-moz-background-size: 1060px auto;
+	-o-background-size: 1060px auto;
+	-webkit-background-size: 1060px auto;
+	background-size: 1060px auto;
+	display: block;
+	background-image: url(https://img.finalfantasyxiv.comhttps://img.finalfantasyxiv.com/lds/h/2/aQUB-Sg_R8DTAY5QJ_c4VwaqJ0.png);
+	background-repeat: no-repeat;
+  }
+
+  .db-view__item-info__reward--gil:before {
+	width: 32px;
+	height: 32px;
+	background-position: -518px 0;
+	-moz-background-size: 1060px auto;
+	-o-background-size: 1060px auto;
+	-webkit-background-size: 1060px auto;
+	background-size: 1060px auto;
+	display: block;
+	background-image: url(https://img.finalfantasyxiv.comhttps://img.finalfantasyxiv.com/lds/h/2/aQUB-Sg_R8DTAY5QJ_c4VwaqJ0.png);
+	background-repeat: no-repeat;
+  }
+
+  .db-view__item-info__reward--pvp-exp:before {
+	width: 32px;
+	height: 32px;
+	background-position: -708px 0;
+	-moz-background-size: 1060px auto;
+	-o-background-size: 1060px auto;
+	-webkit-background-size: 1060px auto;
+	background-size: 1060px auto;
+	display: block;
+	background-image: url(https://img.finalfantasyxiv.comhttps://img.finalfantasyxiv.com/lds/h/2/aQUB-Sg_R8DTAY5QJ_c4VwaqJ0.png);
+	background-repeat: no-repeat;
+  }
+
+  .db-view__item-info__reward--honor:before {
+	width: 32px;
+	height: 32px;
+	background-position: -550px 0;
+	-moz-background-size: 1060px auto;
+	-o-background-size: 1060px auto;
+	-webkit-background-size: 1060px auto;
+	background-size: 1060px auto;
+	display: block;
+	background-image: url(https://img.finalfantasyxiv.comhttps://img.finalfantasyxiv.com/lds/h/2/aQUB-Sg_R8DTAY5QJ_c4VwaqJ0.png);
+	background-repeat: no-repeat;
+  }
+
+  .db-view__item-info__reward--gc-seals--common:before {
+	width: 32px;
+	height: 32px;
+	background-position: -358px 0;
+	-moz-background-size: 1060px auto;
+	-o-background-size: 1060px auto;
+	-webkit-background-size: 1060px auto;
+	background-size: 1060px auto;
+	display: block;
+	background-image: url(https://img.finalfantasyxiv.comhttps://img.finalfantasyxiv.com/lds/h/2/aQUB-Sg_R8DTAY5QJ_c4VwaqJ0.png);
+	background-repeat: no-repeat;
+  }
+
+  .db-view__item-info__reward--gc-seals--limsa:before {
+	width: 32px;
+	height: 32px;
+	background-position: -422px 0;
+	-moz-background-size: 1060px auto;
+	-o-background-size: 1060px auto;
+	-webkit-background-size: 1060px auto;
+	background-size: 1060px auto;
+	display: block;
+	background-image: url(https://img.finalfantasyxiv.comhttps://img.finalfantasyxiv.com/lds/h/2/aQUB-Sg_R8DTAY5QJ_c4VwaqJ0.png);
+	background-repeat: no-repeat;
+  }
+
+  .db-view__item-info__reward--gc-seals--gridania:before {
+	width: 32px;
+	height: 32px;
+	background-position: -390px 0;
+	-moz-background-size: 1060px auto;
+	-o-background-size: 1060px auto;
+	-webkit-background-size: 1060px auto;
+	background-size: 1060px auto;
+	display: block;
+	background-image: url(https://img.finalfantasyxiv.comhttps://img.finalfantasyxiv.com/lds/h/2/aQUB-Sg_R8DTAY5QJ_c4VwaqJ0.png);
+	background-repeat: no-repeat;
+  }
+
+  .db-view__item-info__reward--gc-seals--uldah:before {
+	width: 32px;
+	height: 32px;
+	background-position: -486px 0;
+	-moz-background-size: 1060px auto;
+	-o-background-size: 1060px auto;
+	-webkit-background-size: 1060px auto;
+	background-size: 1060px auto;
+	display: block;
+	background-image: url(https://img.finalfantasyxiv.comhttps://img.finalfantasyxiv.com/lds/h/2/aQUB-Sg_R8DTAY5QJ_c4VwaqJ0.png);
+	background-repeat: no-repeat;
+  }
+
+  .db-view__item-info__reward--gc-seals--resistance:before {
+	width: 32px;
+	height: 32px;
+	background-position: -454px 0;
+	-moz-background-size: 1060px auto;
+	-o-background-size: 1060px auto;
+	-webkit-background-size: 1060px auto;
+	background-size: 1060px auto;
+	display: block;
+	background-image: url(https://img.finalfantasyxiv.comhttps://img.finalfantasyxiv.com/lds/h/2/aQUB-Sg_R8DTAY5QJ_c4VwaqJ0.png);
+	background-repeat: no-repeat;
+  }
+
+  .db-view__item-info__reward--gc-seals--text {
+	margin: 0 16px 20px;
+  }
+
+  .db-view__item-info__reward__note {
+	margin: 10px 16px;
+	color: #e5e5e5;
+  }
+
+  .db-view__item-info__crystal {
+	border-top: solid 1px #3d3d3d;
+	margin-bottom: 16px;
+  }
+
+  .db-view__item-info__allagan li, .db-view__item-info__beast li {
+	width: 100%;
+  }
+
+  .db-view__item-info__allagan img, .db-view__item-info__beast img {
+	position: absolute;
+	display: block;
+	top: 0;
+	left: 0;
+  }
+
+  .db-view__item-info--gathering__for {
+	margin-bottom: 20px;
+  }
+
+  .db-view__item-info--gathering {
+	h4 {
+	  margin: 0 0 8px 16px;
+	  color: #bfa34c;
+	}
+
+	dt {
+	  margin-left: 32px;
+	  color: #e5e5e5;
+	}
+
+	dd {
+	  margin: 0 0 0 32px;
+	  color: #bbac94;
+	}
+  }
+
+  .db-view__reward-list-wrapper {
+	margin-bottom: 20px;
+  }
+
+  .db-view__reward-list__inner {
+	background: #1b1b1b;
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-flex-direction: row;
+	flex-direction: row;
+	-webkit-align-items: flex-start;
+	align-items: flex-start;
+	-webkit-box-align: start;
+	-moz-box-align: start;
+	-ms-box-align: start;
+	-o-box-align: start;
+	box-align: start;
+	align-items: start;
+	width: 100%;
+	padding: 8px 0 4px 8px;
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+	border-bottom: 1px solid #3d3d3d;
+	color: #5990ff;
+  }
+
+  .db-view__reward-list__item-icon {
+	width: 38px;
+	margin-right: 8px;
+
+	.ic_param_weapon {
+	  float: none;
+	}
+  }
+
+  .db-view__reward-list__item-icon__action {
+	width: 32px;
+	height: 32px;
+	background-position: -932px 0;
+	-moz-background-size: 1060px auto;
+	-o-background-size: 1060px auto;
+	-webkit-background-size: 1060px auto;
+	background-size: 1060px auto;
+	display: block;
+	background-image: url(https://img.finalfantasyxiv.comhttps://img.finalfantasyxiv.com/lds/h/2/aQUB-Sg_R8DTAY5QJ_c4VwaqJ0.png);
+	background-repeat: no-repeat;
+	margin: 0 auto;
+  }
+
+  .db-view__reward-list__item-icon__emote {
+	width: 32px;
+	height: 32px;
+	background-position: -282px 0;
+	-moz-background-size: 1060px auto;
+	-o-background-size: 1060px auto;
+	-webkit-background-size: 1060px auto;
+	background-size: 1060px auto;
+	display: block;
+	background-image: url(https://img.finalfantasyxiv.comhttps://img.finalfantasyxiv.com/lds/h/2/aQUB-Sg_R8DTAY5QJ_c4VwaqJ0.png);
+	background-repeat: no-repeat;
+	margin: 0 auto;
+  }
+
+  .db-view__reward-list__center {
+	-webkit-box-flex: 1;
+	-moz-box-flex: 1;
+	box-flex: 1;
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-align-items: center;
+	align-items: center;
+	-webkit-box-align: center;
+	-moz-box-align: center;
+	-ms-box-align: center;
+	-o-box-align: center;
+	box-align: center;
+	align-items: center;
+	-webkit-flex-direction: row;
+	flex-direction: row;
+	min-height: 38px;
+  }
+
+  .db-view__reward-list__center--action {
+	-webkit-box-flex: 1;
+	-moz-box-flex: 1;
+	box-flex: 1;
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-align-items: center;
+	align-items: center;
+	-webkit-box-align: center;
+	-moz-box-align: center;
+	-ms-box-align: center;
+	-o-box-align: center;
+	box-align: center;
+	align-items: center;
+	-webkit-flex-direction: row;
+	flex-direction: row;
+	min-height: 32px;
+  }
+
+  .db-view__reward-list__action {
+	color: #e5e5e5;
+  }
+
+  .db-view__reward-list__item-count {
+	color: #e5e5e5;
+	font-weight: bold;
+  }
+
+  .db-view__reward-list__clear-reward-condition {
+	color: #e5e5e5;
+	font-weight: normal;
+	font-size: 12px;
+  }
+
+  .db-view__reward-list__category-icon {
+	height: 100%;
+	padding: 0 8px 0 0;
+	margin-left: 20px;
+  }
+
+  .db-view__reward-list__note {
+	margin: 10px 24px;
+	color: #e5e5e5;
+  }
+
+  .db-view__for__title {
+	color: #666;
+	text-shadow: 0px -1px 0 #000;
+	font-weight: bold;
+	font-size: 12px;
+	padding-left: 8px;
+	border-bottom: 1px solid #3d3d3d;
+	position: relative;
+  }
+
+  .db-view__for__list {
+	padding-bottom: 20px;
+  }
+
+  .db-view__for__text--annotation {
+	margin: 0 16px 20px;
+  }
+
+  .db-view__sub__title {
+	color: #666;
+	text-shadow: 0px -1px 0 #000;
+	font-weight: bold;
+	font-size: 12px;
+	margin: 0 8px;
+	border-bottom: 1px solid #3d3d3d;
+  }
+
+  .db-view__sub__text {
+	margin: 16px 16px 20px;
+  }
+
+  .db-view__achievement__text {
+	padding: 16px 24px 20px;
+  }
+
+  .db-view__achievement__icon {
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-align-items: center;
+	align-items: center;
+	-webkit-box-align: center;
+	-moz-box-align: center;
+	-ms-box-align: center;
+	-o-box-align: center;
+	box-align: center;
+	align-items: center;
+	-webkit-flex-direction: row;
+	flex-direction: row;
+
+	i:last-of-type {
+	  margin-right: 16px;
+	}
+  }
+
+  .db-view__achievement__point {
+	font-size: 20px;
+	color: #bfa34c;
+  }
+
+  .db-view__quest_giver {
+	background: #1b1b1b;
+	padding: 10px 8px;
+	display: block;
+  }
+
+  .db-view__quest_giver__name {
+	font-size: 16px;
+	font-weight: bold;
+	color: #5990ff;
+	display: block;
+	margin: 0 0 2px 0;
+  }
+
+  .db-view__quest_giver__place {
+	color: #e5e5e5;
+  }
+
+  .db-view__quest_giver__place--area-name {
+	margin-right: 20px;
+  }
+
+  .db-view__quest {
+	margin-bottom: 16px;
+
+	dt {
+	  color: #bbac94;
+	}
+
+	dd {
+	  margin-bottom: 10px;
+	}
+  }
+
+  .db-view__quest__eternalbond {
+	color: #6cf;
+  }
+
+  .db-view__quest__past_season {
+	color: #fc6;
+  }
+
+  .db-view__quest__special {
+	color: #9f6;
+	margin: 0 32px 20px;
+  }
+
+  .db-view__duty__wrapper {
+	background: #1b1b1b;
+	border: 1px solid #474f59;
+	border-left: 4px solid #474f59;
+	margin: 0 8px 20px;
+	padding: 8px 8px 8px 12px;
+  }
+
+  .db-view__duty__wrapper--last {
+	border: 1px solid #665833;
+	border-left: 4px solid #665833;
+  }
+
+  .db-view__duty__wrapper__inner {
+	padding-right: 4px;
+  }
+
+  .db-view__duty__boss__header {
+	border-bottom: 1px solid #474f59;
+	padding-bottom: 4px;
+	margin-bottom: 8px;
+  }
+
+  .db-view__duty__boss__category {
+	color: gray;
+	font-weight: bold;
+	font-size: 12px;
+  }
+
+  .db-view__duty__boss__category--last {
+	color: #bfa34c;
+  }
+
+  .db-view__duty__boss__name {
+	line-height: 1.2;
+	color: #ff6e40;
+	font-size: 16px;
+	font-weight: bold;
+	background: #1b1b1b;
+	display: block;
+
+	a {
+	  line-height: 1.2;
+	  color: #ff6e40;
+	  font-size: 16px;
+	  font-weight: bold;
+	  background: #1b1b1b;
+	  display: block;
+	}
+  }
+
+  .db-view__duty__boss__name--sub {
+	color: #e5e5e5;
+	font-size: 14px;
+	font-weight: bold;
+	background: #1b1b1b;
+	display: block;
+
+	a {
+	  color: #e5e5e5;
+	  font-size: 14px;
+	  font-weight: bold;
+	  background: #1b1b1b;
+	  display: block;
+	}
+  }
+
+  .db-view__duty__boss__detail__data {
+	h3 a, li a {
+	  padding: 10px 12px;
+	  border-bottom: 1px solid #3d3d3d;
+	}
+  }
+
+  .db-view__duty__boss__detail__reward {
+	padding: 10px 7px 0 9px;
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-flex-direction: row;
+	flex-direction: row;
+	-webkit-align-items: center;
+	align-items: center;
+	-webkit-box-align: center;
+	-moz-box-align: center;
+	-ms-box-align: center;
+	-o-box-align: center;
+	box-align: center;
+	align-items: center;
+	width: 100%;
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+	border-bottom: 1px solid #3d3d3d;
+  }
+
+  .db-view__duty__boss__detail__reward--treasure_box {
+	padding-top: 20px;
+  }
+
+  .db-view__duty__boss__detail__reward--title {
+	-webkit-flex: 1 1;
+	flex: 1 1;
+	-webkit-box-flex: 1;
+	-moz-box-flex: 1;
+	box-flex: 1;
+	color: #666;
+  }
+
+  .db-view__duty__boss__detail__reward--tomestone {
+	margin-left: 8px;
+	display: inline-block;
+	position: relative;
+	padding: 6px 0 0 27px;
+
+	img {
+	  position: absolute;
+	  top: 0;
+	  left: 0;
+	}
+  }
+
+  .db-view__duty__boss__detail__reward--tomestone--count {
+	font-weight: bold;
+  }
+
+  .db-view__duty__boss__detail__reward--item {
+	padding: 8px 24px 0 8px;
+	border-bottom: 1px solid #3d3d3d;
+	background: #1b1b1b;
+  }
+
+  .db-view__duty__boss__detail__reward--notes {
+	padding: 20px 10px 0;
+	color: #cc2944;
+  }
+
+  .db-view__duty__reward {
+	font-size: 12px;
+	color: gray;
+	margin-bottom: 10px;
+  }
+
+  .db-view__duty__reward__item {
+	position: relative;
+	padding-left: 43px;
+	margin-bottom: 10px;
+	font-size: 12px;
+	color: #bbac94;
+	display: block;
+
+	img {
+	  position: absolute;
+	  top: 0;
+	  left: 0;
+	  display: block;
+	}
+  }
+
+  .db-view__duty__reward__item--count {
+	font-size: 14px;
+	font-weight: bold;
+	color: #e5e5e5;
+  }
+
+  .db-view__duty__reward__tomestone--wrapper {
+	margin: 0 24px 8px;
+	text-align: right;
+  }
+
+  .db-view__duty__reward__tomestone--box {
+	display: inline-block;
+	position: relative;
+	padding: 6px 0 0 27px;
+	margin-left: 8px;
+
+	img {
+	  position: absolute;
+	  top: 0;
+	  left: 0;
+	  display: block;
+	}
+  }
+
+  .db-view__duty__reward__tomestone--count {
+	font-size: 14px;
+	font-weight: bold;
+	color: #e5e5e5;
+  }
+
+  .db-view__duty__reward-item {
+	margin-left: -3px;
+	margin-top: 9px;
+  }
+
+  .db-view__duty__reward-item__inner {
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-flex-direction: row;
+	flex-direction: row;
+	width: 100%;
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+	color: #5990ff;
+  }
+
+  .db-view__duty__reward-item__item-icon {
+	width: 38px;
+	margin-right: 8px;
+
+	.ic_param_weapon {
+	  float: none;
+	}
+  }
+
+  .db-view__duty__reward-item__item-icon__action {
+	width: 32px;
+	height: 32px;
+	background-position: -932px 0;
+	-moz-background-size: 1060px auto;
+	-o-background-size: 1060px auto;
+	-webkit-background-size: 1060px auto;
+	background-size: 1060px auto;
+	display: block;
+	background-image: url(https://img.finalfantasyxiv.comhttps://img.finalfantasyxiv.com/lds/h/2/aQUB-Sg_R8DTAY5QJ_c4VwaqJ0.png);
+	background-repeat: no-repeat;
+	margin: 0 auto;
+  }
+
+  .db-view__duty__reward-item__item-icon__emote {
+	width: 32px;
+	height: 32px;
+	background-position: -282px 0;
+	-moz-background-size: 1060px auto;
+	-o-background-size: 1060px auto;
+	-webkit-background-size: 1060px auto;
+	background-size: 1060px auto;
+	display: block;
+	background-image: url(https://img.finalfantasyxiv.comhttps://img.finalfantasyxiv.com/lds/h/2/aQUB-Sg_R8DTAY5QJ_c4VwaqJ0.png);
+	background-repeat: no-repeat;
+	margin: 0 auto;
+  }
+
+  .db-view__duty__reward-item__box {
+	-webkit-flex: 1 1;
+	flex: 1 1;
+	-webkit-box-flex: 1;
+	-moz-box-flex: 1;
+	box-flex: 1;
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-align-items: center;
+	align-items: center;
+	-webkit-box-align: center;
+	-moz-box-align: center;
+	-ms-box-align: center;
+	-o-box-align: center;
+	box-align: center;
+	align-items: center;
+  }
+
+  .db-view__duty__reward-item__item-count {
+	color: #e5e5e5;
+  }
+
+  .db-view__duty__reward-item__clear-reward-condition {
+	color: #e5e5e5;
+	display: block;
+	font-weight: normal;
+	font-size: 12px;
+  }
+
+  .db-view__duty__reward-condition {
+	margin-bottom: 10px;
+
+	p {
+	  color: #a5d841;
+	  font-size: 12px;
+	}
+  }
+
+  .db-view__duty__treasure-box {
+	width: 50%;
+	float: left;
+	padding-left: 0;
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-align-items: center;
+	align-items: center;
+	-webkit-box-align: center;
+	-moz-box-align: center;
+	-ms-box-align: center;
+	-o-box-align: center;
+	box-align: center;
+	align-items: center;
+	-webkit-flex-direction: row;
+	flex-direction: row;
+
+	span {
+	  display: block;
+	  color: #5990ff;
+	  font-weight: bold;
+	  font-size: 14px;
+	}
+
+	&:before {
+	  content: " ";
+	  display: block;
+	  margin-right: 11px;
+	}
+  }
+
+  .db-view__duty__treasure-box--gold {
+	margin-bottom: 0;
+
+	&:before {
+	  width: 32px;
+	  height: 32px;
+	  background-position: -996px 0;
+	  -moz-background-size: 1060px auto;
+	  -o-background-size: 1060px auto;
+	  -webkit-background-size: 1060px auto;
+	  background-size: 1060px auto;
+	  display: block;
+	  background-image: url(https://img.finalfantasyxiv.comhttps://img.finalfantasyxiv.com/lds/h/2/aQUB-Sg_R8DTAY5QJ_c4VwaqJ0.png);
+	  background-repeat: no-repeat;
+	}
+  }
+
+  .db-view__duty__treasure-box--silver {
+	margin-bottom: 0;
+
+	&:before {
+	  width: 32px;
+	  height: 32px;
+	  background-position: -1028px 0;
+	  -moz-background-size: 1060px auto;
+	  -o-background-size: 1060px auto;
+	  -webkit-background-size: 1060px auto;
+	  background-size: 1060px auto;
+	  display: block;
+	  background-image: url(https://img.finalfantasyxiv.comhttps://img.finalfantasyxiv.com/lds/h/2/aQUB-Sg_R8DTAY5QJ_c4VwaqJ0.png);
+	  background-repeat: no-repeat;
+	}
+  }
+
+  .db-view__duty__treasure-box--copper:before {
+	width: 32px;
+	height: 32px;
+	background-position: -964px 0;
+	-moz-background-size: 1060px auto;
+	-o-background-size: 1060px auto;
+	-webkit-background-size: 1060px auto;
+	background-size: 1060px auto;
+	display: block;
+	background-image: url(https://img.finalfantasyxiv.comhttps://img.finalfantasyxiv.com/lds/h/2/aQUB-Sg_R8DTAY5QJ_c4VwaqJ0.png);
+	background-repeat: no-repeat;
+  }
+
+  .db-view__duty__link-more {
+	text-align: right;
+
+	a {
+	  color: gray;
+	  font-size: 12px;
+	  position: relative;
+	  padding-right: 18px;
+
+	  &:after {
+		width: 15px;
+		height: 15px;
+		background-position: -244px 0;
+		-moz-background-size: 1041px auto;
+		-o-background-size: 1041px auto;
+		-webkit-background-size: 1041px auto;
+		background-size: 1041px auto;
+		display: block;
+		background-image: url(https://img.finalfantasyxiv.comhttps://img.finalfantasyxiv.com/lds/h/G/VkEB8nQ5gCFDrbfMLWoJUsGlUs.png);
+		background-repeat: no-repeat;
+		content: " ";
+		display: block;
+		position: absolute;
+		right: 0;
+		top: 50%;
+		margin-top: -8px;
+	  }
+	}
+  }
+
+  .db-view__duty__info {
+	padding: 0 8px 20px;
+  }
+
+  .db-view__duty__info__text {
+	padding: 0 16px;
+  }
+
+  .db-view__npc__place_name {
+	margin: 0 16px 16px;
+  }
+
+  .db-view__npc__place_name__link {
+	color: #5990ff;
+  }
+
+  .db-view__npc__place_name__title {
+	color: #bfa34c;
+  }
+
+  .db-view__npc__place_name__level {
+	font-weight: bold;
+	color: #bbac94;
+
+	span {
+	  color: #e5e5e5;
+	}
+  }
+
+  .db-view__npc__drop {
+	margin: 10px 24px 16px;
+  }
+
+  .db-view__npc__location {
+	margin-bottom: 10px;
+  }
+
+  .db-view__more {
+	padding-bottom: 20px;
+  }
+
+  .db-view__embed-code {
+	background: #262626;
+	padding: 16px 8px 20px;
+  }
+
+  .db-view__embed-code__button {
+	background: #000;
+	border-radius: 4px;
+	height: 38px;
+	line-height: 38px;
+	text-align: center;
+	font-weight: bold;
+	position: relative;
+
+	&.active {
+	  border-bottom-left-radius: 0;
+	  border-bottom-right-radius: 0;
+	}
+  }
+
+  .db-view__embed-code__button__icon {
+	position: absolute;
+	right: 16px;
+	top: 50%;
+	margin-top: -8px;
+	width: 16px;
+	height: 16px;
+	background-position: -773px 0;
+	-moz-background-size: 1041px auto;
+	-o-background-size: 1041px auto;
+	-webkit-background-size: 1041px auto;
+	background-size: 1041px auto;
+	display: block;
+	background-image: url(https://img.finalfantasyxiv.comhttps://img.finalfantasyxiv.com/lds/h/G/VkEB8nQ5gCFDrbfMLWoJUsGlUs.png);
+	background-repeat: no-repeat;
+
+	&.close {
+	  width: 16px;
+	  height: 16px;
+	  background-position: -126px 0;
+	  -moz-background-size: 1041px auto;
+	  -o-background-size: 1041px auto;
+	  -webkit-background-size: 1041px auto;
+	  background-size: 1041px auto;
+	  display: block;
+	  background-image: url(https://img.finalfantasyxiv.comhttps://img.finalfantasyxiv.com/lds/h/G/VkEB8nQ5gCFDrbfMLWoJUsGlUs.png);
+	  background-repeat: no-repeat;
+	}
+  }
+
+  .db-view__embed-code__view {
+	background: #1b1b1b;
+	border: 1px solid #3d3d3d;
+	display: none;
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+  }
+
+  .db-view__embed-code__code-view {
+	background: #e3e3e3;
+	padding: 8px 10px;
+	border-bottom: 1px solid #3d3d3d;
+	color: #333;
+  }
+
+  .db-view__embed-code__note {
+	padding: 8px 10px;
+  }
+
+  .db-view__social {
+	background: #262626;
+	text-align: center;
+	padding-bottom: 32px;
+
+	.social__btn {
+	  margin-bottom: 0;
+	}
+  }
+
+  .db-view__action {
+	background: #3d3d3d;
+	border-radius: 4px;
+	padding: 4px;
+	margin-top: 4px;
+
+	strong {
+	  font-size: 14px;
+	  font-weight: normal;
+	  color: #a3cc52;
+	  display: block;
+	  padding: 4px;
+	}
+  }
+
+  .db-view__action__wrapper {
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-box-align: center;
+	-moz-box-align: center;
+	-ms-box-align: center;
+	-o-box-align: center;
+	box-align: center;
+	align-items: center;
+	margin-bottom: 4px;
+
+	h3 {
+	  font-size: 14px;
+	  vertical-align: middle;
+	  line-height: 32px;
+	}
+  }
+
+  .db-view__action .item-icon--24 {
+	position: relative;
+	width: 32px;
+	height: 32px;
+	display: block;
+	background: none;
+
+	img {
+	  width: 32px;
+	  height: auto;
+	}
+
+	.item-icon__cover.item-icon__cover--24 {
+	  width: 38px;
+	  height: 38px;
+	  background-position: -206px 0;
+	  -moz-background-size: 1041px auto;
+	  -o-background-size: 1041px auto;
+	  -webkit-background-size: 1041px auto;
+	  background-size: 1041px auto;
+	  display: block;
+	  background-image: url(https://img.finalfantasyxiv.comhttps://img.finalfantasyxiv.com/lds/h/G/VkEB8nQ5gCFDrbfMLWoJUsGlUs.png);
+	  background-repeat: no-repeat;
+	  position: absolute;
+	  top: 0;
+	  left: 0;
+	}
+  }
+  .db__bg {
+	background-color: #000;
+  }
+
+  .db-index__header {
+	background: #262626;
+	padding: 20px 24px;
+  }
+
+  .db-index__header__text {
+	margin-bottom: 20px;
+  }
+
+  .db-index__header__search {
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-flex-direction: row;
+	flex-direction: row;
+	-webkit-align-items: center;
+	align-items: center;
+	-webkit-box-align: center;
+	-moz-box-align: center;
+	-ms-box-align: center;
+	-o-box-align: center;
+	box-align: center;
+	align-items: center;
+	width: 100%;
+	margin-bottom: 3px;
+  }
+
+  .db-index__header__search--input {
+	-webkit-flex: 1 1;
+	flex: 1 1;
+	-webkit-box-flex: 1;
+	-moz-box-flex: 1;
+	box-flex: 1;
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+	-moz-box-shadow: none;
+	-webkit-box-shadow: none;
+	box-shadow: none;
+	background: #e3e3e3;
+	border: 1px solid #666;
+	font-size: 14px !important;
+	line-height: 1 !important;
+	word-break: normal;
+	display: block;
+	height: 36px;
+  }
+
+  .db-index__header__search--button {
+	display: block;
+	position: relative;
+	width: 61px;
+	height: 36px;
+	background-image: url('data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4gPHN2ZyB2ZXJzaW9uPSIxLjEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PGRlZnM+PGxpbmVhckdyYWRpZW50IGlkPSJncmFkIiBncmFkaWVudFVuaXRzPSJvYmplY3RCb3VuZGluZ0JveCIgeDE9IjAuNSIgeTE9IjEuMCIgeDI9IjAuNSIgeTI9IjAuMCI+PHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iIzI2MjYyNiIvPjxzdG9wIG9mZnNldD0iMTAwJSIgc3RvcC1jb2xvcj0iIzNkM2QzZCIvPjwvbGluZWFyR3JhZGllbnQ+PC9kZWZzPjxyZWN0IHg9IjAiIHk9IjAiIHdpZHRoPSIxMDAlIiBoZWlnaHQ9IjEwMCUiIGZpbGw9InVybCgjZ3JhZCkiIC8+PC9zdmc+IA==');
+	background-size: 100%;
+	background-image: -webkit-gradient(linear, 50% 100%, 50% 0%, color-stop(0%, #262626), color-stop(100%, #3d3d3d));
+	background-image: -moz-linear-gradient(bottom, #262626, #3d3d3d);
+	background-image: -webkit-linear-gradient(bottom, #262626, #3d3d3d);
+	background-image: linear-gradient(to top, #262626, #3d3d3d);
+	border: 1px solid #666;
+	border-left: 0;
+
+	&:before {
+	  content: " ";
+	  position: absolute;
+	  top: 50%;
+	  left: 50%;
+	  margin-top: -12px;
+	  margin-left: -12px;
+	  width: 24px;
+	  height: 24px;
+	  background-position: -275px 0;
+	  -moz-background-size: 1041px auto;
+	  -o-background-size: 1041px auto;
+	  -webkit-background-size: 1041px auto;
+	  background-size: 1041px auto;
+	  display: block;
+	  background-image: url(https://img.finalfantasyxiv.com/lds/h/G/VkEB8nQ5gCFDrbfMLWoJUsGlUs.png);
+	  background-repeat: no-repeat;
+	}
+  }
+
+  .db-index__header__db-version {
+	font-size: 11px;
+	color: gray;
+	text-align: right;
+  }
+
+  .db-index__wrapper {
+	background: #262626;
+	padding-bottom: 24px;
+	height: 1%;
+  }
+
+  .db-index__toggle-icon {
+	position: absolute;
+	right: 16px;
+	top: 50%;
+	margin-top: -8px;
+	width: 16px;
+	height: 16px;
+	background-position: -773px 0;
+	-moz-background-size: 1041px auto;
+	-o-background-size: 1041px auto;
+	-webkit-background-size: 1041px auto;
+	background-size: 1041px auto;
+	display: block;
+	background-image: url(https://img.finalfantasyxiv.com/lds/h/G/VkEB8nQ5gCFDrbfMLWoJUsGlUs.png);
+	background-repeat: no-repeat;
+
+	&.close {
+	  width: 16px;
+	  height: 16px;
+	  background-position: -126px 0;
+	  -moz-background-size: 1041px auto;
+	  -o-background-size: 1041px auto;
+	  -webkit-background-size: 1041px auto;
+	  background-size: 1041px auto;
+	  display: block;
+	  background-image: url(https://img.finalfantasyxiv.com/lds/h/G/VkEB8nQ5gCFDrbfMLWoJUsGlUs.png);
+	  background-repeat: no-repeat;
+	}
+  }
+
+  .db-index__title__category {
+	background: #000;
+	border-bottom: 1px solid #3d3d3d;
+	position: relative;
+	padding: 0 32px 0 8px;
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+	min-height: 39px;
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-flex-direction: row;
+	flex-direction: row;
+	-webkit-align-items: center;
+	align-items: center;
+	-webkit-box-align: center;
+	-moz-box-align: center;
+	-ms-box-align: center;
+	-o-box-align: center;
+	box-align: center;
+	align-items: center;
+  }
+
+  .db-index__title__category--name {
+	color: #bfa34c;
+	font-size: 14px;
+	font-weight: bold;
+	cursor: pointer;
+  }
+
+  .db-index__title__category--count {
+	color: #aaa;
+	font-size: 12px;
+	font-weight: normal;
+  }
+
+  .db-index__title__kind {
+	display: none;
+	cursor: pointer;
+  }
+
+  .db-index__title__kind--item {
+	display: block;
+  }
+
+  .db-index__title__kind dt {
+	background: #1b1b1b;
+	border-bottom: 1px solid #3d3d3d;
+	width: 100%;
+	position: relative;
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+	min-height: 39px;
+  }
+
+  .db-index__title__kind--name {
+	color: #e5e5e5;
+	font-size: 14px;
+	font-weight: bold;
+	width: 100%;
+	padding: 4px 48px 4px 8px;
+	min-height: 39px;
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-flex-direction: row;
+	flex-direction: row;
+	-webkit-align-items: center;
+	align-items: center;
+	-webkit-box-align: center;
+	-moz-box-align: center;
+	-ms-box-align: center;
+	-o-box-align: center;
+	box-align: center;
+	align-items: center;
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+
+	span {
+	  display: block;
+	}
+  }
+
+  .db-index__category-list {
+	display: none;
+	border-bottom: 1px solid #3d3d3d;
+
+	ul {
+	  margin-bottom: -1px;
+	  position: relative;
+
+	  li {
+		background: #262626;
+		-moz-box-sizing: border-box;
+		-webkit-box-sizing: border-box;
+		box-sizing: border-box;
+		width: 50%;
+		float: left;
+		border-bottom: 1px solid #3d3d3d;
+		border-right: 1px solid #3d3d3d;
+
+		&:nth-child(even) {
+		  border-right: 0;
+		}
+
+		a {
+		  min-height: 39px;
+		  display: -webkit-box;
+		  display: -ms-flexbox;
+		  display: -webkit-flex;
+		  display: flex;
+		  -webkit-flex-direction: row;
+		  flex-direction: row;
+		  -webkit-align-items: center;
+		  align-items: center;
+		  -webkit-box-align: center;
+		  -moz-box-align: center;
+		  -ms-box-align: center;
+		  -o-box-align: center;
+		  box-align: center;
+		  align-items: center;
+		  -moz-box-sizing: border-box;
+		  -webkit-box-sizing: border-box;
+		  box-sizing: border-box;
+		  padding: 0 8px;
+		  color: #e5e5e5;
+		  font-weight: bold;
+
+		  span {
+			display: block;
+		  }
+		}
+	  }
+	}
+  }
+
+  .db-index__category-list--item, .db-index__category-list--quest, .db-index__category-list--gathering, .db-index__category-list--text_command {
+	width: 100%;
+  }
+
+  .db-index__category-list--item ul li, .db-index__category-list--quest ul li, .db-index__category-list--gathering ul li {
+	width: 100%;
+	border-right: 0;
+  }
+
+  .db-index__category-list--text_command {
+	ul li {
+	  width: 100%;
+	  border-right: 0;
+	}
+
+	border-bottom: 0;
+  }
+
+  .db-index__category__btn {
+	display: block;
+	height: 40px;
+	margin: 16px 16px 0;
+	font-size: 14px;
+	font-weight: bold;
+	color: #262626;
+	text-align: center;
+	line-height: 40px;
+	background-image: url('data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4gPHN2ZyB2ZXJzaW9uPSIxLjEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PGRlZnM+PGxpbmVhckdyYWRpZW50IGlkPSJncmFkIiBncmFkaWVudFVuaXRzPSJvYmplY3RCb3VuZGluZ0JveCIgeDE9IjAuNSIgeTE9IjAuMCIgeDI9IjAuNSIgeTI9IjEuMCI+PHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iIzhjOGM4YyIvPjxzdG9wIG9mZnNldD0iMTAwJSIgc3RvcC1jb2xvcj0iIzczNzM3MyIvPjwvbGluZWFyR3JhZGllbnQ+PC9kZWZzPjxyZWN0IHg9IjAiIHk9IjAiIHdpZHRoPSIxMDAlIiBoZWlnaHQ9IjEwMCUiIGZpbGw9InVybCgjZ3JhZCkiIC8+PC9zdmc+IA==');
+	background-size: 100%;
+	background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #8c8c8c), color-stop(100%, #737373));
+	background-image: -moz-linear-gradient(top, #8c8c8c 0%, #737373 100%);
+	background-image: -webkit-linear-gradient(top, #8c8c8c 0%, #737373 100%);
+	background-image: linear-gradient(to bottom, #8c8c8c 0%, #737373 100%);
+	-moz-box-shadow: 0px 1px 0px 0px rgba(255, 255, 255, 0.1) inset, 0px -1px 0px 0px rgba(0, 0, 0, 0.1) inset;
+	-webkit-box-shadow: 0px 1px 0px 0px rgba(255, 255, 255, 0.1) inset, 0px -1px 0px 0px rgba(0, 0, 0, 0.1) inset;
+	box-shadow: 0px 1px 0px 0px rgba(255, 255, 255, 0.1) inset, 0px -1px 0px 0px rgba(0, 0, 0, 0.1) inset;
+	text-decoration: none;
+	border-radius: 20px;
+
+	&.press {
+	  background-image: url('data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4gPHN2ZyB2ZXJzaW9uPSIxLjEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PGRlZnM+PGxpbmVhckdyYWRpZW50IGlkPSJncmFkIiBncmFkaWVudFVuaXRzPSJvYmplY3RCb3VuZGluZ0JveCIgeDE9IjAuNSIgeTE9IjAuMCIgeDI9IjAuNSIgeTI9IjEuMCI+PHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iI2NjY2NjYyIvPjxzdG9wIG9mZnNldD0iMTAwJSIgc3RvcC1jb2xvcj0iI2IyYjJiMiIvPjwvbGluZWFyR3JhZGllbnQ+PC9kZWZzPjxyZWN0IHg9IjAiIHk9IjAiIHdpZHRoPSIxMDAlIiBoZWlnaHQ9IjEwMCUiIGZpbGw9InVybCgjZ3JhZCkiIC8+PC9zdmc+IA==');
+	  background-size: 100%;
+	  background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #cccccc), color-stop(100%, #b2b2b2));
+	  background-image: -moz-linear-gradient(top, #cccccc 0%, #b2b2b2 100%);
+	  background-image: -webkit-linear-gradient(top, #cccccc 0%, #b2b2b2 100%);
+	  background-image: linear-gradient(to bottom, #cccccc 0%, #b2b2b2 100%);
+	  -moz-box-shadow: 0px 1px 0px 0px rgba(255, 255, 255, 0.1) inset, 0px -1px 0px 0px rgba(0, 0, 0, 0.1) inset;
+	  -webkit-box-shadow: 0px 1px 0px 0px rgba(255, 255, 255, 0.1) inset, 0px -1px 0px 0px rgba(0, 0, 0, 0.1) inset;
+	  box-shadow: 0px 1px 0px 0px rgba(255, 255, 255, 0.1) inset, 0px -1px 0px 0px rgba(0, 0, 0, 0.1) inset;
+	  color: #262626;
+	  text-decoration: none;
+	}
+  }
+
+  .db-search {
+	background-color: #262626;
+	padding: 18px 24px 32px;
+  }
+
+  .db-search--db-index {
+	padding-bottom: 0;
+  }
+
+  .db-search__advanced_search_wrapper {
+	background-color: #262626;
+	padding-bottom: 20px;
+	height: 1%;
+  }
+
+  .db-search__form-wrapper {
+	display: block;
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+	margin-bottom: 10px;
+
+	tbody, tr {
+	  display: block;
+	}
+  }
+
+  .db-search__keyword {
+	margin-bottom: 16px;
+
+	td {
+	  display: block;
+	  overflow: hidden;
+	}
+  }
+
+  .db-search__category, .db-search__category_mb16 {
+	display: block;
+	margin-bottom: 10px;
+  }
+
+  .db-search__category td {
+	width: 100%;
+	display: block;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+  }
+
+  .db-search__category_mb16 {
+	td {
+	  width: 100%;
+	  display: block;
+	  -webkit-box-sizing: border-box;
+	  -moz-box-sizing: border-box;
+	  box-sizing: border-box;
+	}
+
+	margin-bottom: 16px;
+  }
+
+  .db-search__category_mb16_mb16 {
+	margin-bottom: 16px;
+  }
+
+  .db-search__category-2 {
+	margin-bottom: 10px;
+
+	td {
+	  display: block;
+	}
+  }
+
+  .db-search__level {
+	margin-bottom: 10px;
+
+	td {
+	  display: -webkit-box;
+	  display: -ms-flexbox;
+	  display: -webkit-flex;
+	  display: flex;
+	  -webkit-flex-direction: row;
+	  flex-direction: row;
+	}
+  }
+
+  .db-search__level--item {
+	padding-right: 10px;
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+	-webkit-flex: 1 1 auto;
+	flex: 1 1 auto;
+	-webkit-box-flex: 1;
+	-moz-box-flex: 1;
+	box-flex: 1;
+  }
+
+  .db-search__level--equipment {
+	padding-right: 10px;
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+	-webkit-flex: 1 1 auto;
+	flex: 1 1 auto;
+	-webkit-box-flex: 1;
+	-moz-box-flex: 1;
+	box-flex: 1;
+	padding-left: 10px;
+	padding-right: 0;
+  }
+
+  .db-search__level__half-box {
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-flex-direction: row;
+	flex-direction: row;
+	-webkit-align-items: center;
+	align-items: center;
+	-webkit-box-align: center;
+	-moz-box-align: center;
+	-ms-box-align: center;
+	-o-box-align: center;
+	box-align: center;
+	align-items: center;
+  }
+
+  .db-search__level__space {
+	padding: 0 10px;
+  }
+
+  .db-search__level__input {
+	width: 40px !important;
+	padding: 0 !important;
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+	-moz-box-shadow: none;
+	-webkit-box-shadow: none;
+	box-shadow: none;
+	background: #e3e3e3;
+	border: 1px solid #666;
+	text-align: center;
+	font-size: 14px;
+	line-height: 1;
+	word-break: normal;
+  }
+
+  .db-search__basic-performance {
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-flex-direction: row;
+	flex-direction: row;
+	-webkit-align-items: center;
+	align-items: center;
+	-webkit-box-align: center;
+	-moz-box-align: center;
+	-ms-box-align: center;
+	-o-box-align: center;
+	box-align: center;
+	align-items: center;
+	margin-bottom: 10px;
+  }
+
+  .db-search__basic-performance__selectbox {
+	width: 160px;
+	font-size: 14px;
+	display: block;
+  }
+
+  .db-search__basic-performance__filter-value {
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-flex-direction: row;
+	flex-direction: row;
+	-webkit-align-items: center;
+	align-items: center;
+	-webkit-box-align: center;
+	-moz-box-align: center;
+	-ms-box-align: center;
+	-o-box-align: center;
+	box-align: center;
+	align-items: center;
+	white-space: nowrap;
+	padding-left: 4px;
+
+	span {
+	  display: block;
+
+	  &:first-child {
+		margin-right: 4px;
+	  }
+	}
+
+	input {
+	  display: inline-block;
+	  margin-right: 4px;
+	  padding: 4px 0 !important;
+	  width: 40px !important;
+	  -moz-box-sizing: border-box;
+	  -webkit-box-sizing: border-box;
+	  box-sizing: border-box;
+	  -moz-box-shadow: none;
+	  -webkit-box-shadow: none;
+	  box-shadow: none;
+	  background: #e3e3e3;
+	  border: 1px solid #666;
+	  text-align: center;
+	  font-size: 14px;
+	  line-height: 1;
+	  word-break: normal;
+	}
+  }
+
+  .db-search__input-box {
+	margin-bottom: 10px;
+
+	td {
+	  display: block;
+	}
+  }
+
+  .db-search__item-name {
+	color: #bbac94;
+	margin-bottom: 4px;
+	font-size: 14px;
+	font-weight: normal;
+  }
+
+  .db-search__input--text {
+	width: 100%;
+	padding: 10px !important;
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+	-moz-box-shadow: none;
+	-webkit-box-shadow: none;
+	box-shadow: none;
+	background: #e3e3e3;
+	border: 1px solid #666;
+	font-size: 14px !important;
+	line-height: 1 !important;
+	word-break: normal;
+  }
+
+  .db-search__selectbox {
+	width: 100%;
+	font-size: 14px;
+  }
+
+  .db-search__option--filter {
+	li {
+	  margin-bottom: 8px;
+	}
+
+	label {
+	  display: flex;
+	  align-items: center;
+	}
+
+	input {
+	  display: none;
+	}
+
+	div {
+	  width: 24px;
+	  height: 24px;
+	  overflow: hidden;
+	  flex-shrink: 0;
+	  margin-right: 4px;
+	}
+
+	input[type="checkbox"]:checked + div {
+	  img {
+		margin-top: -24px;
+	  }
+
+	  + p {
+		color: #e57e17;
+	  }
+	}
+  }
+
+  .db-list-wrapper {
+	background-color: #262626;
+	padding-bottom: 30px;
+  }
+
+  .db-list-wrapper--search {
+	padding-bottom: 20px;
+  }
+
+  .db-list-wrapper .latest_patch__major__icon {
+	position: absolute;
+	top: 2px;
+	left: 2px;
+	width: 14px;
+	height: 14px;
+	background-position: -662px 0;
+	-moz-background-size: 1060px auto;
+	-o-background-size: 1060px auto;
+	-webkit-background-size: 1060px auto;
+	background-size: 1060px auto;
+	display: block;
+	background-image: url(https://img.finalfantasyxiv.com/lds/h/2/aQUB-Sg_R8DTAY5QJ_c4VwaqJ0.png);
+	background-repeat: no-repeat;
+  }
+
+  .db-item {
+	position: relative;
+	background: #1b1b1b;
+	border-bottom: 1px solid #3d3d3d;
+  }
+
+  .db-item__link {
+	color: #e5e5e5;
+	font-size: 14px;
+	line-height: 1.4;
+	width: 100%;
+  }
+
+  .db-item__search {
+	font-weight: bold;
+  }
+
+  .db-item__search__link {
+	padding: 10px 16px;
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+	color: #5990ff;
+	display: block;
+  }
+
+  .db-item__result__0 {
+	background: #1b1b1b;
+	border-bottom: 1px solid #3d3d3d;
+	padding: 10px 16px;
+  }
+
+  .db-item__category-icon {
+	height: 100%;
+	padding: 9px 8px 0 0;
+	margin-left: 20px;
+  }
+
+  .db-item__list {
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-flex-direction: row;
+	flex-direction: row;
+	-webkit-align-items: flex-start;
+	align-items: flex-start;
+	-webkit-box-align: start;
+	-moz-box-align: start;
+	-ms-box-align: start;
+	-o-box-align: start;
+	box-align: start;
+	align-items: start;
+	width: 100%;
+	position: relative;
+  }
+
+  .db-item__list__inner {
+	padding: 8px 0 4px 8px;
+	-webkit-flex: 1 1;
+	flex: 1 1;
+	-webkit-box-flex: 1;
+	-moz-box-flex: 1;
+	box-flex: 1;
+	box-sizing: border-box;
+  }
+
+  .db-item__list__patch {
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-flex-direction: row;
+	flex-direction: row;
+	-webkit-align-items: flex-start;
+	align-items: flex-start;
+	-webkit-box-align: start;
+	-moz-box-align: start;
+	-ms-box-align: start;
+	-o-box-align: start;
+	box-align: start;
+	align-items: start;
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+	width: 100%;
+	padding-left: 18px;
+	position: relative;
+  }
+
+  .db-item__list__patch__inner {
+	padding: 8px 0 4px 0;
+	-webkit-flex: 1 1;
+	flex: 1 1;
+	-webkit-box-flex: 1;
+	-moz-box-flex: 1;
+	box-flex: 1;
+
+	&.text_command {
+	  padding: 16px 0 4px 0;
+	}
+  }
+
+  .db-item__list__equipment {
+	p {
+	  display: inline-block;
+	  margin-right: 20px;
+	  line-height: 1;
+	  white-space: nowrap;
+	  text-overflow: ellipsis;
+	  -moz-box-sizing: border-box;
+	  -webkit-box-sizing: border-box;
+	  box-sizing: border-box;
+
+	  strong {
+		color: #bbac94;
+		font-weight: normal;
+	  }
+
+	  &:nth-last-child(1) {
+		margin-right: 0;
+	  }
+	}
+
+	.scrip_shop_item {
+	  display: -webkit-box;
+	  display: -ms-flexbox;
+	  display: -webkit-flex;
+	  display: flex;
+	  -webkit-box-align: center;
+	  -moz-box-align: center;
+	  -ms-box-align: center;
+	  -o-box-align: center;
+	  box-align: center;
+	  align-items: center;
+	  flex-wrap: wrap;
+
+	  span {
+		display: inline-block;
+		margin-right: 16px;
+
+		&:nth-last-child(1) {
+		  margin-right: 0;
+		}
+	  }
+
+	  img {
+		display: block;
+		margin-right: 2px;
+	  }
+
+	  .rank {
+		display: -webkit-box;
+		display: -ms-flexbox;
+		display: -webkit-flex;
+		display: flex;
+		-webkit-box-align: center;
+		-moz-box-align: center;
+		-ms-box-align: center;
+		-o-box-align: center;
+		box-align: center;
+		align-items: center;
+	  }
+	}
+  }
+
+  .db-item__list__item-icon {
+	width: 38px;
+	margin-right: 8px;
+	text-align: center;
+
+	.ic_param_weapon {
+	  float: none;
+	}
+
+	.latest_patch__major__icon {
+	  left: -16px;
+	}
+  }
+
+  .db-item__list__box {
+	-webkit-flex: 1 1;
+	flex: 1 1;
+  }
+  .db-view__item-detail-link {
+	padding-top: 20px;
+	margin-bottom: 20px;
+  }
+}

@@ -1,0 +1,51 @@
+.tomestone {
+  margin: 25px 100px 75px 10px !important;
+  color: $xivita__gs !important;
+  list-style: none;
+  padding: 16px 0 0;
+  word-break: normal;
+  word-wrap: break-word;
+  margin-bottom: 20px !important;
+}
+
+.poetics {
+  &:before {
+	border: none;
+	background: url(https://i2.wp.com/ffxivita.it/wp-content/uploads/2020/05/368a1d1c.png?ssl=1) no-repeat !important;
+	content: ' ';
+	position: relative;
+	top: -4px;
+	width: auto;
+	height: auto;
+	padding-left: 25px;
+	font-size: 25px;
+  }
+}
+
+.phantasmagoria {
+  &:before {
+	border: none;
+	background: url(https://i2.wp.com/ffxivita.it/wp-content/uploads/2020/05/aeed402d.png?ssl=1) no-repeat 0 0 !important;
+	content: ' ';
+	position: relative;
+	top: -4px;
+	width: 40px;
+	height: 40px;
+	padding-left: 25px;
+	font-size: 25px;
+  }
+}
+
+.allegory {
+  &:before {
+	border: none;
+	background: url(https://i2.wp.com/ffxivita.it/wp-content/uploads/2020/05/eaa7dd74.png?ssl=1) no-repeat 0 0 !important;
+	content: ' ';
+	position: relative;
+	top: -4px;
+	width: 40px;
+	height: 40px;
+	padding-left: 25px;
+	font-size: 25px;
+  }
+}

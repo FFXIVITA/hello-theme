@@ -1,0 +1,357 @@
+@import "../../reset/variables";
+.eorzea_visual {
+  text-align: center !important;
+  margin-bottom: 10px !important;
+}
+.eorzea_head {
+  .lname {
+	float: left !important;
+  }
+  .eorzea_level{
+	span {
+	  font-size: 18px !important;
+	}
+	.lname_name {
+	  font-size: 16px !important;
+	  font-weight: normal !important;
+	}
+  }
+}
+.eorzea_info {
+  border: solid 1px #3c3c3c !important;
+  background-color: #333333 !important;
+  text-align: left !important;
+  margin-bottom: 10px !important;
+  .ttl {
+	padding: 3px 5px !important;
+	border-bottom: solid 1px #3c3c3c !important;
+	background-color: #1f1f1f !important;
+	background: #1f1f1f !important;
+	color: #bfa34c !important;
+  }
+  .ttl_sub {
+	padding: 3px 5px !important;
+	margin-bottom: 6px !important;
+	border-bottom: solid 1px #3c3c3c !important;
+	border-top: none !important;
+	background: #2e2e2e !important;
+  }
+  .ttl_sub_inner {
+	padding: 3px 5px !important;
+	margin-bottom: 6px !important;
+	border-bottom: solid 1px #3c3c3c !important;
+	border-top: solid 1px #3c3c3c !important;
+	background: #2e2e2e !important;
+  }
+  .pd_5 {
+	padding: 0 5px 5px 5px !important;
+  }
+  .limittime {
+	margin-bottom: 11px !important;
+  }
+}
+.table_type_inner {
+  margin: 0 auto 10px 0 !important;
+  border: solid 1px #1c1c1c !important;
+  background: #333333 !important;
+  .type_ttl {
+	padding: 3px 5px !important;
+	margin-bottom: 2px !important;
+	border-bottom: solid 1px #3c3c3c !important;
+	color: #cdcdcd !important;
+	background-color: #1f1f1f !important;
+  }
+  .type_ttl_inner {
+	padding: 3px 5px !important;
+	color: #cdcdcd !important;
+	background-color: #1f1f1f !important;
+	.inner_brd {
+	  border: 1px solid #3c3c3c !important;
+	}
+	.type_ttl_inner_brd_top {
+	  padding: 3px 5px !important;
+	  color: #cdcdcd !important;
+	  background-color: #1f1f1f !important;
+	  border-top: solid 1px #3c3c3c !important;
+	}
+	li {
+	  margin-top: 3px !important;
+	  margin-bottom: 2px !important;
+	}
+	.cell_count {
+	  padding: 6px 0 5px !important;
+	  border-top: solid 1px #3c3c3c !important;
+	}
+	.cell_odd {
+	  background: #2e2e2e !important;
+	}
+	.value {
+	  line-height: 1.4 !important;
+	}
+	.type_list {
+	  width: 164px !important;
+	  min-height: 32px !important;
+	  float: left !important;
+	  padding-left: 34px !important;
+	  padding-top: 4px !important;
+	  margin-left: 8px !important;
+	  .txt_yellow {
+		line-height: 1 !important;
+	  }
+	}
+	.silver {
+	  border: solid 1px #737880 !important;
+	  .type_ttl {
+		background: #505459 !important;
+	  }
+	}
+	.gold {
+	  border: solid 1px #8c7a48 !important;
+	  .type_ttl {
+		background: #665833 !important;
+		color: #ffe699 !important;
+	  }
+	}
+  }
+}
+.sys_treasure_box_tab {
+  .treasure {
+	background: url(https://img.finalfantasyxiv.comhttps://img.finalfantasyxiv.comhttps://img.finalfantasyxiv.com/lds/h/O/cTRcAhv0QQfyhTNqUzWe8jiLR8.png) no-repeat 10px center !important;
+	padding-left: 50px !important;
+	line-height: 32px !important;
+  }
+  a {
+	font-weight: bold !important;
+  }
+}
+.sys_treasure_box_popup {
+  width: 646px !important;
+  .treasure_items_wrap {
+	border-top: 1px solid #3c3c3c !important;
+	border-left: 1px solid #3c3c3c !important;
+	width: 568px !important;
+	margin: 0 auto !important;
+  }
+  .even {
+	background: #2e2e2e !important;
+  }
+  .odd {
+	background: #333333 !important;
+  }
+  .item_box {
+	width: 279px !important;
+	display: table-cell !important;
+	vertical-align: middle !important;
+	border-bottom: 1px solid #3c3c3c !important;
+	border-right: 1px solid #3c3c3c !important;
+	padding: 2px 4px 2px 0 !important;
+	.ic_reflection_box {
+	  float: none !important;
+	}
+	div {
+	  display: table-cell !important;
+	  vertical-align: middle !important;
+	}
+	div + div {
+	  padding-left: 5px !important;
+	}
+  }
+  .treasure_allagan {
+	width: 264px !important;
+	min-height: 22px !important;
+	padding: 5px 10px !important;
+	float: left !important;
+	div {
+	  padding-right: 8px !important;
+	}
+	div + div {
+	  padding-right: 0 !important;
+	  display: table-cell !important;
+	  vertical-align: middle !important;
+	}
+  }
+}
+.gold.table_type_inner{
+  .sys_treasure_box_tab.treasure {
+	background-image: url(https://img.finalfantasyxiv.comhttps://img.finalfantasyxiv.comhttps://img.finalfantasyxiv.com/lds/h/S/Gm9ITT0g_S0n6opFe0HEyILu80.png) !important;
+  }
+}
+.silver.table_type_inner{
+  .sys_treasure_box_tab.treasure {
+	background-image: url(https://img.finalfantasyxiv.comhttps://img.finalfantasyxiv.comhttps://img.finalfantasyxiv.com/lds/h/C/lwgkujSRjp4MM4OcivtS4fGKrE.png) !important;
+  }
+}
+.latest_patch__btn {
+  display: block;
+  min-height: 45px;
+  font-weight: bold;
+  text-align: center;
+  -moz-border-radius: 4px;
+  -webkit-border-radius: 4px;
+  border-radius: 4px;
+  width: 100%;
+  background-image: url('data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4gPHN2ZyB2ZXJzaW9uPSIxLjEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PGRlZnM+PGxpbmVhckdyYWRpZW50IGlkPSJncmFkIiBncmFkaWVudFVuaXRzPSJvYmplY3RCb3VuZGluZ0JveCIgeDE9IjAuNSIgeTE9IjEuMCIgeDI9IjAuNSIgeTI9IjAuMCI+PHN0b3Agb2Zmc2V0PSI0OSUiIHN0b3AtY29sb3I9IiMwMDAwMDAiLz48c3RvcCBvZmZzZXQ9IjUwJSIgc3RvcC1jb2xvcj0iIzMzMzMzMyIvPjxzdG9wIG9mZnNldD0iMTAwJSIgc3RvcC1jb2xvcj0iIzY2NjY2NiIvPjwvbGluZWFyR3JhZGllbnQ+PC9kZWZzPjxyZWN0IHg9IjAiIHk9IjAiIHdpZHRoPSIxMDAlIiBoZWlnaHQ9IjEwMCUiIGZpbGw9InVybCgjZ3JhZCkiIC8+PC9zdmc+IA==');
+  background-size: 100%;
+  background-image: -webkit-gradient(linear, 50% 100%, 50% 0%, color-stop(49%, #000000), color-stop(50%, #333333), color-stop(100%, #666666));
+  background-image: -moz-linear-gradient(bottom, #000000 49%, #333333 50%, #666666);
+  background-image: -webkit-linear-gradient(bottom, #000000 49%, #333333 50%, #666666);
+  background-image: linear-gradient(to top, #000000 49%, #333333 50%, #666666);
+  color: #bfa34c;
+  font-size: 14px;
+  line-height: 1;
+  margin-bottom: 16px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  box-pack: center;
+  -webkit-box-pack: center;
+  -webkit-align-items: center;
+  align-items: center;
+  -webkit-box-align: center;
+  -moz-box-align: center;
+  -ms-box-align: center;
+  -o-box-align: center;
+  box-align: center;
+  align-items: center;
+
+  span {
+	position: relative;
+	margin: 0 auto;
+	padding-left: 30px;
+
+	&:after {
+	  content: " ";
+	  position: absolute;
+	  top: -6px;
+	  left: 0;
+	  background: url(https://img.finalfantasyxiv.comhttps://img.finalfantasyxiv.com/lds/h/W/AU-ittX7QaLpmLF4wNlQ4yY3wk.png) no-repeat 0 0;
+	  -moz-background-size: 23px auto;
+	  -o-background-size: 23px auto;
+	  -webkit-background-size: 23px auto;
+	  background-size: 23px auto;
+	  display: inline-block;
+	  width: 23px;
+	  height: 23px;
+	}
+  }
+}
+
+.latest_patch__btn--fr {
+  font-size: 12px;
+}
+
+.latest_patch__checkbox {
+  display: none;
+  outline: none;
+  width: 10px;
+  height: 10px;
+}
+
+.latest_patch__checkbox__icon {
+  position: relative;
+  left: 0;
+  background-image: url(https://img.finalfantasyxiv.comhttps://img.finalfantasyxiv.com/lds/h/o/3zbsy5XPvkW-jtoOYPkYG8rSjs.png);
+  background-size: 32px auto;
+  background-repeat: no-repeat;
+  background-position: 0 0;
+  display: inline-block;
+  vertical-align: middle;
+  width: 32px;
+  height: 32px;
+}
+
+.latest_patch__checkbox:checked + .latest_patch__checkbox__icon {
+  background-position: 0 -32px;
+}
+
+.latest_patch__list {
+  background: #1b1b1b;
+  border-bottom: 1px solid #3d3d3d;
+  padding: 4px 0;
+}
+
+.latest_patch__list__icon {
+  width: 32px;
+  padding-right: 4px;
+
+  a {
+	display: block;
+	width: 32px;
+	height: 32px;
+	background-image: url(https://img.finalfantasyxiv.comhttps://img.finalfantasyxiv.com/lds/h/o/3zbsy5XPvkW-jtoOYPkYG8rSjs.png);
+	background-size: 32px auto;
+	background-repeat: no-repeat;
+	background-position: 0 0;
+  }
+}
+
+.latest_patch__list__icon--active a {
+  background-position: 0 -32px;
+}
+
+.latest_patch__list__select {
+  -webkit-flex: 1 1 auto;
+  flex: 1 1 auto;
+  -webkit-box-flex: 1;
+  -moz-box-flex: 1;
+  box-flex: 1;
+  width: 100%;
+
+  select {
+	width: 100%;
+  }
+}
+.bread__link {
+  background: #1b1b1b;
+  color: #e5e5e5;
+  border-top: 1px solid #3d3d3d;
+  padding: 12px 20px;
+  display: block;
+  position: relative;
+  font-weight: bold;
+
+  &:before {
+	width: 16px;
+	height: 16px;
+	background-position: -877px 0;
+	-moz-background-size: 1041px auto;
+	-o-background-size: 1041px auto;
+	-webkit-background-size: 1041px auto;
+	background-size: 1041px auto;
+	display: block;
+	background-image: url(https://img.finalfantasyxiv.com/lds/h/G/VkEB8nQ5gCFDrbfMLWoJUsGlUs.png);
+	background-repeat: no-repeat;
+	content: " ";
+	position: absolute;
+	top: 50%;
+	left: 4px;
+	margin-top: -8px;
+  }
+}
+
+.bread__link--my-character {
+  text-align: right;
+
+  &:before {
+	display: none;
+  }
+
+  &:after {
+	width: 16px;
+	height: 16px;
+	background-position: -909px 0;
+	-moz-background-size: 1041px auto;
+	-o-background-size: 1041px auto;
+	-webkit-background-size: 1041px auto;
+	background-size: 1041px auto;
+	display: block;
+	background-image: url(https://img.finalfantasyxiv.com/lds/h/G/VkEB8nQ5gCFDrbfMLWoJUsGlUs.png);
+	background-repeat: no-repeat;
+	content: " ";
+	position: absolute;
+	top: 50%;
+	right: 4px;
+	margin-top: -8px;
+  }
+}

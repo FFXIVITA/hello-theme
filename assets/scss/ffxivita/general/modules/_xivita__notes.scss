@@ -1,0 +1,29 @@
+.xy-note {
+	background-color: $xivita__dark-grey !important;
+	border-radius: 1em !important;
+	margin-top: 1rem !important;
+	color: $xivita__white !important;
+
+	.note {
+	  &-container {
+		padding: 1em 2em !important;
+		display: flex !important;
+		justify-content: flex-start !important;
+		align-items: center !important;
+	  }
+	}
+  }
+
+.xy-icon {
+	.icon {
+	  &-note {
+		display: inline-block !important;
+		margin-right: 2em !important;
+
+		svg {
+		  height: 6em !important;
+		  width: auto !important;
+		}
+	  }
+	}
+  }

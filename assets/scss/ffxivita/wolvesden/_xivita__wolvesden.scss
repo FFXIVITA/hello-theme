@@ -1,0 +1,2119 @@
+@import "../../reset/variables";
+@media(max-width: $screen-sm) and (orientation: portrait) {
+  .wolvesden__link {
+	background: #333333;
+	padding: 12px 0;
+  }
+
+  .wolvesden__pre {
+	width: 100%;
+	background: url(https://img.finalfantasyxiv.com/lds/h/w/bIyVHiN0_zOFtVgbeH-OIa9aaU.png) #eaece4;
+	background-size: 128px auto;
+	color: #585858;
+  }
+
+  .wolvesden__logo {
+	text-align: center;
+	padding: 8px 0;
+  }
+
+  .wolvesden__coming_soon {
+	color: #a62137;
+	font-size: 18px;
+	font-weight: bold;
+	line-height: 1;
+	padding: 0 16px;
+  }
+
+  .wolvesden__coming_soon--small {
+	font-size: 14px;
+  }
+
+  .wolvesden__opentime {
+	text-align: center;
+	padding-bottom: 16px;
+  }
+
+  .wolvesden__excerpt {
+	position: relative;
+	margin: 16px 0;
+	padding: 0 16px;
+	background: #f1f1f0;
+
+	&:before {
+	  position: absolute;
+	  left: 0;
+	  bottom: -16px;
+	  content: '';
+	  background: url(https://img.finalfantasyxiv.com/lds/h/I/REWUxpD3Ept89OERQ0zubJjZu8.png) repeat-x left top;
+	  background-size: 16px;
+	  width: 100%;
+	  height: 16px;
+	}
+
+	&:after {
+	  position: absolute;
+	  left: 0;
+	  top: -16px;
+	  content: '';
+	  background: url(https://img.finalfantasyxiv.com/lds/h/F/lNvheKwZbsbnZNVuibjdaQ2NfU.png) repeat-x left top;
+	  background-size: 16px;
+	  width: 100%;
+	  height: 16px;
+	}
+  }
+
+  .wolvesden__guide {
+	text-align: center;
+	padding: 16px 0 24px;
+  }
+
+  .wolvesden__guide__btn {
+	display: block;
+	width: 300px;
+	height: 40px;
+	margin: 0 auto 16px;
+  }
+
+  .wolvesden__guide__bnr {
+	width: 300px;
+	height: 48px;
+	display: block;
+	overflow: hidden;
+	margin: 0 auto 16px;
+
+	img {
+	  width: 100%;
+	  height: auto;
+	}
+  }
+
+  .wolvesden__season {
+	text-align: center;
+	margin-bottom: 16px;
+  }
+
+  .wolvesden__season__img {
+	text-align: center;
+	padding-bottom: 16px;
+  }
+
+  .wolvesden__season__radius {
+	border-radius: 8px;
+	display: block;
+	margin: 0 auto;
+  }
+
+  .wolvesden__reward {
+	margin: 0 16px;
+
+	img {
+	  max-width: 100%;
+	  height: auto;
+	}
+  }
+
+  .wolvesden__reward__select__wrapper {
+	padding: 0 12px;
+	margin-bottom: 16px;
+  }
+
+  .wolvesden__reward__title {
+	position: relative;
+	padding-left: 16px;
+	margin-bottom: 16px;
+
+	&:after {
+	  content: " ";
+	  position: absolute;
+	  top: 4px;
+	  left: 0;
+	  background: #4c7ee8;
+	  width: 12px;
+	  height: 12px;
+	  display: block;
+	  -moz-border-radius: 14px;
+	  -webkit-border-radius: 14px;
+	  border-radius: 14px;
+	}
+  }
+
+  .wolvesden__reward__title__rank {
+	font-size: 18px;
+	font-weight: bold;
+  }
+
+  .wolvesden__reward__title__tier {
+	font-size: 14px;
+	font-weight: bold;
+  }
+
+  .wolvesden__reward__list {
+	padding-bottom: 32px;
+  }
+
+  .wolvesden__reward__text {
+	padding-bottom: 16px;
+  }
+
+  .wolvesden__reward__notice {
+	color: #a62137;
+  }
+
+  .wolvesden__reward__wrapper {
+	margin: 0 12px;
+  }
+
+  .wolvesden__reward__image {
+	text-align: center;
+	margin-bottom: 16px;
+
+	img {
+	  max-width: 100%;
+	  height: auto;
+	}
+  }
+
+  .wolvesden__reward__image__caption {
+	text-align: left;
+	font-size: 12px;
+  }
+
+  .wolvesden__reward__image--3 {
+	width: 296px;
+	margin: 0 auto 16px;
+
+	img {
+	  float: left;
+	  margin-right: 4px;
+
+	  &:nth-last-child(1) {
+		margin-right: 0;
+	  }
+	}
+  }
+
+  .wolvesden__reward__detail img {
+	max-width: 100%;
+	height: auto;
+  }
+
+  .wolvesden__reward__category {
+	font-size: 14px;
+  }
+
+  .wolvesden__reward__first {
+	margin-bottom: 16px;
+  }
+
+  .wolvesden__reward__first--3 {
+	margin-bottom: 32px;
+  }
+
+  .wolvesden__reward__other {
+	border-bottom: 1px solid #b6b6b6;
+	padding-bottom: 16px;
+	margin-bottom: 24px;
+  }
+
+  .wolvesden__reward__other--3 {
+	margin-bottom: 32px;
+  }
+
+  .wolvesden__reward__item {
+	display: table;
+	width: 100%;
+  }
+
+  .wolvesden__reward__item__list {
+	display: block;
+	cursor: pointer;
+	margin-bottom: 8px;
+  }
+
+  .wolvesden__reward__item__icon {
+	display: table-cell;
+	width: 38px;
+  }
+
+  .wolvesden__reward__item__text {
+	display: table-cell;
+	vertical-align: middle;
+	padding-left: 5px;
+  }
+
+  .wolvesden__reward__item__text--name {
+	font-size: 14px;
+	color: #4c7ee8;
+	display: block;
+	font-weight: bold;
+  }
+
+  .wolvesden__reward__item__text--category {
+	font-size: 12px;
+	color: #585858;
+  }
+
+  .wolvesden__reward__item__tier {
+	margin-bottom: 16px;
+  }
+
+  .wolvesden__guide__wrapper {
+	width: 100%;
+	background: url(https://img.finalfantasyxiv.com/lds/h/w/bIyVHiN0_zOFtVgbeH-OIa9aaU.png) #eaece4;
+	background-size: 64px auto;
+	color: #585858;
+
+	.txt_red {
+	  color: #a62137 !important;
+	}
+  }
+
+  .wolvesden__guide__inner {
+	margin: 0 12px 16px;
+	height: 1%;
+	font-size: 14px;
+	color: #585858;
+  }
+
+  .wolvesden__guide__section {
+	margin: 0 0 24px;
+	height: 1%;
+	font-size: 14px;
+	color: #585858;
+  }
+
+  .wolvesden__guide__section--socialbox {
+	padding-bottom: 30px;
+	height: 1%;
+  }
+
+  .wolvesden__guide__section--last {
+	margin-bottom: 0;
+  }
+
+  .wolvesden__guide__delineation {
+	position: relative;
+	margin: 16px 0;
+	padding: 0 12px;
+	background: #f1f1f0;
+
+	&:before {
+	  position: absolute;
+	  left: 0;
+	  bottom: -16px;
+	  content: '';
+	  background: url(https://img.finalfantasyxiv.com/lds/h/I/REWUxpD3Ept89OERQ0zubJjZu8.png) repeat-x left top;
+	  background-size: 16px;
+	  width: 100%;
+	  height: 16px;
+	}
+
+	&:after {
+	  position: absolute;
+	  left: 0;
+	  top: -16px;
+	  content: '';
+	  background: url(https://img.finalfantasyxiv.com/lds/h/F/lNvheKwZbsbnZNVuibjdaQ2NfU.png) repeat-x left top;
+	  background-size: 16px;
+	  width: 100%;
+	  height: 16px;
+	}
+  }
+
+  .wolvesden__guide__delineation__text {
+	margin: 0 auto;
+	font-size: 14px;
+  }
+
+  .wolvesden__guide__delineation__victory {
+	font-weight: bold;
+	color: #4696eb;
+	font-size: 16px;
+  }
+
+  .wolvesden__guide__title {
+	margin: 0 auto 8px;
+	text-align: center;
+  }
+
+  .wolvesden__guide__title--quest {
+	padding: 2px 2px 1px 0;
+	margin: 0 12px;
+	font-size: 14px;
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-flex-direction: row;
+	flex-direction: row;
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+	-webkit-align-items: center;
+	align-items: center;
+	-webkit-box-align: center;
+	-moz-box-align: center;
+	-ms-box-align: center;
+	-o-box-align: center;
+	box-align: center;
+	align-items: center;
+
+	.db_link__quest_name {
+	  color: #4c7ee8;
+	  font-weight: bold;
+	  display: block;
+	}
+
+	&:before {
+	  content: "";
+	  background: url(https://img.finalfantasyxiv.com/lds/h/I/uX41pqhksWIXVKO7myHayU4r5c.png) no-repeat center top;
+	  -moz-background-size: 32px;
+	  -o-background-size: 32px;
+	  -webkit-background-size: 32px;
+	  background-size: 32px;
+	  display: block;
+	  width: 32px;
+	  height: 32px;
+	  margin-right: 3px;
+	}
+  }
+
+  .wolvesden__guide__title--pvp {
+	padding: 4px 12px;
+	margin-bottom: 16px;
+	font-size: 14px;
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-flex-direction: row;
+	flex-direction: row;
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+	-webkit-align-items: center;
+	align-items: center;
+	-webkit-box-align: center;
+	-moz-box-align: center;
+	-ms-box-align: center;
+	-o-box-align: center;
+	box-align: center;
+	align-items: center;
+	background: rgba(89, 81, 76, 0.1);
+
+	.db_link__quest_name {
+	  color: #4c7ee8;
+	  font-weight: bold;
+	  display: block;
+	  -webkit-flex-grow: 1;
+	  flex-grow: 1;
+	}
+
+	div {
+	  margin-right: 3px;
+	}
+
+	img {
+	  width: 32px;
+	  height: 32px;
+	  display: block;
+	}
+  }
+
+  .wolvesden__guide__sub_title {
+	position: relative;
+	padding-left: 16px;
+	font-size: 16px;
+	margin: 0 12px 12px;
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+
+	&:after {
+	  content: " ";
+	  position: absolute;
+	  top: 4px;
+	  left: 0;
+	  background: #4c7ee8;
+	  width: 12px;
+	  height: 12px;
+	  display: block;
+	  -moz-border-radius: 14px;
+	  -webkit-border-radius: 14px;
+	  border-radius: 14px;
+	}
+  }
+
+  .wolvesden__guide__sub_title__top {
+	margin-top: 32px;
+  }
+
+  .wolvesden__guide__text {
+	font-size: 14px;
+	color: #585858;
+	height: 1%;
+	margin: 0 12px 16px;
+  }
+
+  .wolvesden__guide__text--space {
+	margin-bottom: 32px !important;
+  }
+
+  .wolvesden__guide__text--16 {
+	margin-bottom: 16px !important;
+  }
+
+  .wolvesden__guide__text--mb0 {
+	margin-bottom: 0 !important;
+  }
+
+  .wolvesden__guide__text strong {
+	font-size: inherit;
+  }
+
+  .wolvesden__guide__text__notes {
+	color: #a62137;
+	font-size: 14px;
+  }
+
+  .wolvesden__guide__text__higtlight {
+	font-weight: bold;
+	font-size: 14px;
+  }
+
+  .wolvesden__guide__text--medals {
+	margin-bottom: 16px !important;
+  }
+
+  .wolvesden__guide__text--highlight {
+	margin: 0 12px 6px;
+  }
+
+  .wolvesden__guide__text--last {
+	margin: 0 12px;
+  }
+
+  .wolvesden__guide__text a {
+	color: #4c7ee8;
+
+	&:hover {
+	  color: #6696ff;
+	}
+  }
+
+  .wolvesden__guide__primary {
+	font-size: 14px;
+	color: #585858;
+	margin: 0 12px 16px;
+	height: 1%;
+  }
+
+  .wolvesden__guide__table {
+	width: 100%;
+	margin-bottom: 40px;
+
+	thead th {
+	  background: rgba(89, 81, 76, 0.1);
+	  padding: 4px 12px;
+	  font-size: 14px;
+	  font-weight: normal;
+	  text-align: center;
+	  -moz-box-sizing: border-box;
+	  -webkit-box-sizing: border-box;
+	  box-sizing: border-box;
+	}
+
+	tbody {
+	  th {
+		padding: 8px 12px 0;
+		vertical-align: middle;
+	  }
+
+	  td {
+		vertical-align: middle;
+		font-size: 14px;
+		font-weight: normal;
+		border-bottom: 1px solid #b5b5b3;
+		text-align: center;
+		padding: 8px 12px;
+		-moz-box-sizing: border-box;
+		-webkit-box-sizing: border-box;
+		box-sizing: border-box;
+
+		&.txt_left {
+		  text-align: left;
+		}
+	  }
+	}
+  }
+
+  .wolvesden__guide__table__icon {
+	text-align: left;
+
+	img, p {
+	  display: inline-block;
+	  vertical-align: middle;
+	}
+  }
+
+  .wolvesden__guide__quest {
+	background: rgba(89, 81, 76, 0.05);
+	padding-top: 4px;
+	padding-bottom: 16px;
+	height: 1%;
+	margin-bottom: 16px;
+  }
+
+  .wolvesden__guide__quest__image {
+	width: 296px;
+	height: 150px;
+	margin: 0 auto 16px;
+	display: block;
+  }
+
+  .wolvesden__guide__quest__text {
+	margin-bottom: 16px;
+  }
+
+  .wolvesden__guide__overview {
+	margin: 0 12px 30px;
+	height: 1%;
+
+	li {
+	  background: rgba(89, 81, 76, 0.05);
+	  border-radius: 4px;
+	  padding: 8px;
+	  text-align: left;
+	  margin-bottom: 2px;
+	  width: 100%;
+	  -moz-box-sizing: border-box;
+	  -webkit-box-sizing: border-box;
+	  box-sizing: border-box;
+	  display: block;
+	  font-size: 14px;
+
+	  strong {
+		display: block;
+		margin-bottom: 6px;
+	  }
+	}
+  }
+
+  .wolvesden__guide__conditions {
+	background: rgba(89, 81, 76, 0.05);
+	padding-bottom: 16px;
+	height: 1%;
+  }
+
+  .wolvesden__guide__map {
+	width: 296px;
+	margin: 0 auto;
+	margin-bottom: 5px;
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-flex-direction: row;
+	flex-direction: row;
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+	-webkit-align-items: center;
+	align-items: center;
+	-webkit-box-align: center;
+	-moz-box-align: center;
+	-ms-box-align: center;
+	-o-box-align: center;
+	box-align: center;
+	align-items: center;
+
+	div:first-child {
+	  margin-right: 5px;
+	}
+  }
+
+  .wolvesden__guide__map__text {
+	position: absolute;
+	right: 6px;
+	bottom: 2px;
+	font-size: 12px;
+  }
+
+  .wolvesden__guide__map__text02 {
+	font-size: 12px;
+	margin-bottom: 2px;
+  }
+
+  .wolvesden__guide__map__notes {
+	color: #a62137;
+	font-size: 14px;
+  }
+
+  .wolvesden__guide__adrenaline {
+	background: rgba(89, 81, 76, 0.05);
+	height: 1%;
+	margin-bottom: 40px;
+  }
+
+  .wolvesden__guide__adrenaline--role {
+	background: rgba(89, 81, 76, 0.1);
+	margin-bottom: 16px;
+	padding: 6px 12px;
+	font-weight: bold;
+  }
+
+  .wolvesden__guide__supply_boxes {
+	background: rgba(89, 81, 76, 0.05);
+	height: 1%;
+	margin-bottom: 40px;
+  }
+
+  .wolvesden__guide__supply_boxes--name {
+	background: rgba(89, 81, 76, 0.1);
+	margin-bottom: 16px;
+	padding: 6px 12px;
+	font-weight: bold;
+	text-align: center;
+  }
+
+  .wolvesden__guide__supply_boxes--image {
+	text-align: center;
+	margin-bottom: 16px;
+	padding: 0 12px;
+  }
+
+  .wolvesden__guide__supply_boxes--text {
+	margin-bottom: 16px;
+
+	span {
+	  font-size: 12px;
+	  color: #a62137;
+	}
+  }
+
+  .wolvesden__guide__image_outline {
+	position: relative;
+	display: inline-block;
+  }
+
+  .wolvesden__guide__image {
+	width: 296px;
+	text-align: center;
+	margin: 0 auto 16px;
+	display: block;
+
+	img {
+	  max-width: 100%;
+	  height: auto;
+	}
+  }
+
+  .wolvesden__guide__image--center {
+	text-align: center;
+	margin-bottom: 16px;
+  }
+
+  .wolvesden__guide__image a {
+	display: inline-block;
+  }
+
+  .wolvesden__guide__image_3colum {
+	width: 296px;
+	margin: 0 auto;
+	margin-bottom: 32px;
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-flex-direction: row;
+	flex-direction: row;
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+	-webkit-align-items: start;
+	align-items: start;
+	-webkit-box-align: start;
+	-moz-box-align: start;
+	-ms-box-align: start;
+	-o-box-align: start;
+	box-align: start;
+	align-items: start;
+
+	li {
+	  width: 95px;
+
+	  &:nth-last-child(2) {
+		margin: 0 5px;
+		width: 94px;
+	  }
+
+	  div {
+		margin-bottom: 4px;
+	  }
+
+	  p {
+		text-align: center;
+		font-size: 12px;
+		line-height: 1.3;
+	  }
+	}
+  }
+
+  .wolvesden__guide__tiers {
+	margin: 0 auto;
+	width: 216px;
+	height: 1%;
+
+	li {
+	  text-align: center;
+	  font-size: 14px;
+	  margin-bottom: 16px;
+	  height: 1%;
+	}
+  }
+
+  .wolvesden__guide__tiers--image {
+	background: rgba(89, 81, 76, 0.05);
+	padding: 8px;
+	margin-bottom: 4px;
+	border-radius: 4px;
+
+	img {
+	  display: block;
+	}
+  }
+
+  .wolvesden__guide__shop__image_viewer, .wolvesden__guide__shop__text {
+	margin-bottom: 32px;
+  }
+
+  .wolvesden__guide__shop__map {
+	position: relative;
+  }
+
+  .wolvesden__guide__shop__link {
+	color: #4c7ee8;
+	display: table;
+	width: 100%;
+	padding-bottom: 4px;
+
+	.ic, .text {
+	  display: table-cell;
+	  vertical-align: middle;
+	  font-weight: bold;
+	}
+
+	.ic {
+	  width: 28px;
+	}
+  }
+
+  .wolvesden__guide__list {
+	margin: 0 8px 16px 1em;
+	padding-left: 1em;
+
+	li {
+	  position: relative;
+	  font-size: 14px;
+
+	  &:before {
+		content: "";
+		display: block;
+		width: 8px;
+		height: 8px;
+		border-radius: 4px;
+		background: #999999;
+		position: absolute;
+		left: -12px;
+		top: 6px;
+	  }
+	}
+  }
+
+  .wolvesden__guide__dl {
+	margin: 0 0 16px 1em;
+	padding-left: 1em;
+
+	dt {
+	  position: relative;
+	  font-size: 14px;
+
+	  &:before {
+		content: "";
+		display: block;
+		width: 8px;
+		height: 8px;
+		border-radius: 4px;
+		background: #999999;
+		position: absolute;
+		left: -12px;
+		top: 6px;
+	  }
+	}
+
+	dd {
+	  font-size: 14px;
+	}
+  }
+
+  .wolvesden__guide__ol {
+	margin: 0 0 16px 2em;
+
+	li {
+	  font-size: 14px;
+	}
+  }
+
+  .wolvesden__thefeast_header {
+	background: url(https://img.finalfantasyxiv.com/lds/h/u/l5_BVoJBBREQxRkujXkb-ZowQ8.png) no-repeat center top;
+	background-size: 420px auto;
+	padding-top: 0;
+  }
+
+  .wolvesden__thefeast_header__logo {
+	text-align: center;
+  }
+
+  .wolvesden__thefeast_header__menu__list {
+	width: 320px;
+	margin: 0 auto 40px;
+
+	li {
+	  width: 154px;
+	  margin: 0 2px 4px;
+	  float: left;
+
+	  &:nth-last-child(1) {
+		margin-bottom: 0;
+	  }
+
+	  a {
+		display: block;
+		color: #4c7ee8;
+		font-weight: bold;
+
+		&:hover {
+		  color: #6696ff;
+		  text-decoration: underline;
+		}
+	  }
+	}
+  }
+
+  .wolvesden__thefold_header img {
+	width: 100%;
+	height: auto;
+  }
+
+  .wolvesden__ranking {
+	width: 100%;
+	background: url(https://img.finalfantasyxiv.com/lds/h/w/bIyVHiN0_zOFtVgbeH-OIa9aaU.png) #eaece4;
+	background-size: 128px auto;
+	color: #585858;
+	margin: 0 auto;
+	position: relative;
+  }
+
+  .wolvesden__ranking__header {
+	width: 308px;
+	margin: 0 auto 7px;
+	position: relative;
+
+	&.team_ranking {
+	  margin-bottom: 0;
+	}
+  }
+
+  .wolvesden__ranking__header__logo {
+	position: relative;
+	margin-top: -1px;
+	display: block;
+  }
+
+  .wolvesden__ranking__header__btn_reword {
+	width: 102px;
+	height: 20px;
+	position: absolute;
+	top: 11px;
+	right: 0;
+	background: #4c7ee8;
+	border-radius: 4px;
+	display: block;
+	-webkit-tap-highlight-color: transparent;
+
+	&:active {
+	  background: #4c7ee8;
+	  box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.2), 0 2px 0 rgba(255, 255, 255, 0.2);
+	}
+
+	&.season_01 {
+	  top: 35px;
+	}
+  }
+
+  .wolvesden__ranking__header__btn_reword--result {
+	top: 35px;
+  }
+
+  .wolvesden__ranking__header__btn_result {
+	width: 102px;
+	height: 20px;
+	position: absolute;
+	top: 0;
+	right: 0;
+	background: #4c7ee8;
+	border-radius: 4px;
+	display: block;
+	-webkit-tap-highlight-color: transparent;
+
+	&:active {
+	  background: #4c7ee8;
+	  box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.2), 0 2px 0 rgba(255, 255, 255, 0.2);
+	}
+  }
+
+  .wolvesden__ranking__header__result_list {
+	width: 102px;
+	height: 20px;
+	position: absolute;
+	top: 35px;
+	right: 0;
+  }
+
+  .wolvesden__ranking__header__result_list__list {
+	width: 118px !important;
+	position: absolute;
+	top: 20px;
+	left: 50%;
+	-moz-transform: translateX(-50%);
+	-ms-transform: translateX(-50%);
+	-webkit-transform: translateX(-50%);
+	transform: translateX(-50%);
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+
+	ul {
+	  background: #f0f0ef;
+	  border-radius: 4px;
+	  box-shadow: 0 2px 3px rgba(0, 0, 0, 0.4);
+	  -moz-box-sizing: border-box;
+	  -webkit-box-sizing: border-box;
+	  box-sizing: border-box;
+	  padding: 6px 0;
+	  height: 1%;
+	}
+
+	li {
+	  font-weight: bold;
+	  font-size: 14px;
+	}
+
+	a {
+	  display: block;
+	  color: #4c7ee8;
+	  font-weight: bold;
+	  padding: 6px 14px;
+
+	  &:hover {
+		color: #4c7ee8;
+	  }
+	}
+
+	.selected {
+	  color: #585858;
+	  font-weight: bold;
+	  padding: 6px 14px;
+	}
+  }
+
+  .wolvesden__ranking__artv {
+	display: block;
+	width: 87px;
+	height: 36px;
+	margin: 0 auto;
+	overflow: hidden;
+  }
+
+  .wolvesden__ranking__bt_login {
+	width: 296px;
+	height: 40px;
+	text-align: center;
+	background: #4c7ee8;
+	box-shadow: 0 2px 3px rgba(0, 0, 0, 0.4);
+	border-radius: 8px;
+	display: block;
+	-webkit-tap-highlight-color: transparent;
+	padding-top: 10px;
+	margin: 0 auto;
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+
+	&:active {
+	  background: #4c7ee8;
+	  box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.2), 0 2px 0 rgba(255, 255, 255, 0.2);
+	}
+  }
+
+  .wolvesden__ranking__my_character {
+	width: 314px;
+	height: 60px;
+	margin-top: -10px;
+	padding: 6px 0 6px 6px;
+	background: url(https://img.finalfantasyxiv.com/lds/h/X/6F2SA_epLkym19usJflOhTfgg0.png) no-repeat top center;
+	-moz-background-size: 314px 60px;
+	-o-background-size: 314px 60px;
+	-webkit-background-size: 314px 60px;
+	background-size: 314px 60px;
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-flex-direction: row;
+	flex-direction: row;
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+	-webkit-align-items: center;
+	align-items: center;
+	-webkit-box-align: center;
+	-moz-box-align: center;
+	-ms-box-align: center;
+	-o-box-align: center;
+	box-align: center;
+	align-items: center;
+	position: relative;
+	overflow: hidden;
+  }
+
+  .wolvesden__ranking__my_character__face {
+	width: 50px;
+	border-radius: 25px;
+	overflow: hidden;
+	margin-right: 5px;
+  }
+
+  .wolvesden__ranking__my_character__data {
+	-webkit-flex-grow: 1;
+	flex-grow: 1;
+	-webkit-box-flex: 1;
+	-moz-box-flex: 1;
+	box-flex: 1;
+  }
+
+  .wolvesden__ranking__my_character__colon {
+	font-size: 12px;
+	vertical-align: top;
+  }
+
+  .wolvesden__ranking__my_character__value {
+	font-size: 14px;
+	font-weight: bold;
+  }
+
+  .wolvesden__ranking__my_character__result {
+	dt {
+	  font-size: 12px;
+	  float: left;
+	  vertical-align: middle;
+	}
+
+	dd {
+	  width: 72px;
+	  margin-left: 58px;
+	  vertical-align: middle;
+	}
+  }
+
+  .wolvesden__ranking__my_character__rank_icon {
+	display: block;
+	width: 88px;
+	height: 60px;
+  }
+
+  .wolvesden__ranking__my_character__btn_graph {
+	width: 32px;
+	height: 32px;
+	background: #4c7ee8;
+	box-shadow: 0 2px 3px rgba(0, 0, 0, 0.4);
+	border-radius: 4px;
+	display: block;
+	-webkit-tap-highlight-color: transparent;
+	cursor: pointer;
+	position: relative;
+	margin-right: 4px;
+
+	&:active {
+	  background: #4c7ee8;
+	  box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.2), 0 2px 0 rgba(255, 255, 255, 0.2);
+	}
+
+	&:after {
+	  content: "";
+	  background: url(https://img.finalfantasyxiv.com/lds/h/L/ez3r93-fw13mTHFwR81MP6KBxw.png) no-repeat top center;
+	  -moz-background-size: 32px 32px;
+	  -o-background-size: 32px 32px;
+	  -webkit-background-size: 32px 32px;
+	  background-size: 32px 32px;
+	  width: 32px;
+	  height: 32px;
+	  position: absolute;
+	  top: 0;
+	  left: 0;
+	  display: block;
+	}
+  }
+
+  .wolvesden__ranking__popup_base {
+	display: none;
+	padding: 0 6px;
+	z-index: 2;
+  }
+
+  .wolvesden__ranking__character_result_charts {
+	background: #47433f;
+	width: 100%;
+	height: 205px;
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+	padding: 6px;
+	margin-bottom: 6px;
+	display: none;
+  }
+
+  .wolvesden__ranking__character_result_charts__inner {
+	background: #f0f0ef;
+	border-radius: 4px;
+	width: 100%;
+	height: 100%;
+	overflow: hidden;
+	padding: 6px 10px 10px 10px;
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+  }
+
+  .wolvesden__ranking__select {
+	width: 100%;
+	height: 1%;
+	padding: 0 6px;
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-flex-direction: row;
+	flex-direction: row;
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+	-webkit-align-items: center;
+	align-items: center;
+	-webkit-box-align: center;
+	-moz-box-align: center;
+	-ms-box-align: center;
+	-o-box-align: center;
+	box-align: center;
+	align-items: center;
+  }
+
+  .wolvesden__ranking__select__data_center {
+	-webkit-flex-grow: 1;
+	flex-grow: 1;
+	-webkit-box-flex: 1;
+	-moz-box-flex: 1;
+	box-flex: 1;
+	width: 100px;
+	position: relative;
+  }
+
+  .wolvesden__ranking__select__data_center__button {
+	background: #4c7ee8;
+	border-radius: 4px;
+	display: block;
+	-webkit-tap-highlight-color: transparent;
+	position: relative;
+	height: 40px;
+	cursor: pointer;
+
+	&:active {
+	  background: #4c7ee8;
+	  box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.2), 0 2px 0 rgba(255, 255, 255, 0.2);
+	}
+
+	&:after {
+	  content: "";
+	  display: block;
+	  background: url(https://img.finalfantasyxiv.com/lds/h/9/oVN9mDgbZFsNPkkeDVmnBREl_g.png) no-repeat top center;
+	  -moz-background-size: 12px 12px;
+	  -o-background-size: 12px 12px;
+	  -webkit-background-size: 12px 12px;
+	  background-size: 12px 12px;
+	  width: 12px;
+	  height: 12px;
+	  position: absolute;
+	  right: 0;
+	  bottom: 0;
+	}
+  }
+
+  .wolvesden__ranking__select__data_center__button--index {
+	height: 32px;
+  }
+
+  .wolvesden__ranking__select__data_center--selected {
+	display: block;
+	margin-left: 6px;
+	color: #eee;
+	font-size: 14px;
+	font-style: italic;
+	font-weight: bold;
+  }
+
+  .wolvesden__ranking__select__data_center--selected--index {
+	text-align: right;
+	position: absolute;
+	right: 16px;
+	bottom: 0;
+  }
+
+  .wolvesden__ranking__select__data_center__list {
+	width: 100%;
+	position: absolute;
+	top: 32px;
+	left: -6px;
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+
+	ul {
+	  background: #f0f0ef;
+	  border-radius: 4px;
+	  box-shadow: 0 2px 3px rgba(0, 0, 0, 0.4);
+	  -moz-box-sizing: border-box;
+	  -webkit-box-sizing: border-box;
+	  box-sizing: border-box;
+	  padding: 6px 0;
+	  height: 1%;
+	}
+
+	li {
+	  font-weight: bold;
+	  font-size: 14px;
+	}
+
+	a {
+	  display: block;
+	  color: #4c7ee8;
+	  font-weight: bold;
+	  padding: 6px 14px;
+
+	  &:hover {
+		color: #4c7ee8;
+	  }
+	}
+
+	.selected {
+	  color: #585858;
+	  font-weight: bold;
+	  padding: 6px 14px;
+	}
+  }
+
+  .wolvesden__ranking__select__menu_l {
+	display: block;
+	height: 40px;
+	text-align: center;
+	-webkit-flex-grow: 1;
+	flex-grow: 1;
+	-webkit-box-flex: 1;
+	-moz-box-flex: 1;
+	box-flex: 1;
+	width: 100px;
+	-webkit-tap-highlight-color: transparent;
+
+	a {
+	  display: block;
+	  background: #47433f;
+	  border-radius: 4px;
+	  display: block;
+	  height: 40px;
+	  overflow: hidden;
+
+	  &:active {
+		background: #615c57;
+		box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.2), 0 2px 0 rgba(255, 255, 255, 0.2);
+	  }
+	}
+
+	&:nth-last-child(2) {
+	  margin: 0 4px;
+	}
+  }
+
+  .wolvesden__ranking__select__menu_l--selected {
+	a {
+	  background: #4c7ee8;
+
+	  &:active {
+		background: #4c7ee8;
+		box-shadow: none;
+	  }
+	}
+
+	img {
+	  position: relative;
+	  margin-top: -40px;
+	}
+  }
+
+  .wolvesden__ranking__select__list_wrapper {
+	position: relative;
+	overflow: hidden;
+	width: 100%;
+	padding: 8px 6px 8px 2px;
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+	-moz-transition: all .1s;
+	-o-transition: all .1s;
+	-webkit-transition: all .1s;
+	transition: all 0.1s;
+  }
+
+  .wolvesden__ranking__select__list {
+	width: auto;
+	width: 445px;
+
+	li {
+	  display: inline-block;
+	  float: left;
+	  width: 70px;
+	  padding-left: 4px;
+	}
+  }
+
+  .wolvesden__ranking__select__rank {
+	background: #47433f;
+	border-radius: 4px;
+	display: block;
+	border-radius: 4px;
+	width: 70px;
+	height: 32px;
+	overflow: hidden;
+	display: block;
+	text-align: center;
+	position: relative;
+
+	&:active {
+	  background: #615c57;
+	  box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.2), 0 2px 0 rgba(255, 255, 255, 0.2);
+	}
+  }
+
+  .wolvesden__ranking__select__rank--selected {
+	background: #4c7ee8;
+
+	&:active {
+	  background: #4c7ee8;
+	  box-shadow: none;
+	}
+
+	img {
+	  position: relative;
+	  margin-top: -32px;
+	}
+  }
+
+  .wolvesden__ranking__select__rank--off {
+	opacity: 0.25;
+
+	&:hover {
+	  background: #47433f;
+	  box-shadow: none;
+
+	  img {
+		position: relative;
+		margin-top: 0;
+	  }
+	}
+  }
+
+  .wolvesden__ranking__select__rank__my_rank {
+	display: block;
+	position: absolute;
+	width: 8px;
+	height: 8px;
+	background: #ffd633;
+	border-radius: 4px;
+	top: 2px;
+	left: 2px;
+  }
+
+  .wolvesden__ranking__no_data {
+	min-height: 240px;
+	border-bottom: 1px solid #b5b5b3;
+	margin-bottom: 16px;
+  }
+
+  .wolvesden__ranking__no_data__text {
+	font-size: 14px;
+	color: #585858;
+	line-height: 240px;
+	text-align: center;
+  }
+
+  .wolvesden__ranking__list_header {
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-flex-direction: row;
+	flex-direction: row;
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+	-webkit-align-items: center;
+	align-items: center;
+	-webkit-box-align: center;
+	-moz-box-align: center;
+	-ms-box-align: center;
+	-o-box-align: center;
+	box-align: center;
+	align-items: center;
+	padding: 5px 6px 4px 12px;
+	background: #f0f0ef;
+  }
+
+  .wolvesden__ranking__list_header__summarytime {
+	text-align: left;
+	font-size: 12px;
+	display: block;
+	-webkit-flex-grow: 1;
+	flex-grow: 1;
+	-webkit-box-flex: 1;
+	-moz-box-flex: 1;
+	box-flex: 1;
+	color: #585858;
+
+	strong, span {
+	  font-size: inherit;
+	  display: inline-block;
+	}
+  }
+
+  .wolvesden__ranking__list_header__rating {
+	text-align: right;
+	font-size: 10px;
+	display: block;
+	white-space: nowrap;
+	color: #585858;
+  }
+
+  .wolvesden__ranking__list_header__ratechange {
+	font-size: 10px;
+	color: #4c7ee8;
+  }
+
+  .wolvesden__ranking__list {
+	margin-bottom: 16px;
+  }
+
+  .wolvesden__ranking__ly {
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-flex-direction: row;
+	flex-direction: row;
+	-webkit-align-items: stretch;
+	align-items: stretch;
+	-webkit-box-align: stretch;
+	-moz-box-align: stretch;
+	-ms-box-align: stretch;
+	-o-box-align: stretch;
+	box-align: stretch;
+	align-items: stretch;
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+	display: -webkit-flex;
+	display: flex;
+	border-bottom: 1px solid #b5b5b3;
+	color: #585858;
+	min-height: 90px;
+	position: relative;
+
+	&.mine {
+	  background: rgba(255, 223, 127, 0.2);
+	}
+  }
+
+  .wolvesden__ranking__ly__order {
+	background: rgba(89, 81, 76, 0.1);
+	width: 49px;
+	text-align: center;
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-flex-direction: row;
+	flex-direction: row;
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+	-webkit-align-items: center;
+	align-items: center;
+	-webkit-box-align: center;
+	-moz-box-align: center;
+	-ms-box-align: center;
+	-o-box-align: center;
+	box-align: center;
+	align-items: center;
+	-webkit-flex-basis: 49px;
+	flex-basis: 49px;
+  }
+
+  .wolvesden__ranking__ly__data {
+	-webkit-flex-grow: 2;
+	flex-grow: 2;
+	-webkit-box-flex: 2;
+	-moz-box-flex: 2;
+	box-flex: 2;
+	width: 199px;
+  }
+
+  .wolvesden__ranking__ly__data--chara {
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-flex-direction: row;
+	flex-direction: row;
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+	-webkit-align-items: stretch;
+	align-items: stretch;
+	-webkit-box-align: stretch;
+	-moz-box-align: stretch;
+	-ms-box-align: stretch;
+	-o-box-align: stretch;
+	box-align: stretch;
+	align-items: stretch;
+	padding: 4px;
+  }
+
+  .wolvesden__ranking__ly__data--chara__name {
+	width: 155px;
+	-webkit-flex-grow: 2;
+	flex-grow: 2;
+	-webkit-box-flex: 2;
+	-moz-box-flex: 2;
+	box-flex: 2;
+	padding-left: 20px;
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-flex-direction: row;
+	flex-direction: row;
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+	-webkit-align-items: center;
+	align-items: center;
+	-webkit-box-align: center;
+	-moz-box-align: center;
+	-ms-box-align: center;
+	-o-box-align: center;
+	box-align: center;
+	align-items: center;
+  }
+
+  .wolvesden__ranking__ly__data--chara__face {
+	width: 40px;
+  }
+
+  .wolvesden__ranking__ly__data--result {
+	padding: 4px 0 4px 4px;
+  }
+
+  .wolvesden__ranking__ly__data--result__table td {
+	line-height: 1;
+	vertical-align: baseline;
+	padding-bottom: 4px;
+  }
+
+  .wolvesden__ranking__ly__data--result__table--value {
+	padding: 0 4px 0 0;
+	text-align: right;
+	min-width: 46px;
+  }
+
+  .wolvesden__ranking__ly__data--rate {
+	width: 72px;
+	padding: 6px 6px 0 0;
+	text-align: right;
+	-webkit-flex-basis: 72px;
+	flex-basis: 72px;
+  }
+
+  .wolvesden__ranking__ly__data--rate__ic_rank {
+	width: 70px;
+	height: 48px;
+	position: absolute;
+	right: 2px;
+	bottom: 2px;
+  }
+
+  .wolvesden__ranking__ly__wins {
+	font-size: 12px;
+  }
+
+  .wolvesden__ranking__ly__winning_percentage {
+	font-size: 10px;
+	color: #4c7ee8;
+  }
+
+  .wolvesden__ranking__ly__match_count {
+	font-size: 12px;
+  }
+
+  .wolvesden__ranking__result__order {
+	font-size: 24px;
+	color: #585858;
+	text-align: center;
+	font-family: 'Noto Sans', sans-serif;
+	font-weight: bold;
+	letter-spacing: -3px;
+	width: 46px;
+	padding-right: 3px;
+  }
+
+  .wolvesden__ranking__result__prev_order {
+	font-size: 14px;
+	text-align: center;
+	font-family: 'Noto Sans', sans-serif;
+	font-weight: bold;
+	letter-spacing: -1px;
+	padding: 5px 0 0 2px;
+	margin-top: 6px;
+	display: block;
+  }
+
+  .wolvesden__ranking__result__prev_order--rank_up {
+	color: #4696eb;
+	background: url(https://img.finalfantasyxiv.com/lds/h/5/qsHgTjy_3qpwKLqhGOrEM1kMt0.png) no-repeat 20px 0;
+	background-size: 8px auto;
+  }
+
+  .wolvesden__ranking__result__prev_order--rank_down {
+	color: #a62137;
+	background: url(https://img.finalfantasyxiv.com/lds/h/e/S2e88vNzifU-E9map6Ge50rNWk.png) no-repeat 20px 0;
+	background-size: 8px auto;
+  }
+
+  .wolvesden__ranking__result__prev_order--rank_in {
+	width: 8px;
+	height: 8px;
+	margin: 6px auto 0;
+	padding-left: 4px;
+	background: url(https://img.finalfantasyxiv.com/lds/h/f/S6ubM0aGGUdAAR0V0EZAN8VPe8.png) no-repeat top right;
+	background-size: 8px auto;
+  }
+
+  .wolvesden__ranking__result__face {
+	width: 40px;
+	height: 40px;
+	border-radius: 20px;
+	overflow: hidden;
+  }
+
+  .wolvesden__ranking__result__name {
+	position: relative;
+	line-height: 1;
+	padding: 0 0 0 0;
+	font-size: 16px;
+	color: #585858;
+	line-height: 1.2;
+  }
+
+  .wolvesden__ranking__result__connection {
+	width: 12px;
+	height: 12px;
+	position: absolute;
+	left: -16px;
+	top: 50%;
+	margin-top: -6px;
+	display: block;
+	cursor: pointer;
+
+	img {
+	  vertical-align: middle;
+	  display: block;
+	  line-height: 1;
+	}
+  }
+
+  .wolvesden__ranking__result__world {
+	color: #999;
+	font-size: 12px;
+	line-height: 1;
+	display: block;
+  }
+
+  .wolvesden__ranking__result__win_count {
+	font-size: 14px;
+	line-height: 1;
+  }
+
+  .wolvesden__ranking__result__winning_rate {
+	color: #4c7ee8;
+	line-height: 1;
+	font-size: 12px;
+  }
+
+  .wolvesden__ranking__result__match_count {
+	font-size: 14px;
+	line-height: 1;
+  }
+
+  .wolvesden__ranking__result__match_rate {
+	font-size: 22px;
+	text-align: right;
+	line-height: 1;
+	font-family: 'Noto Sans', sans-serif;
+	font-weight: bold;
+	letter-spacing: -2px;
+  }
+
+  .wolvesden__ranking__result__prev_match_rate {
+	text-align: right;
+	line-height: 1;
+	font-family: 'Noto Sans', sans-serif;
+	font-weight: bold;
+  }
+
+  .wolvesden__ranking__result__prev_match_rate--up {
+	color: #4696eb;
+	letter-spacing: -1px;
+	font-size: 14px;
+	line-height: 1;
+  }
+
+  .wolvesden__ranking__result__prev_match_rate--down {
+	color: #a62137;
+	letter-spacing: -1px;
+	font-size: 14px;
+	line-height: 1;
+  }
+
+  .wolvesden__ranking__result__prev_match_rate--no_data {
+	color: #999;
+	font-size: 14px;
+	line-height: 1;
+  }
+
+  .wolvesden__ranking__notes {
+	margin: 0 12px 32px;
+	font-size: 14px;
+	color: #585858;
+  }
+
+  .wolvesden__ranking__guide_link {
+	width: 296px;
+	height: 40px;
+	margin: 0 auto 16px;
+  }
+
+  .wolvesden__ranking__guide_link--button {
+	background: #4c7ee8;
+	box-shadow: 0 2px 3px rgba(0, 0, 0, 0.4);
+	border-radius: 4px;
+	display: block;
+	-webkit-tap-highlight-color: transparent;
+	width: 296px;
+	height: 40px;
+	display: block;
+	overflow: hidden;
+
+	&:active {
+	  background: #4c7ee8;
+	  box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.2), 0 2px 0 rgba(255, 255, 255, 0.2);
+	}
+  }
+
+  .wolvesden__ranking__finalcountdown {
+	padding: 8px 0;
+	border-radius: 4px;
+	width: 100%;
+	box-sizing: border-box;
+	margin: 0 auto;
+  }
+
+  .wolvesden__ranking__finalcountdown--header {
+	background: #f0f0ef;
+	width: 100%;
+	padding: 8px 12px;
+	box-shadow: inset 0px -1px 0px 0px rgba(0, 0, 0, 0.1);
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+	color: #585858;
+	font-size: 12px;
+	font-weight: bold;
+  }
+
+  .wolvesden__ranking__finalcountdown--message {
+	font-size: 16px;
+	color: #a62137;
+	font-weight: bold;
+	text-align: center;
+	margin-bottom: 12px;
+  }
+
+  .wolvesden__ranking__finalcountdown--title {
+	color: #585858;
+	font-size: 16px;
+	font-weight: normal;
+	text-align: center;
+	padding-top: 16px;
+	line-height: 1;
+	margin-bottom: 16px;
+  }
+
+  .wolvesden__ranking__finalcountdown--text {
+	color: #a62137;
+	font-size: 27px;
+	text-align: center;
+	font-weight: bold;
+	line-height: 1;
+	margin-bottom: 16px;
+  }
+
+  .wolvesden__ranking__finalcountdown--finalday {
+	color: #a62137;
+	font-size: 45px;
+	font-weight: bold;
+	text-align: center;
+	line-height: 1;
+	margin-bottom: 16px;
+  }
+
+  .wolvesden__ranking__finalcountdown--finalday--en-us, .wolvesden__ranking__finalcountdown--finalday--en-gb, .wolvesden__ranking__finalcountdown--finalday--de {
+	letter-spacing: -0.025em;
+  }
+
+  .wolvesden__ranking__finalcountdown--finalday--fr {
+	letter-spacing: -0.05em;
+  }
+
+  .wolvesden__ranking__finalcountdown--large {
+	color: #a62137;
+	font-size: 54px;
+	font-family: 'Noto Sans', sans-serif;
+	font-weight: bold;
+  }
+
+  .wolvesden__ranking__finalcountdown--notes {
+	font-size: 12px;
+	color: #585858;
+	text-align: center;
+	padding: 0 6px 16px;
+  }
+
+  .wolvesden__ranking__finalcountdown__btn {
+	width: 296px;
+	height: 40px;
+	margin: 8px auto 0;
+	background: #4c7ee8;
+	box-shadow: 0 2px 3px rgba(0, 0, 0, 0.4);
+	border-radius: 4px;
+	display: block;
+	-webkit-tap-highlight-color: transparent;
+	text-align: center;
+	display: block;
+	-webkit-tap-highlight-color: transparent;
+
+	&:active {
+	  background: #4c7ee8;
+	  box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.2), 0 2px 0 rgba(255, 255, 255, 0.2);
+	}
+
+	a {
+	  -webkit-tap-highlight-color: transparent;
+	}
+  }
+
+  .wolvesden__ranking__finalcountdown--en-us, .wolvesden__ranking__finalcountdown--en-gb {
+	letter-spacing: -0.05em;
+  }
+
+  .wolvesden__ranking__finalcountdown--de, .wolvesden__ranking__finalcountdown--fr {
+	letter-spacing: -0.025em;
+  }
+
+  .wolvesden__ranking__result--title {
+	background: #944d47;
+	height: 30px;
+	display: block;
+	padding-top: 8px;
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+	box-shadow: inset 0px -1px 0px 0px rgba(0, 0, 0, 0.1);
+	font-size: 16px;
+	font-weight: bold;
+	color: #f5df9f;
+	line-height: 1;
+	text-align: center;
+  }
+
+  .wolvesden__ranking__result--link {
+	background: #4c7ee8;
+	height: 30px;
+	display: block;
+	color: #eeeeee;
+	padding-top: 8px;
+	box-shadow: inset 0px -1px 0px 0px rgba(0, 0, 0, 0.1);
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+	-webkit-tap-highlight-color: transparent;
+	font-size: 14px;
+	line-height: 1;
+	text-align: center;
+	font-weight: bold;
+
+	&:active {
+	  background: #4c7ee8;
+	  box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.2), 0 2px 0 rgba(255, 255, 255, 0.2);
+	}
+  }
+
+  .wolvesden__ranking__social {
+	padding-bottom: 10px;
+  }
+
+  .wolvesden__reward_wrapper {
+	width: 100%;
+	height: 1%;
+	background: url(https://img.finalfantasyxiv.com/lds/h/w/bIyVHiN0_zOFtVgbeH-OIa9aaU.png) #eaece4;
+	background-size: 128px auto;
+	color: #585858;
+	padding-top: 16px;
+  }
+
+  .wolvesden__reward__back {
+	width: 296px;
+	height: 40px;
+	margin: 16px auto 32px;
+	background: #4c7ee8;
+	box-shadow: 0 2px 3px rgba(0, 0, 0, 0.4);
+	border-radius: 4px;
+	display: block;
+	-webkit-tap-highlight-color: transparent;
+	text-align: center;
+
+	&:active {
+	  background: #4c7ee8;
+	  box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.2), 0 2px 0 rgba(255, 255, 255, 0.2);
+	}
+  }
+
+  .wolvesden__reward__sns {
+	padding-top: 32px;
+
+	.page-top__base-position {
+	  height: auto;
+	  padding: 0;
+	}
+  }
+
+  .wolvesden__imglist {
+	width: 301px;
+	margin: 0 auto;
+
+	a {
+	  float: left;
+	  display: block;
+	  margin: 0 5px 5px 0;
+
+	  &:nth-child(even) {
+		margin-right: 0;
+	  }
+
+	  &.last {
+		margin-bottom: 0;
+	  }
+	}
+  }
+
+  .wolvesden-table {
+	margin: 0 12px;
+  }
+
+  .wolvesden-table__before_after {
+	width: 100%;
+	margin-bottom: 16px;
+
+	th {
+	  background: rgba(89, 81, 76, 0.1);
+	  padding: 4px 12px;
+	  font-size: 14px;
+	  font-weight: normal;
+	  -moz-box-sizing: border-box;
+	  -webkit-box-sizing: border-box;
+	  box-sizing: border-box;
+	  text-align: center;
+
+	  &.wolvesden-table__before_after--spacer {
+		background: none;
+		padding: 0;
+		min-width: 4px;
+	  }
+	}
+
+	td {
+	  padding: 8px 12px;
+	  border-bottom: none;
+	  vertical-align: middle;
+	  text-align: center;
+	  border-collapse: collapse;
+	  font-size: 14px;
+	  border-bottom: 1px solid #b5b5b3;
+
+	  &:nth-child(2) {
+		padding: 0 !important;
+	  }
+	}
+  }
+
+  .wolvesden-table--arrow {
+	background: url(https://img.finalfantasyxiv.com/lds/h/T/bEvuqL1F9Qf4KQ4qRGr0NIkhbA.svg) no-repeat center center;
+	-moz-background-size: 16px 16px;
+	-o-background-size: 16px 16px;
+	-webkit-background-size: 16px 16px;
+	background-size: 16px 16px;
+	width: 32px;
+	display: table-cell;
+	height: auto;
+	border-collapse: collapse;
+	border-bottom: none !important;
+  }
+
+  #reward__solo, #reward__party {
+	display: none;
+  }
+
+  #reward__solo.active, #reward__party.active {
+	display: block;
+  }
+}
+

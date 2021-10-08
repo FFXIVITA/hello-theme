@@ -1,0 +1,170 @@
+// Tablet View
+@media screen and (max-width: 980px) {
+  .mahjong__navi {
+	.fixed {
+
+	  position: fixed !important;
+	  top: 101px !important;
+	  left: 0 !important;
+	  margin-left: 0 !important;
+	}
+  }
+  .ic_recipe_expert {
+	font-size: inherit;
+	color: inherit;
+	background: url(https://img.finalfantasyxiv.com/lds/h/7/4etxU-zKE3zGl9ZuI0PwhgU_JU.png);
+	width: 20px;
+	height: 20px;
+	background-size: 20px 20px;
+	display: inline-block;
+	vertical-align: text-bottom;
+  }
+}
+// H overrides
+.article-post {
+  h1, h2, h3, h4, h5, h6 {
+	text-decoration: none !important;
+  }
+}
+//Rss Icon override
+.rss-widget-icon {
+  display: none !important;
+}
+
+aside {
+  .widget_rss {
+	li {
+	  &:before {
+		margin-right: 10px !important;
+		content: '\f0ad';
+	  }
+	}
+  }
+}
+
+// Admin Bar
+.wp-admin-bar-stats {
+  display: none !important;
+}
+
+#wp-admin-bar-wp {
+  &-logo {
+	display: none !important;
+  }
+
+  &-search {
+	display: none !important;
+  }
+
+  &-new {
+	&-content {
+	  display: none !important;
+	}
+  }
+
+  &-stats {
+	display: none !important;
+
+  }
+}
+
+#search-form {
+  display: none  !important;
+}
+
+#wpnt-notes-unread-count {
+  display: none !important;
+}
+
+// Colors
+.verde {
+  color: $xivita__green !important;
+}
+
+// Notes
+.info_note {
+  color: $xivita__red !important;
+  font-size: inherit !important;
+}
+
+// Clearfix
+.clearfix {
+  &:after {
+	content: " " !important;
+	display: block !important;
+	visibility: hidden !important;
+	height: 0 !important;
+	font-size: 0.1em !important;
+	line-height: 0 !important;
+	clear: both !important;
+  }
+}
+// Valentione Old Style
+.lista_decorazioni {
+  display: flex !important;
+  justify-content: space-between !important;
+  margin-bottom: 48px !important;
+  padding: 2px !important;
+
+  ul {
+	margin-block-start: 1em !important;
+	margin-block-end: 1em !important;
+	margin-inline-start: 0 !important;
+	margin-inline-end: 0 !important;
+	padding-inline-start: 40px !important;
+  }
+
+  li {
+	width: 288px !important;
+	list-style: none !important;
+	margin-right: 10px !important;
+
+	img {
+	  width: 100% !important;
+	  height: auto !important;
+	  display: block !important;
+	}
+  }
+}
+
+.info {
+  &__lead {
+	margin-bottom: 32px !important;
+	font-size: 18px !important;
+	font-weight: bold !important;
+	color: $xivita__pink !important;
+	text-align: center !important;
+  }
+
+  &__decorazioni {
+	display: flex !important;
+	border-radius: 16px !important;
+	overflow: hidden !important;
+	margin-bottom: 48px !important;
+  }
+}
+
+.box__decorazione__evento {
+  padding: 12px 32px 10px !important;
+  width: 50% !important;
+  box-sizing: border-box !important;
+  background: linear-gradient(to right, $xivita__gradient1__color-1 0%, $xivita__gradient1__color-2 100%) !important;
+
+  &:nth-child(2) {
+	background: linear-gradient(to right, $xivita__gradient2__color-1 0%, $xivita__gradient2__color-2 100%) !important;
+  }
+
+  p {
+	margin-bottom: 6px !important;
+	font-size: 18px !important;
+	font-weight: bold !important;
+	color: $xivita__white !important;
+	text-align: center !important;
+	line-height: 1.5 !important;
+	font-feature-settings: "palt" !important;
+	font-family: 'Noto Sans', sans-serif !important;
+  }
+}
+
+
+

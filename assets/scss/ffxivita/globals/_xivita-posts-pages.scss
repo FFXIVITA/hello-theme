@@ -1,0 +1,46 @@
+@import "variables/xivita-colors";
+
+.page-id {
+	&-20058 {
+	  .entry-title {
+		display: none !important;
+	  }
+	}
+
+	&-21019 {
+	  .entry-title {
+		display: none !important;
+	  }
+	}
+
+	&-20580 {
+	  .entry-title {
+		display: none !important;
+	  }
+	}
+  }
+
+
+.post-id-21311 {
+	  h4 {
+		text-decoration: underline !important;
+		color: $xivita__purple !important;
+		list-style: none !important;
+		text-transform: capitalize !important;
+		font-weight: bolder !important;
+	  }
+	}
+
+.post-id-20002 {
+  li {
+	list-style: none !important;
+
+	a {
+	  text-decoration: underline !important;
+	}
+
+	&:hover {
+	  text-decoration: underline !important;
+	}
+  }
+}

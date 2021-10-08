@@ -1,0 +1,339 @@
+@import "assets/scss/reset/variables";
+
+@media (orientation: landscape) and (max-width: $screen-xl + $screen-diff) {
+  .mahjong__navi__category {
+	a, span {
+	  display: block;
+	  padding: 8px 8px 6px 8px;
+	  border-radius: 4px;
+	  font-size: 14px;
+	  font-weight: bold;
+	  position: relative;
+	  margin-bottom: 4px;
+	  text-decoration: none;
+	  cursor: pointer;
+	}
+  }
+
+  .mahjong__navi__anchor a {
+	display: block;
+	padding: 8px 8px 6px 8px;
+	border-radius: 4px;
+	font-size: 14px;
+	font-weight: bold;
+	position: relative;
+	margin-bottom: 4px;
+	text-decoration: none;
+	cursor: pointer;
+  }
+
+  .mahjong__wrapper {
+	width: 960px;
+	margin: 0 auto;
+	padding-bottom: 120px;
+	height: 1%;
+	font-size: 14px;
+
+	div, a, strong, span, h4 {
+	  font-size: inherit;
+	}
+  }
+
+  .mahjong__social {
+	padding: 8px 0 16px;
+  }
+
+  .mahjong__menu {
+	width: 300px;
+	float: left;
+	height: 100%;
+	overflow: hidden;
+  }
+
+  .mahjong__navi {
+	width: 300px;
+	position: relative;
+  }
+
+  .mahjong__navi__wrapper {
+	width: 280px;
+  }
+
+  .mahjong__navi__inner {
+	padding-bottom: 32px;
+  }
+
+  .mahjong__navi {
+	&.fixed {
+	  position: fixed;
+	  top: 101px;
+	  left: 50%;
+	  margin-left: -480px;
+	}
+
+	.iScrollVerticalScrollbar.iScrollLoneScrollbar {
+	  right: 9px !important;
+	}
+  }
+
+  .mahjong__navi__list {
+	margin-bottom: 12px;
+
+	dd {
+	  display: none;
+
+	  &.show {
+		display: block;
+	  }
+	}
+  }
+
+  .mahjong__navi__category {
+	position: relative;
+
+	&::after {
+	  content: "";
+	  display: block;
+	  position: absolute;
+	  top: 50%;
+	  right: 8px;
+	  width: 16px;
+	  height: 16px;
+	  margin-top: -8px;
+	  background: url(https://img.finalfantasyxiv.com/lds/h/K/bqRjVK-NjTjxXE_g-18dy1uVXQ.png);
+	  -moz-background-size: 16px 16px;
+	  -o-background-size: 16px 16px;
+	  -webkit-background-size: 16px 16px;
+	  background-size: 16px 16px;
+	}
+
+	&.selected::after {
+	  -moz-transform: rotate(180deg);
+	  -ms-transform: rotate(180deg);
+	  -webkit-transform: rotate(180deg);
+	  transform: rotate(180deg);
+	}
+
+	&.no_icon::after {
+	  display: none;
+	}
+
+	a, span {
+	  padding-right: 32px;
+	  background: #f3f3f3;
+	  color: #4c7ee8;
+	  -moz-box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.25);
+	  -webkit-box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.25);
+	  box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.25);
+	  cursor: pointer;
+	}
+
+	a:hover, span:hover {
+	  background: #ffffff;
+	}
+
+	a:active, span:active {
+	  background: #f3f3f3;
+	  -moz-box-shadow: 0px 1px 1px 0px rgba(0, 0, 0, 0.25) inset;
+	  -webkit-box-shadow: 0px 1px 1px 0px rgba(0, 0, 0, 0.25) inset;
+	  box-shadow: 0px 1px 1px 0px rgba(0, 0, 0, 0.25) inset;
+	}
+
+	a.active, span.active {
+	  color: #e57e17;
+	}
+  }
+
+  .mahjong__navi__anchor a {
+	color: #585858;
+	background: rgba(0, 0, 0, 0.1);
+
+	&:hover {
+	  background: rgba(0, 0, 0, 0.05);
+	}
+
+	&.active {
+	  color: #e57e17;
+	  background: transparent;
+	}
+  }
+
+  .mahjong__content {
+	width: 640px;
+	float: right;
+  }
+
+  .mahjong__page_title {
+	display: block;
+	padding-bottom: 16px;
+  }
+
+  .mahjong__title {
+	font-size: 24px;
+	color: #663d29;
+	font-weight: bold;
+	margin-bottom: 32px;
+	text-align: left;
+	position: relative;
+  }
+
+  .mahjong__lead {
+	position: relative;
+	margin: 16px 0 56px;
+	padding: 0 16px;
+	background: url(https://img.finalfantasyxiv.com/lds/h/1/wI_ug2SIfgLzIjIe3u28ueJF9c.png) repeat-y top center;
+	font-size: 14px;
+
+	&::before {
+	  position: absolute;
+	  left: 0;
+	  bottom: -16px;
+	  content: url(https://img.finalfantasyxiv.com/lds/h/S/xWxtt4DexD0i8OsiFfzJXcuK_4.png);
+	  background-repeat: no-repeat;
+	  background-position: center top;
+	  height: 16px;
+	  display: block;
+	}
+
+	&::after {
+	  position: absolute;
+	  left: 0;
+	  top: -16px;
+	  content: url(https://img.finalfantasyxiv.com/lds/h/p/06rRBttUiC_WJLmY2-fmXtSqeo.png);
+	  background-repeat: no-repeat;
+	  background-position: center top;
+	  height: 16px;
+	  display: block;
+	}
+  }
+
+  .mahjong__image {
+	text-align: center;
+	margin-bottom: 16px;
+  }
+
+  .mahjong__text__center {
+	text-align: center;
+	font-weight: bold;
+	margin-bottom: 0 !important;
+  }
+
+  .mahjong__rule {
+	font-size: 14px;
+	margin-bottom: 32px;
+
+	dt {
+	  float: left;
+	  font-size: inherit;
+	}
+
+	dd {
+	  margin-left: 1em;
+	  font-size: inherit;
+	}
+  }
+
+  .mahjong__list {
+	margin: 0 0 16px 0;
+	height: 1%;
+
+	dt {
+	  font-size: 14px;
+	  position: relative;
+	  font-weight: bold;
+	  margin-bottom: 4px;
+	  padding-left: 1em;
+
+	  &:before {
+		content: "";
+		display: block;
+		width: 8px;
+		height: 8px;
+		border-radius: 4px;
+		background: #999999;
+		position: absolute;
+		left: 0;
+		top: 50%;
+		margin-top: -4px;
+	  }
+	}
+
+	dd {
+	  font-size: 14px;
+	  margin-bottom: 16px;
+	}
+  }
+
+  .mahjong__faq {
+	dt {
+	  position: relative;
+	  padding-left: 24px;
+	  font-size: 16px;
+	  color: #638c0b;
+	  font-weight: bold;
+	  vertical-align: text-top;
+	  margin-bottom: 8px;
+
+	  .ic {
+		display: block;
+		position: absolute;
+		left: 0;
+		top: -2px;
+		font-size: 16px;
+		color: #638c0b;
+		font-weight: bold;
+		font-family: 'Noto Sans', sans-serif;
+		vertical-align: text-top;
+	  }
+
+	  b, strong, a, span, i {
+		font-size: inherit;
+	  }
+	}
+
+	dd {
+	  margin-bottom: 32px;
+	  position: relative;
+	  padding-left: 24px;
+	  font-size: 14px;
+	  vertical-align: text-top;
+
+	  .ic {
+		display: block;
+		position: absolute;
+		left: 0;
+		top: -2px;
+		font-size: 16px;
+		color: #a62137;
+		font-weight: bold;
+		font-family: 'Noto Sans', sans-serif;
+		vertical-align: text-top;
+	  }
+
+	  b, strong, a, span, i {
+		font-size: inherit;
+	  }
+	}
+
+	&.fr {
+	  dt, dd {
+		padding-left: 32px;
+	  }
+	}
+  }
+
+  .mahjong__sm_head {
+	position: relative;
+	margin-bottom: 4px;
+	font-size: 14px;
+	font-weight: bold;
+  }
+  @media(max-width: $screen-xl){
+	.mahjong__navi.fixed {
+	  position: fixed;
+	  top: 101px;
+	  left: 0;
+	  margin-left: 0
+	}
+  }
+}

@@ -1,0 +1,66 @@
+.xivita-accordion {
+  .accordion-wrapper {
+	background-color: #24252d;
+	border-radius: 1em
+  }
+
+  .accordion-toggle {
+	padding: 1em 1rem;
+
+	&:focus {
+	  outline: 0 solid transparent
+	}
+  }
+
+  .accordion-content {
+	padding: .25em 1rem
+  }
+
+  .accordion-title {
+	display: relative
+  }
+
+  .accordion-indicator {
+	position: absolute;
+	top: 40%;
+	right: 5%
+  }
+
+  .accordion-toggle {
+	&:not(.accordion-is-active) .accordion-indicator-collapsed {
+	  display: block
+	}
+  }
+
+  .accordion-is-active {
+	.accordion-indicator-collapsed, .accordion-toggle {
+	  &:not(accordion-is-active) + .accordion-content
+	}
+
+  , . accordion-toggle {
+	&:not(accordion-is-active) .accordion-indicator-expanded
+  } {
+	display: none;
+  }
+  }
+  .accordion-toggle+.accordion-content, .accordion-toggle.accordion-is-active {
+	.accordion-indicator-expanded {
+	  display: block;
+	}
+  }
+  h2 {
+	font-family: Grover, Iowan Old Style, Apple Garamond, Baskerville, Times New Roman, "Droid Serif", Times, "Source Serif Pro", serif;
+	font-size: 1.33em;
+	text-transform: uppercase;
+	font-weight: 500;
+	position: relative;
+	&:after {
+	  content: "";
+	  display: none;
+	  margin: unset;
+	  width: unset;
+	  height: unset;
+	  background-color: unset
+	}
+  }
+}

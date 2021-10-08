@@ -1,0 +1,183 @@
+.social {
+  float: right;
+  margin-bottom: 16px;
+
+  li {
+	float: left;
+	margin-left: 10px;
+	opacity: 0.2;
+  }
+}
+
+.xivita-discord {
+  background-color: transparent;
+
+  .discord-container {
+	display: flex;
+	align-items: center;
+	justify-content: flex-end
+  }
+
+  .discord-login {
+	display: none
+  }
+
+  .discord-block {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	position: relative;
+
+	.discord-profile {
+	  cursor: pointer;
+	  display: flex;
+	  flex-direction: row;
+	  align-items: center;
+
+	  &:hover {
+		cursor: pointer
+	  }
+	}
+
+	.discord-profile {
+	  .discord-dropdown {
+	  }
+	}
+
+  , . discord-profile {
+	.discord-login-dropdown {
+	}
+  } {
+	height: 0;
+	opacity: 0;
+  }
+
+	.discord-profile {
+	  .discord-dropdown-open {
+		.discord-dropdown {
+		  height: 100%;
+		  opacity: 1;
+		}
+	  }
+
+	  .discord-user {
+		display: none
+	  }
+
+	  .discord-avatar {
+		margin: .5rem;
+		width: 2rem;
+		height: 2rem;
+		border-radius: 50%
+	  }
+	}
+
+	.discord-dropdown {
+	  &:before {
+		content: "";
+		position: absolute;
+		right: 50%;
+		top: -10px;
+		width: 0;
+		height: 0;
+		border-color: transparent transparent #36393f;
+		border-style: solid;
+		border-width: 0 10px 10px;
+		z-index: 9999
+	  }
+
+	  .discord-login-dropdown {
+		position: absolute;
+		width: 190px !important;
+		right: -75px;
+		top: 1.9em
+	  }
+
+	  .discord-logout-dropdown {
+		position: absolute;
+		width: 160px;
+		top: 3.2rem;
+		right: -75px
+	  }
+	  .discord-options {
+		list-style-type: none;
+		margin: 0;
+		padding: 0;
+		a {
+		  font-size: .75em;
+		  color: #fff
+		}
+	  }
+	}
+  }
+  .discord-loader {
+	background-color: #36393f;
+	margin-top: 3rem;
+	margin-bottom: 3rem
+  }
+  .discord-header {
+	.xivita-hero {
+	  display: none
+	}
+  }
+}
+
+@media(min-width: $screen-sm) {
+  .discord-user {
+	display: block;
+	font-family: Grover, Iowan Old Style, Apple Garamond, Baskerville, Times New Roman, "Droid Serif", Times, "Source Serif Pro", serif;
+	font-weight: 600;
+	font-size: .8rem
+  }
+}
+
+@media(min-width: $screen-sm) {
+  .discord-avatar {
+	width: 3rem;
+	height: 3rem
+  }
+}
+
+@media(min-width: $screen-sm) {
+  .discord-login-dropdown {
+	top: 2.5rem;
+	width: 200px;
+	right: -85px
+  }
+  .discord-logout-dropdown {
+	top: 3.5rem;
+	width: 160px;
+	right: 0
+  }
+}
+
+@media(min-width: $screen-md) {
+  .discord-login-dropdown {
+	top: 2.5rem;
+	width: 200px;
+	right: -85px
+  }
+  .discord-logout-dropdown {
+	top: 4.5rem;
+	width: 200px;
+	right: 0
+  }
+}
+body{
+  &:not(.is-discord){
+	.xivita-discord {
+	  .discord-login {
+		display: block;
+		width: 3rem;
+		padding-left: 10px
+	  }
+	}
+  }
+  .discord-initial{
+	.xivita-discord {
+	  .discord-login {
+		display: none;
+	  }
+	}
+  }
+}

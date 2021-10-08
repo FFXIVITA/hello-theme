@@ -1,0 +1,54 @@
+.character-item__mirage-item-link {
+  margin-bottom: 20px;
+}
+
+.character-item__stain-obj {
+  padding-top: 10px;
+}
+
+.character-item__materia-list li {
+  position: relative;
+  padding-left: 28px;
+  margin-bottom: 4px;
+  min-height: 24px;
+
+  span {
+	position: absolute;
+	top: 0;
+	left: 0;
+  }
+}
+
+.character-item__materia-list__limited-value--over {
+  color: #d98298;
+}
+
+.character-item__equip-text {
+  padding: 0 16px;
+}
+
+.character-item__equip-text__inner {
+  padding: 0 8px;
+}
+
+.character-item__salls {
+  color: #bbac94;
+  margin-bottom: 2px;
+
+  span {
+	color: #e5e5e5;
+  }
+}
+
+.character-item__salls__unsellable {
+  color: #d98298;
+  margin-bottom: 2px;
+}
+
+.character-item__salls__market-notsell {
+  color: #d98298;
+}
+
+.character-item__signature-character {
+  padding: 0 16px;
+}
