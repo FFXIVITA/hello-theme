@@ -1,11 +1,11 @@
-@import "assets/scss/ffxivita/globals/variables/xivita-colors";
+@import "../../globals/xivita-colors";
 .icon-authorsocial {
   display: inline-flex !important;
   justify-content: center !important;
   align-items: center !important;
   margin: .01em !important;
   padding: .3em !important;
-  background-color: $xivita__yellow !important;
+  background-color: $xivita__moon-yellow !important;
   border-radius: .5em !important;
   height: 32px !important;
   svg {
@@ -27,7 +27,7 @@
   align-items: center !important;
   margin: .01em !important;
   padding: .3em !important;
-  background-color: $xivita__yellow !important;
+  background-color: $xivita__moon-yellow !important;
   border-radius: .5em !important;
   height: 32px !important;
   svg {
