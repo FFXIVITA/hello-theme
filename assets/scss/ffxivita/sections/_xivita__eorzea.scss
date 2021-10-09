@@ -1,4 +1,5 @@
 @import "../../reset/variables";
+@import "assets/scss/ffxivita/globals/xivita-colors";
 .eorzea_visual {
   text-align: center !important;
   margin-bottom: 10px !important;
@@ -18,29 +19,28 @@
   }
 }
 .eorzea_info {
-  border: solid 1px #3c3c3c !important;
-  background-color: #333333 !important;
+  border: solid 1px $xivita__eclipse-grey !important;
+  background-color: $xivita__darkcharcoal-grey !important;
   text-align: left !important;
   margin-bottom: 10px !important;
   .ttl {
 	padding: 3px 5px !important;
-	border-bottom: solid 1px #3c3c3c !important;
-	background-color: #1f1f1f !important;
-	background: #1f1f1f !important;
-	color: #bfa34c !important;
+	border-bottom: solid 1px $xivita__eclipse-grey !important;
+	background: $xivita__audi-black !important;
+	color: $xivita__banana-yellow !important;
   }
   .ttl_sub {
 	padding: 3px 5px !important;
 	margin-bottom: 6px !important;
-	border-bottom: solid 1px #3c3c3c !important;
+	border-bottom: solid 1px $xivita__eclipse-grey !important;
 	border-top: none !important;
-	background: #2e2e2e !important;
+	background: $xivita__graphite-black !important;
   }
   .ttl_sub_inner {
 	padding: 3px 5px !important;
 	margin-bottom: 6px !important;
-	border-bottom: solid 1px #3c3c3c !important;
-	border-top: solid 1px #3c3c3c !important;
+	border-bottom: solid 1px $xivita__eclipse-grey !important;
+	border-top: solid 1px $xivita__eclipse-grey !important;
 	background: #2e2e2e !important;
   }
   .pd_5 {
@@ -52,27 +52,27 @@
 }
 .table_type_inner {
   margin: 0 auto 10px 0 !important;
-  border: solid 1px #1c1c1c !important;
-  background: #333333 !important;
+  border: solid 1px $xivita__black-2 !important;
+  background: $xivita__darkcharcoal-grey !important;
   .type_ttl {
 	padding: 3px 5px !important;
 	margin-bottom: 2px !important;
-	border-bottom: solid 1px #3c3c3c !important;
-	color: #cdcdcd !important;
-	background-color: #1f1f1f !important;
+	border-bottom: solid 1px $xivita__eclipse-grey !important;
+	color: $xivita__lightshade-grey !important;
+	background-color: $xivita__audi-black !important;
   }
   .type_ttl_inner {
 	padding: 3px 5px !important;
 	color: #cdcdcd !important;
-	background-color: #1f1f1f !important;
+	background-color: $xivita__audi-black !important;
 	.inner_brd {
-	  border: 1px solid #3c3c3c !important;
+	  border: 1px solid $xivita__eclipse-grey !important;
 	}
 	.type_ttl_inner_brd_top {
 	  padding: 3px 5px !important;
-	  color: #cdcdcd !important;
-	  background-color: #1f1f1f !important;
-	  border-top: solid 1px #3c3c3c !important;
+	  color: $xivita__lightshade-grey !important;
+	  background-color: $xivita__audi-black !important;
+	  border-top: solid 1px $xivita__eclipse-grey !important;
 	}
 	li {
 	  margin-top: 3px !important;
@@ -80,10 +80,10 @@
 	}
 	.cell_count {
 	  padding: 6px 0 5px !important;
-	  border-top: solid 1px #3c3c3c !important;
+	  border-top: solid 1px $xivita__eclipse-grey!important;
 	}
 	.cell_odd {
-	  background: #2e2e2e !important;
+	  background: $xivita__graphite-black !important;
 	}
 	.value {
 	  line-height: 1.4 !important;
@@ -100,16 +100,16 @@
 	  }
 	}
 	.silver {
-	  border: solid 1px #737880 !important;
+	  border: solid 1px $xivita__silver !important;
 	  .type_ttl {
-		background: #505459 !important;
+		background: $xivita__silver-2 !important;
 	  }
 	}
 	.gold {
-	  border: solid 1px #8c7a48 !important;
+	  border: solid 1px $xivita__gold !important;
 	  .type_ttl {
-		background: #665833 !important;
-		color: #ffe699 !important;
+		background: $xivita__dark-gold !important;
+		color: $xivita__light-gold !important;
 	  }
 	}
   }
@@ -127,23 +127,23 @@
 .sys_treasure_box_popup {
   width: 646px !important;
   .treasure_items_wrap {
-	border-top: 1px solid #3c3c3c !important;
-	border-left: 1px solid #3c3c3c !important;
+	border-top: 1px solid $xivita__eclipse-grey !important;
+	border-left: 1px solid $xivita__eclipse-grey !important;
 	width: 568px !important;
 	margin: 0 auto !important;
   }
   .even {
-	background: #2e2e2e !important;
+	background: $xivita__graphite-black !important;
   }
   .odd {
-	background: #333333 !important;
+	background: $xivita__darkcharcoal-grey !important;
   }
   .item_box {
 	width: 279px !important;
 	display: table-cell !important;
 	vertical-align: middle !important;
-	border-bottom: 1px solid #3c3c3c !important;
-	border-right: 1px solid #3c3c3c !important;
+	border-bottom: 1px solid $xivita__eclipse-grey !important;
+	border-right: 1px solid $xivita__eclipse-grey !important;
 	padding: 2px 4px 2px 0 !important;
 	.ic_reflection_box {
 	  float: none !important;
@@ -173,12 +173,12 @@
 }
 .gold.table_type_inner{
   .sys_treasure_box_tab.treasure {
-	background-image: url(https://img.finalfantasyxiv.comhttps://img.finalfantasyxiv.comhttps://img.finalfantasyxiv.com/lds/h/S/Gm9ITT0g_S0n6opFe0HEyILu80.png) !important;
+	background-image: url(https://img.finalfantasyxiv.com/lds/h/S/Gm9ITT0g_S0n6opFe0HEyILu80.png) !important;
   }
 }
 .silver.table_type_inner{
   .sys_treasure_box_tab.treasure {
-	background-image: url(https://img.finalfantasyxiv.comhttps://img.finalfantasyxiv.comhttps://img.finalfantasyxiv.com/lds/h/C/lwgkujSRjp4MM4OcivtS4fGKrE.png) !important;
+	background-image: url(https://img.finalfantasyxiv.com/lds/h/C/lwgkujSRjp4MM4OcivtS4fGKrE.png) !important;
   }
 }
 .latest_patch__btn {
@@ -192,11 +192,11 @@
   width: 100%;
   background-image: url('data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4gPHN2ZyB2ZXJzaW9uPSIxLjEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PGRlZnM+PGxpbmVhckdyYWRpZW50IGlkPSJncmFkIiBncmFkaWVudFVuaXRzPSJvYmplY3RCb3VuZGluZ0JveCIgeDE9IjAuNSIgeTE9IjEuMCIgeDI9IjAuNSIgeTI9IjAuMCI+PHN0b3Agb2Zmc2V0PSI0OSUiIHN0b3AtY29sb3I9IiMwMDAwMDAiLz48c3RvcCBvZmZzZXQ9IjUwJSIgc3RvcC1jb2xvcj0iIzMzMzMzMyIvPjxzdG9wIG9mZnNldD0iMTAwJSIgc3RvcC1jb2xvcj0iIzY2NjY2NiIvPjwvbGluZWFyR3JhZGllbnQ+PC9kZWZzPjxyZWN0IHg9IjAiIHk9IjAiIHdpZHRoPSIxMDAlIiBoZWlnaHQ9IjEwMCUiIGZpbGw9InVybCgjZ3JhZCkiIC8+PC9zdmc+IA==');
   background-size: 100%;
-  background-image: -webkit-gradient(linear, 50% 100%, 50% 0%, color-stop(49%, #000000), color-stop(50%, #333333), color-stop(100%, #666666));
-  background-image: -moz-linear-gradient(bottom, #000000 49%, #333333 50%, #666666);
-  background-image: -webkit-linear-gradient(bottom, #000000 49%, #333333 50%, #666666);
-  background-image: linear-gradient(to top, #000000 49%, #333333 50%, #666666);
-  color: #bfa34c;
+  background-image: -webkit-gradient(linear, 50% 100%, 50% 0%, color-stop(49%, $xivita__isthenewblack), color-stop(50%, $xivita__darkcharcoal-grey), color-stop(100%, $xivita__darkshadow-grey));
+  background-image: -moz-linear-gradient(bottom, $xivita__isthenewblack 49%, $xivita__darkcharcoal-grey 50%, $xivita__darkshadow-grey);
+  background-image: -webkit-linear-gradient(bottom, $xivita__isthenewblack 49%, $xivita__darkcharcoal-grey 50%, $xivita__darkshadow-grey);
+  background-image: linear-gradient(to top, $xivita__isthenewblack 49%, $xivita__darkcharcoal-grey 50%, $xivita__darkshadow-grey);
+  color: $xivita__banana-yellow;
   font-size: 14px;
   line-height: 1;
   margin-bottom: 16px;
@@ -225,7 +225,7 @@
 	  position: absolute;
 	  top: -6px;
 	  left: 0;
-	  background: url(https://img.finalfantasyxiv.comhttps://img.finalfantasyxiv.com/lds/h/W/AU-ittX7QaLpmLF4wNlQ4yY3wk.png) no-repeat 0 0;
+	  background: url(https://img.finalfantasyxiv.com/lds/h/W/AU-ittX7QaLpmLF4wNlQ4yY3wk.png) no-repeat 0 0;
 	  -moz-background-size: 23px auto;
 	  -o-background-size: 23px auto;
 	  -webkit-background-size: 23px auto;
@@ -251,7 +251,7 @@
 .latest_patch__checkbox__icon {
   position: relative;
   left: 0;
-  background-image: url(https://img.finalfantasyxiv.comhttps://img.finalfantasyxiv.com/lds/h/o/3zbsy5XPvkW-jtoOYPkYG8rSjs.png);
+  background-image: url(https://img.finalfantasyxiv.com/lds/h/o/3zbsy5XPvkW-jtoOYPkYG8rSjs.png);
   background-size: 32px auto;
   background-repeat: no-repeat;
   background-position: 0 0;
@@ -266,8 +266,8 @@
 }
 
 .latest_patch__list {
-  background: #1b1b1b;
-  border-bottom: 1px solid #3d3d3d;
+  background: $xivita__veryshadow-grey;
+  border-bottom: 1px solid $xivita__shadow-grey;
   padding: 4px 0;
 }
 
@@ -279,7 +279,7 @@
 	display: block;
 	width: 32px;
 	height: 32px;
-	background-image: url(https://img.finalfantasyxiv.comhttps://img.finalfantasyxiv.com/lds/h/o/3zbsy5XPvkW-jtoOYPkYG8rSjs.png);
+	background-image: url(https://img.finalfantasyxiv.com/lds/h/o/3zbsy5XPvkW-jtoOYPkYG8rSjs.png);
 	background-size: 32px auto;
 	background-repeat: no-repeat;
 	background-position: 0 0;
@@ -303,9 +303,9 @@
   }
 }
 .bread__link {
-  background: #1b1b1b;
-  color: #e5e5e5;
-  border-top: 1px solid #3d3d3d;
+  background: $xivita__veryshadow-grey;
+  color: $xivita__whisper-grey;
+  border-top: 1px solid $xivita__shadow-grey;
   padding: 12px 20px;
   display: block;
   position: relative;
