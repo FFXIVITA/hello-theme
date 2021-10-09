@@ -1,0 +1,42 @@
+@import "assets/scss/ffxivita/globals/xivita-colors";
+
+.xivita-breadcrumbs {
+  background-color: $xivita__black;
+  font-size: 0.8rem;
+
+  .breadcrumbs-container {
+	margin-left: auto;
+	margin-right: auto;
+	max-width: 1240px;
+	padding: 1em 14px;
+  }
+
+  ul {
+	list-style-type: none !important;
+	margin: 0;
+	padding: 0;
+	> li {
+	  display: inline-block;
+	  margin: 0.5rem 0;
+	}
+	&:last-of-type {
+	  margin-right: 0;
+	}
+  }
+}
+li {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  text-transform: uppercase;
+  &:not(:last-of-type):after {
+	content: " Â»Â  ";
+  }
+}
+a {
+  color: inherit;
+}
+li:last-of-type a {
+  font-weight: 700;
+  pointer-events: none;
+}
