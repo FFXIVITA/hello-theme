@@ -144,5 +144,9 @@ aside {
   }
 }
 
-
+hr {
+  box-sizing: border-box;
+  height: 0;
+  overflow: visible;
+}
 
