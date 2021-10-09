@@ -1,3 +1,4 @@
+@import "assets/scss/ffxivita/globals/xivita-colors";
 .xivita-section {
   font-size: .9rem;
   margin-bottom: 0;
@@ -9,39 +10,73 @@
   }
 }
 .xivita-blurbicon {
-  .blurbicon-wrapper {
-	color: inherit;
-	flex: 0 1 22em;
-	text-align: center;
-	margin: .5rem;
-	padding: 1em;
-	transition: background-color .3s,box-shadow .3s;
-  }
+  background-size: cover;
   .blurbicon-container {
-	max-width: 1240px;
 	margin-left: auto;
 	margin-right: auto;
+	max-width: 1240px;
 	padding: 4em 14px 2em;
   }
   .blurbicon-blurbs {
-	display: grid;
-	justify-content: center;
-	align-items: center;
+	align-items: flex-start;
+	display: flex;
 	flex-wrap: wrap;
+	justify-content: center;
   }
   .blurbicon-title {
-	text-transform: uppercase;
 	font-weight: 400;
+	text-transform: uppercase;
+  }
+  .blurbicon-wrapper {
+	color: inherit;
+	flex: 0 1 22em;
+	margin: .5rem;
+	padding: 1em;
+	text-align: center;
+	transition: background-color 0.3s, box-shadow 0.3s;
+	&:hover {
+	  background-color: $xivita__black;
+	  box-shadow: 10px 10px 5px 0 rgba(26,26,26, 0.75);
+	  color: white;
+	  transition: background-color 0.2s, box-shadow 0.2s;
+	}
+  }
+  .blurbicon-link {
+	color: inherit;
   }
 }
-.xivita-icon.icon-blurbicon {
-  display: block;
-  margin: 1rem;
-}
-.xivita-icon.icon-blurbicon-small {
-  svg {
-	fill: #000;
-	height: 3em;
-	width: auto;
+.xivita-blurbrefer {
+  .blurbrefer-container {
+	margin: 2rem auto;
+	max-width: 1240px;
+	padding: 4em 14px 2em;
+  }
+  .blurbrefer-blurbs {
+	align-items: flex-start;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+  }
+  .blurbrefer-title {
+	font-weight: 400;
+	text-transform: uppercase;
+  }
+  .blurbrefer-wrapper {
+	flex: 0 1 22em;
+	margin: 1rem;
+	text-align: center;
+  }
+  .blurbrefer-header:after {
+	content: " ";
+	display: block;
+	height: .2em;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 1rem;
+	width: 12em;
+  }
+  .blurbrefer-image {
+	padding-left: 3em;
+	padding-right: 3em;
   }
 }
